@@ -117,9 +117,9 @@ mayoria.remove();
 minoria.remove();
 tituloAsambleista.remove();
 divGrafica.remove();
-lineas.remove();
 tituloCD.remove();
 divCD.remove();
 tituloCF.remove();
 divCF.remove();
+lineas.remove();
 }
