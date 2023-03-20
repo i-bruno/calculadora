@@ -32,7 +32,6 @@ function reset(){
         case 2:
             divListaA.remove();
             divListaB.remove();
-            fichaListas.remove();
         break;
 
         case 3:
@@ -116,7 +115,6 @@ divEnunciado.remove();
 textoGanador.remove();
 mayoria.remove();
 minoria.remove();
-fichaListas.remove();
 tituloAsambleista.remove();
 divGrafica.remove();
 lineas.remove();
