@@ -843,6 +843,4 @@ btnTabla.innerText = "Ver cargos";
 btnTabla.addEventListener('click', verCargos)
 pie.appendChild(btnTabla);
 
-const lineaHorizontal1 = document.createElement("hr");
-pie.appendChild(lineaHorizontal1);
 };
