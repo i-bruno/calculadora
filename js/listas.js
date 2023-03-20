@@ -1,8 +1,13 @@
+//Función que tiene por objetivo crear el formulario para que el usuario ingrese: nombre de agrupación, nombre del candidato y cantidad de votos que obtuvo.
+
 function funListas (){    
 //Variable que toma la cantidad de listas que se presentan a elecciones
 let cantidadListas = document.getElementById("numListas").value;
+
+//Variable creada para el mensaje que se establece para cuando no hay elecciones. (Porque solo se presenta una lista)
 let divMensaje
 
+//Variables para los inputs de las 10 listas posibles.
 let divListaA
 let primerInputA
 let segundoInputA
@@ -53,6 +58,8 @@ let primerInputJ
 let segundoInputJ
 let tercerInputJ
     
+//El switch arma la cantidad de inputs que se necesitan para que el usuario pueda ingresar los datos necesarios, según la cantidad de listas que se presentan a elecciones.
+
     switch(parseInt(cantidadListas)){
         case 1:
             divMensaje = document.createElement("div");
