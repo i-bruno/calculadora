@@ -648,40 +648,50 @@ h1{
 
 .fondoVerde{
   background-color: green;
+  border-radius: 10px;
 }
 
 .fondoNaranja{
   background-color: orange;
+  border-radius: 10px;
 }
 
 .fondoRosa{
   background-color: deeppink;
+  border-radius: 10px;
 }
 
 .fondoAzul{
   background-color: blue;
+  border-radius: 10px;
 }
 
 .fondoRojo {
   background-color: red;
+  border-radius: 10px;
 }
 
 .fondoGris{
   background-color: grey;
+  border-radius: 10px;
 }
 
 .fondoNegro{
   background-color: black;
+  border-radius: 10px;
 }
 
 .fondoVioleta{
   background-color: purple;
+  border-radius: 10px;
 }
 
 .fondoCadetBlue{
   background-color: cadetblue;
+  border-radius: 10px;
 }
 
 .fondoDarkGoldenRod{
   background-color: darkgoldenrod;
+  border-radius: 10px;
 }
