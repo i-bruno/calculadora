@@ -21,7 +21,7 @@ function reset(){
     let lineas = document.getElementsByClassName("lineaDivisora");
     let tituloCD = document.getElementById("tituloCD");
     let divCD = document.getElementById("containerCD");
-    let tituloCF = dcoument.getElementById("tituloCF");
+    let tituloCF = document.getElementById("tituloCF");
     let divCF = document.getElementById("divCF");
 
     switch(parseInt(cantidadListas)){
