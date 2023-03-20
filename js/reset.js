@@ -14,6 +14,7 @@ function reset(){
     let divMensaje = document.getElementById("divMensaje");
     let divEnunciado = document.getElementById("divEnunciado");
     let textoGanador = document.getElementById("textoGanador");
+    let fichaListas = document.getElementById("fichaListas");
     let mayoria = document.getElementById("mayoria");
     let minoria = document.getElementById("minoria");
     let tituloAsambleista = document.getElementById("tituloAsambleista");
@@ -115,11 +116,11 @@ divEnunciado.remove();
 textoGanador.remove();
 mayoria.remove();
 minoria.remove();
+fichaListas.remove();
 tituloAsambleista.remove();
 divGrafica.remove();
 tituloCD.remove();
 divCD.remove();
 tituloCF.remove();
 divCF.remove();
-lineas.remove();
 }
