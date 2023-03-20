@@ -16,6 +16,13 @@ function reset(){
     let textoGanador = document.getElementById("textoGanador");
     let mayoria = document.getElementById("mayoria");
     let minoria = document.getElementById("minoria");
+    let tituloAsambleista = document.getElementById("tituloAsambleista");
+    let divGrafica = document.getElementById("containerGrafica");
+    let lineas = document.getElementsByClassName("lineaDivisora");
+    let tituloCD = document.getElementById("tituloCD");
+    let divCD = document.getElementById("containerCD");
+    let tituloCF = dcoument.getElementById("tituloCF");
+    let divCF = document.getElementById("divCF");
 
     switch(parseInt(cantidadListas)){
         case 1:
@@ -110,4 +117,11 @@ textoGanador.remove();
 mayoria.remove();
 minoria.remove();
 fichaListas.remove();
+tituloAsambleista.remove();
+divGrafica.remove();
+lineas.remove();
+tituloCD.remove();
+divCD.remove();
+tituloCF.remove();
+divCF.remove();
 }
