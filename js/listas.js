@@ -1,3 +1,4 @@
+function funListas (){    
 //Variable que toma la cantidad de listas que se presentan a elecciones
 let cantidadListas = document.getElementById("numListas").value;
 let divMensaje
@@ -51,8 +52,7 @@ let divListaJ
 let primerInputJ
 let segundoInputJ
 let tercerInputJ
-
-function funListas (){    
+    
     switch(parseInt(cantidadListas)){
         case 1:
             divMensaje = document.createElement("div");
