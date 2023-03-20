@@ -1,0 +1,687 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
+  background-color: #263d54;
+  color: white;
+  font-family: monospace; }
+
+header {
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
+  border-radius: 10px;
+  text-align: center;
+  height: auto;
+  width: auto;
+  background-color: #bf1b27; }
+
+footer {
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
+  border-radius: 10px;
+  text-align: center;
+  height: auto;
+  width: auto;
+  background-color: #bf1b27;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+section {
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
+  background-color: #bf1b27;
+  border-radius: 10px; 
+  display:flex;
+  justify-content: center;
+}
+
+table {
+  background-color: white;
+  border-radius: 5px;
+  color: black; }
+
+th, tr, td {
+  padding: 1px 1px 1px 1px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #263d54;
+  border-radius: 3px;
+  text-align: center; }
+
+input {
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
+  padding: 0;
+  width: 150px;
+  height: 25px;
+  border-style: none;
+  text-align: center; }
+
+a {
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
+  text-decoration: none;
+  color: white; }
+
+div {
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
+  display:flex;
+  justify-content: space-around;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+h1{
+  text-align: center;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
+}
+
+/*Clases*/
+.divEnunciado{
+  justify-content: center;
+}
+
+.calculadora {
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
+  background-color: #bf1b27;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+  width: 100%; }
+
+.boton {
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
+  border-radius: 10px;
+  color: bisque;
+  background-color: #263d54;
+  cursor: pointer; }
+
+.navBar {
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
+  list-style-type: none;
+  justify-content: space-evenly;
+  display: flex; }
+  .navBar ul {
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px; }
+    .navBar ul li {
+      margin: 5px 5px 5px 5px;
+      padding: 5px 5px 5px 5px; }
+
+.cuadroSeleccion {
+  width: 200px;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px; }
+
+.classNavegacion {
+  display: flex;
+  justify-content: space-evenly; }
+
+.classPreSeccion {
+  display: flex;
+  justify-content: left;
+  align-items: center; }
+
+.aside {
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
+  height: 200px;
+  width: auto;
+  overflow-y: scroll;
+  text-align: justify;
+  display: inline-block;
+  background-color: #bf1b27;
+  border-radius: 10px; }
+  .aside h3 {
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px; }
+  .aside h4 {
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px; }
+  .aside p {
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px; }
+  .aside li {
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
+    list-style-type: none; }
+
+.classPosSeccion {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; 
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
+}
+
+.classPie {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px; 
+}
+
+/* GRID ASAMBLEA */
+.container {  
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr;
+  grid-auto-columns: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "gridListas gridEstatuto";
+}
+
+.gridListas { 
+  grid-area: gridListas;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gridEstatuto { 
+  grid-area: gridEstatuto; 
+}
+
+.containerGrafica {  
+  display: grid;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
+  border-color:#263d54;
+  border-style: solid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-auto-columns: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "as1 as2 as3 as4 as5 as6 as7 as8 as9 as10"
+    "as11 as12 as13 as14 as15 as16 as17 as18 as19 as20"
+    "as21 as22 as23 as24 as25 as26 as27 as28 as29 as30"
+    "as31 as32 as33 as34 as35 as36 as37 as38 as39 as40"
+    "as41 as42 as43 as44 as45 as46 as47 as48 as49 as50"
+    "as51 as52 as53 as54 as55 as56 as57 as58 as59 as60"
+    "as61 as62 as63 as64 as65 as66 as67 as68 as69 as70"
+    "as71 as72 as73 as74 as75 as76 as77 as78 as79 as80"
+    "as81 as82 as83 as84 as85 as86 as87 as88 as89 as90";
+}
+
+.as1 { grid-area: as1; }
+
+.as2 { grid-area: as2; }
+
+.as3 { 
+  grid-area: as3;
+}
+
+.as4 { grid-area: as4; }
+
+.as5 { grid-area: as5; }
+
+.as6 { grid-area: as6; }
+
+.as7 { grid-area: as7; }
+
+.as8 { grid-area: as8; }
+
+.as9 { grid-area: as9; }
+
+.as10 { grid-area: as10; }
+
+.as11 { grid-area: as11; }
+
+.as12 { grid-area: as12; }
+
+.as13 { grid-area: as13; }
+
+.as14 { grid-area: as14; }
+
+.as15 { grid-area: as15; }
+
+.as16 { grid-area: as16; }
+
+.as17 { grid-area: as17; }
+
+.as18 { grid-area: as18; }
+
+.as19 { grid-area: as19; }
+
+.as20 { grid-area: as20; }
+
+.as30 { grid-area: as30; }
+
+.as40 { grid-area: as40; }
+
+.as50 { grid-area: as50; }
+
+.as21 { grid-area: as21; }
+
+.as22 { grid-area: as22; }
+
+.as23 { grid-area: as23; }
+
+.as24 { grid-area: as24; }
+
+.as25 { grid-area: as25; }
+
+.as26 { grid-area: as26; }
+
+.as27 { grid-area: as27; }
+
+.as28 { grid-area: as28; }
+
+.as29 { grid-area: as29; }
+
+.as31 { grid-area: as31; }
+
+.as32 { grid-area: as32; }
+
+.as33 { grid-area: as33; }
+
+.as34 { grid-area: as34; }
+
+.as35 { grid-area: as35; }
+
+.as36 { grid-area: as36; }
+
+.as37 { grid-area: as37; }
+
+.as38 { grid-area: as38; }
+
+.as39 { grid-area: as39; }
+
+.as41 { grid-area: as41; }
+
+.as42 { grid-area: as42; }
+
+.as43 { grid-area: as43; }
+
+.as44 { grid-area: as44; }
+
+.as45 { grid-area: as45; }
+
+.as46 { grid-area: as46; }
+
+.as47 { grid-area: as47; }
+
+.as48 { grid-area: as48; }
+
+.as49 { grid-area: as49; }
+
+.as51 { grid-area: as51; }
+
+.as52 { grid-area: as52; }
+
+.as53 { grid-area: as53; }
+
+.as54 { grid-area: as54; }
+
+.as55 { grid-area: as55; }
+
+.as56 { grid-area: as56; }
+
+.as57 { grid-area: as57; }
+
+.as58 { grid-area: as58; }
+
+.as59 { grid-area: as59; }
+
+.as60 { grid-area: as60; }
+
+.as61 { grid-area: as61; }
+
+.as62 { grid-area: as62; }
+
+.as63 { grid-area: as63; }
+
+.as64 { grid-area: as64; }
+
+.as65 { grid-area: as65; }
+
+.as66 { grid-area: as66; }
+
+.as67 { grid-area: as67; }
+
+.as68 { grid-area: as68; }
+
+.as69 { grid-area: as69; }
+
+.as70 { grid-area: as70; }
+
+.as71 { grid-area: as71; }
+
+.as72 { grid-area: as72; }
+
+.as73 { grid-area: as73; }
+
+.as74 { grid-area: as74; }
+
+.as75 { grid-area: as75; }
+
+.as76 { grid-area: as76; }
+
+.as77 { grid-area: as77; }
+
+.as78 { grid-area: as78; }
+
+.as79 { grid-area: as79; }
+
+.as80 { grid-area: as80; }
+
+.as81 { grid-area: as81; }
+
+.as82 { grid-area: as82; }
+
+.as83 { grid-area: as83; }
+
+.as84 { grid-area: as84; }
+
+.as85 { grid-area: as85; }
+
+.as86 { grid-area: as86; }
+
+.as87 { grid-area: as87; }
+
+.as88 { grid-area: as88; }
+
+.as89 { grid-area: as89; }
+
+.as90 { grid-area: as90; }
+
+/* GRID COMISIÓN DIRECTIVA */
+.containerCD {  
+  display: grid;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
+  border-color:#263d54;
+  border-style: solid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "cd1 cd2 cd3 cd4 cd5 cd6 cd7 cd8 cd9 cd10"
+    "cd11 cd12 cd13 cd14 cd15 cd16 cd17 cd18 cd19 cd20";
+}
+
+.cd1 { grid-area: cd1; }
+
+.cd2 { grid-area: cd2; }
+
+.cd3 { grid-area: cd3; }
+
+.cd4 { grid-area: cd4; }
+
+.cd5 { grid-area: cd5; }
+
+.cd6 { grid-area: cd6; }
+
+.cd7 { grid-area: cd7; }
+
+.cd8 { grid-area: cd8; }
+
+.cd9 { grid-area: cd9; }
+
+.cd10 { grid-area: cd10; }
+
+.cd11 { grid-area: cd11; }
+
+.cd12 { grid-area: cd12; }
+
+.cd13 { grid-area: cd13; }
+
+.cd14 { grid-area: cd14; }
+
+.cd15 { grid-area: cd15; }
+
+.cd16 { grid-area: cd16; }
+
+.cd17 { grid-area: cd17; }
+
+.cd18 { grid-area: cd18; }
+
+.cd19 { grid-area: cd19; }
+
+.cd20 { grid-area: cd20; }
+
+/* GRID COMISIÓN FISCALIZADORA */
+
+.gridCF {  
+  display: grid;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
+  border-color:#263d54;
+  border-style: solid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "cf1 cf2 cf3 cf4 cf5 cf6 cf7";
+}
+
+.cf1 { grid-area: cf1; }
+
+.cf2 { grid-area: cf2; }
+
+.cf3 { grid-area: cf3; }
+
+.cf4 { grid-area: cf4; }
+
+.cf5 { grid-area: cf5; }
+
+.cf6 { grid-area: cf6; }
+
+.cf7 { grid-area: cf7; }
+
+/* FICHAS DE RESULTADOS */
+
+.fichasListas{
+  height: auto;
+  width: auto;
+  align-items: center;
+  border: solid;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.divLista1{
+  width:200px;
+  height:125px;
+  padding:10px;
+  background-color:green;
+  border:2px solid black;
+  border-radius: 10px;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.divLista2{
+  width:200px;
+  height:125px;
+  padding:10px;
+  background-color:orange;
+  border:2px solid black;
+  border-radius: 10px;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.divLista3{
+  width:200px;
+  height:125px;
+  padding:10px;
+  background-color:deeppink;
+  border:2px solid black;
+  border-radius: 10px;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.divLista4{
+  width:200px;
+  height:125px;
+  padding:10px;
+  background-color:blue;
+  border:2px solid black;
+  border-radius: 10px;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.divLista5{
+  width:200px;
+  height:125px;
+  padding:10px;
+  background-color:red;
+  border:2px solid black;
+  border-radius: 10px;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.divLista6{
+  width:200px;
+  height:125px;
+  padding:10px;
+  background-color: grey;
+  border:2px solid black;
+  border-radius: 10px;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.divLista7{
+  width:200px;
+  height:125px;
+  padding:10px;
+  background-color: black;
+  border:2px solid black;
+  border-radius: 10px;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.divLista8{
+  width:200px;
+  height:125px;
+  padding:10px;
+  background-color: purple;
+  border:2px solid black;
+  border-radius: 10px;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.divLista9{
+  width:200px;
+  height:125px;
+  padding:10px;
+  background-color: cadetblue;
+  border:2px solid black;
+  border-radius: 10px;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.divLista10{
+  width:200px;
+  height:125px;
+  padding:10px;
+  background-color: darkgoldenrod;
+  border:2px solid black;
+  border-radius: 10px;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/*Colores para las tablas de cargos*/
+
+.fondoVerde{
+  background-color: green;
+}
+
+.fondoNaranja{
+  background-color: orange;
+}
+
+.fondoRosa{
+  background-color: deeppink;
+}
+
+.fondoAzul{
+  background-color: blue;
+}
+
+.fondoRojo {
+  background-color: red;
+}
+
+.fondoGris{
+  background-color: grey;
+}
+
+.fondoNegro{
+  background-color: black;
+}
+
+.fondoVioleta{
+  background-color: purple;
+}
+
+.fondoCadetBlue{
+  background-color: cadetblue;
+}
+
+.fondoDarkGoldenRod{
+  background-color: darkgoldenrod;
+}
