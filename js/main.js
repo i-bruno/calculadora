@@ -81,8 +81,6 @@ inputPreSeccion.id = "numListas";
 inputPreSeccion.setAttribute('type', 'number');
 preSeccion.appendChild(inputPreSeccion);
 
-let cantidadListas = document.getElementById("numListas").value;
-
 ///Botón para que el usuario envíe la información.
 const btn = document.createElement("button");
 btn.id = "btn";

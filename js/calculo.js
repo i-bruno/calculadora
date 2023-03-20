@@ -1,5 +1,5 @@
 function calculo(){
-    // let cantidadListas = document.getElementById("numListas").value;
+    let cantidadListas = document.getElementById("numListas").value;
 
     switch(parseInt(cantidadListas)){
     case 2:
