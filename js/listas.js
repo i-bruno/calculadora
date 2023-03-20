@@ -2,7 +2,7 @@
 
 function funListas (){    
 //Variable que toma la cantidad de listas que se presentan a elecciones
-let cantidadListas = document.getElementById("numListas").value;
+// let cantidadListas = document.getElementById("numListas").value;
 
 //Variable creada para el mensaje que se establece para cuando no hay elecciones. (Porque solo se presenta una lista)
 let divMensaje
