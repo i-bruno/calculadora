@@ -646,52 +646,52 @@ h1{
 
 /*Colores para las tablas de cargos*/
 
-.fondoVerde{
+.fondo-green{
   background-color: green;
   border-radius: 10px;
 }
 
-.fondoNaranja{
+.fondo-orange{
   background-color: orange;
   border-radius: 10px;
 }
 
-.fondoRosa{
+.fondo-deeppink{
   background-color: deeppink;
   border-radius: 10px;
 }
 
-.fondoAzul{
+.fondo-blue{
   background-color: blue;
   border-radius: 10px;
 }
 
-.fondoRojo {
+.fondo-red {
   background-color: red;
   border-radius: 10px;
 }
 
-.fondoGris{
+.fondo-grey{
   background-color: grey;
   border-radius: 10px;
 }
 
-.fondoNegro{
+.fondo-black{
   background-color: black;
   border-radius: 10px;
 }
 
-.fondoVioleta{
+.fondo-purple{
   background-color: purple;
   border-radius: 10px;
 }
 
-.fondoCadetBlue{
+.fondo-cadetblue{
   background-color: cadetblue;
   border-radius: 10px;
 }
 
-.fondoDarkGoldenRod{
+.fondo-darkgoldenrod{
   background-color: darkgoldenrod;
   border-radius: 10px;
 }

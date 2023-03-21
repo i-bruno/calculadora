@@ -398,16 +398,16 @@ function verCargos(){
     //Cargos para la lista ganadora
     for(let i = 0; i<=numeroAR;i++){
         let clasesActuales = asambleista[i].getAttribute('class');
-        asambleista[i].setAttribute('class', `${clasesActuales} fondoVerde`);
+        asambleista[i].setAttribute('class', `${clasesActuales} fondo-${listaGanadora.color}`);
         };
     
     for(let i = 0; i<=numeroCD; i++){
         let clasesActuales = directivo[i].getAttribute('class');
-        directivo[i].setAttribute('class', `${clasesActuales} fondoVerde`);
+        directivo[i].setAttribute('class', `${clasesActuales} fondo-${listaGanadora.color}`);
     };
     
     for(let i = 0; i<=numeroCF; i++){
         let clasesActuales = fiscalizador[i].getAttribute('class');
-        fiscalizador[i].setAttribute('class', `${clasesActuales} fondoVerde`);
+        fiscalizador[i].setAttribute('class', `${clasesActuales} fondo-${listaGanadora.color}`);
     };
     };
