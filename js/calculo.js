@@ -369,47 +369,216 @@ function calculo(){
     console.log(`La minoria accede a ${miembrosMinoriaAR} miembros en AR`);
     console.log(`El cociente de minoria para AR es: ${cocienteMinoriaAR}`);
 
-    //Tercero: Se calculan los cargos para cada agrupación minoritaria a partir de la relación entre votos obtenidos y el cociente.
+    //Tercero: Se realiza un switch para calcular los cargos para Asamblea de representantes, Comisión Directiva y Comisión fiscalizadora para las minorías
     
-    //ASAMBLEA DE REPRESENTANTES
+    let cocienteCF = votosTotales/7;
+
+    switch(parseInt(cantidadListas)){
+        case 2:
+            lista2.AR = 90 - miembrosMayoriaAR;
+            lista2.CD = 20 - miembrosMayoriaCD;
+            lista2.CF = Math.round(lista2.votos/cocienteCF);
+        break;
+            
+        case 3:
+            lista2.AR = Math.round(parseFloat(lista2.votos/cocienteMinoriaAR).toFixed(3));
+            lista2.CD = Math.round(parseFloat(lista2.votos/cocienteMinoriaCD).toFixed(3));
+            lista2.CF = Math.round(lista2.votos/cocienteCF);
+
+            lista3.AR = Math.round(parseFloat(lista3.votos/cocienteMinoriaAR).toFixed(3));
+            lista3.CD = Math.round(parseFloat(lista3.votos/cocienteMinoriaCD).toFixed(3));
+            lista3.CF = Math.round(lista3.votos/cocienteCF);
+        break;
+
+        case 4:
+            lista2.AR = Math.round(parseFloat(lista2.votos/cocienteMinoriaAR).toFixed(3));
+            lista2.CD = Math.round(parseFloat(lista2.votos/cocienteMinoriaCD).toFixed(3));
+            lista2.CF = Math.round(lista2.votos/cocienteCF);
+
+            lista3.AR = Math.round(parseFloat(lista3.votos/cocienteMinoriaAR).toFixed(3));
+            lista3.CD = Math.round(parseFloat(lista3.votos/cocienteMinoriaCD).toFixed(3));
+            lista3.CF = Math.round(lista3.votos/cocienteCF);
+
+            lista4.AR = Math.round(parseFloat(lista4.votos/cocienteMinoriaAR).toFixed(3));
+            lista4.CD = Math.round(parseFloat(lista4.votos/cocienteMinoriaCD).toFixed(3));
+            lista4.CF = Math.round(lista4.votos/cocienteCF);
+
+        break;
+
+        case 5:
+            lista2.AR = Math.round(parseFloat(lista2.votos/cocienteMinoriaAR).toFixed(3));
+            lista2.CD = Math.round(parseFloat(lista2.votos/cocienteMinoriaCD).toFixed(3));
+            lista2.CF = Math.round(lista2.votos/cocienteCF);
+
+            lista3.AR = Math.round(parseFloat(lista3.votos/cocienteMinoriaAR).toFixed(3));
+            lista3.CD = Math.round(parseFloat(lista3.votos/cocienteMinoriaCD).toFixed(3));
+            lista3.CF = Math.round(lista3.votos/cocienteCF);
+
+            lista4.AR = Math.round(parseFloat(lista4.votos/cocienteMinoriaAR).toFixed(3));
+            lista4.CD = Math.round(parseFloat(lista4.votos/cocienteMinoriaCD).toFixed(3));
+            lista4.CF = Math.round(lista4.votos/cocienteCF);
+
+            lista5.AR = Math.round(parseFloat(lista5.votos/cocienteMinoriaAR).toFixed(3));
+            lista5.CD = Math.round(parseFloat(lista5.votos/cocienteMinoriaCD).toFixed(3));
+            lista5.CF = Math.round(lista5.votos/cocienteCF);
+
+        break;
+
+        case 6:
+            lista2.AR = Math.round(parseFloat(lista2.votos/cocienteMinoriaAR).toFixed(3));
+            lista2.CD = Math.round(parseFloat(lista2.votos/cocienteMinoriaCD).toFixed(3));
+            lista2.CF = Math.round(lista2.votos/cocienteCF);
+
+            lista3.AR = Math.round(parseFloat(lista3.votos/cocienteMinoriaAR).toFixed(3));
+            lista3.CD = Math.round(parseFloat(lista3.votos/cocienteMinoriaCD).toFixed(3));
+            lista3.CF = Math.round(lista3.votos/cocienteCF);
+
+            lista4.AR = Math.round(parseFloat(lista4.votos/cocienteMinoriaAR).toFixed(3));
+            lista4.CD = Math.round(parseFloat(lista4.votos/cocienteMinoriaCD).toFixed(3));
+            lista4.CF = Math.round(lista4.votos/cocienteCF);
+
+            lista5.AR = Math.round(parseFloat(lista5.votos/cocienteMinoriaAR).toFixed(3));
+            lista5.CD = Math.round(parseFloat(lista5.votos/cocienteMinoriaCD).toFixed(3));
+            lista5.CF = Math.round(lista5.votos/cocienteCF);
+
+            lista6.AR = Math.round(parseFloat(lista6.votos/cocienteMinoriaAR).toFixed(3));
+            lista6.CD = Math.round(parseFloat(lista6.votos/cocienteMinoriaCD).toFixed(3));
+            lista6.CF = Math.round(lista6.votos/cocienteCF);
+
+        break;
+
+        case 7:
+            lista2.AR = Math.round(parseFloat(lista2.votos/cocienteMinoriaAR).toFixed(3));
+            lista2.CD = Math.round(parseFloat(lista2.votos/cocienteMinoriaCD).toFixed(3));
+            lista2.CF = Math.round(lista2.votos/cocienteCF);
+
+            lista3.AR = Math.round(parseFloat(lista3.votos/cocienteMinoriaAR).toFixed(3));
+            lista3.CD = Math.round(parseFloat(lista3.votos/cocienteMinoriaCD).toFixed(3));
+            lista3.CF = Math.round(lista3.votos/cocienteCF);
+
+            lista4.AR = Math.round(parseFloat(lista4.votos/cocienteMinoriaAR).toFixed(3));
+            lista4.CD = Math.round(parseFloat(lista4.votos/cocienteMinoriaCD).toFixed(3));
+            lista4.CF = Math.round(lista4.votos/cocienteCF);
+
+            lista5.AR = Math.round(parseFloat(lista5.votos/cocienteMinoriaAR).toFixed(3));
+            lista5.CD = Math.round(parseFloat(lista5.votos/cocienteMinoriaCD).toFixed(3));
+            lista5.CF = Math.round(lista5.votos/cocienteCF);
+
+            lista6.AR = Math.round(parseFloat(lista6.votos/cocienteMinoriaAR).toFixed(3));
+            lista6.CD = Math.round(parseFloat(lista6.votos/cocienteMinoriaCD).toFixed(3));
+            lista6.CF = Math.round(lista6.votos/cocienteCF);
+
+            lista7.AR = Math.round(parseFloat(lista7.votos/cocienteMinoriaAR).toFixed(3));
+            lista7.CD = Math.round(parseFloat(lista7.votos/cocienteMinoriaCD).toFixed(3));
+            lista7.CF = Math.round(lista7.votos/cocienteCF);
+
+        break;
+
+        case 8:
+            lista2.AR = Math.round(parseFloat(lista2.votos/cocienteMinoriaAR).toFixed(3));
+            lista2.CD = Math.round(parseFloat(lista2.votos/cocienteMinoriaCD).toFixed(3));
+            lista2.CF = Math.round(lista2.votos/cocienteCF);
+
+            lista3.AR = Math.round(parseFloat(lista3.votos/cocienteMinoriaAR).toFixed(3));
+            lista3.CD = Math.round(parseFloat(lista3.votos/cocienteMinoriaCD).toFixed(3));
+            lista3.CF = Math.round(lista3.votos/cocienteCF);
+
+            lista4.AR = Math.round(parseFloat(lista4.votos/cocienteMinoriaAR).toFixed(3));
+            lista4.CD = Math.round(parseFloat(lista4.votos/cocienteMinoriaCD).toFixed(3));
+            lista4.CF = Math.round(lista4.votos/cocienteCF);
+
+            lista5.AR = Math.round(parseFloat(lista5.votos/cocienteMinoriaAR).toFixed(3));
+            lista5.CD = Math.round(parseFloat(lista5.votos/cocienteMinoriaCD).toFixed(3));
+            lista5.CF = Math.round(lista5.votos/cocienteCF);
+
+            lista6.AR = Math.round(parseFloat(lista6.votos/cocienteMinoriaAR).toFixed(3));
+            lista6.CD = Math.round(parseFloat(lista6.votos/cocienteMinoriaCD).toFixed(3));
+            lista6.CF = Math.round(lista6.votos/cocienteCF);
+
+            lista7.AR = Math.round(parseFloat(lista7.votos/cocienteMinoriaAR).toFixed(3));
+            lista7.CD = Math.round(parseFloat(lista7.votos/cocienteMinoriaCD).toFixed(3));
+            lista7.CF = Math.round(lista7.votos/cocienteCF);
+
+            lista8.AR = Math.round(parseFloat(lista8.votos/cocienteMinoriaAR).toFixed(3));
+            lista8.CD = Math.round(parseFloat(lista8.votos/cocienteMinoriaCD).toFixed(3));
+            lista8.CF = Math.round(lista8.votos/cocienteCF);
+
+        break;
+
+        case 9:
+            lista2.AR = Math.round(parseFloat(lista2.votos/cocienteMinoriaAR).toFixed(3));
+            lista2.CD = Math.round(parseFloat(lista2.votos/cocienteMinoriaCD).toFixed(3));
+            lista2.CF = Math.round(lista2.votos/cocienteCF);
+
+            lista3.AR = Math.round(parseFloat(lista3.votos/cocienteMinoriaAR).toFixed(3));
+            lista3.CD = Math.round(parseFloat(lista3.votos/cocienteMinoriaCD).toFixed(3));
+            lista3.CF = Math.round(lista3.votos/cocienteCF);
+
+            lista4.AR = Math.round(parseFloat(lista4.votos/cocienteMinoriaAR).toFixed(3));
+            lista4.CD = Math.round(parseFloat(lista4.votos/cocienteMinoriaCD).toFixed(3));
+            lista4.CF = Math.round(lista4.votos/cocienteCF);
+
+            lista5.AR = Math.round(parseFloat(lista5.votos/cocienteMinoriaAR).toFixed(3));
+            lista5.CD = Math.round(parseFloat(lista5.votos/cocienteMinoriaCD).toFixed(3));
+            lista5.CF = Math.round(lista5.votos/cocienteCF);
+
+            lista6.AR = Math.round(parseFloat(lista6.votos/cocienteMinoriaAR).toFixed(3));
+            lista6.CD = Math.round(parseFloat(lista6.votos/cocienteMinoriaCD).toFixed(3));
+            lista6.CF = Math.round(lista6.votos/cocienteCF);
+
+            lista7.AR = Math.round(parseFloat(lista7.votos/cocienteMinoriaAR).toFixed(3));
+            lista7.CD = Math.round(parseFloat(lista7.votos/cocienteMinoriaCD).toFixed(3));
+            lista7.CF = Math.round(lista7.votos/cocienteCF);
+
+            lista8.AR = Math.round(parseFloat(lista8.votos/cocienteMinoriaAR).toFixed(3));
+            lista8.CD = Math.round(parseFloat(lista8.votos/cocienteMinoriaCD).toFixed(3));
+            lista8.CF = Math.round(lista8.votos/cocienteCF);
+
+            lista9.AR = Math.round(parseFloat(lista9.votos/cocienteMinoriaAR).toFixed(3));
+            lista9.CD = Math.round(parseFloat(lista9.votos/cocienteMinoriaCD).toFixed(3));
+            lista9.CF = Math.round(lista9.votos/cocienteCF);
+        break;
+
+        case 10:
+            lista2.AR = Math.round(parseFloat(lista2.votos/cocienteMinoriaAR).toFixed(3));
+            lista2.CD = Math.round(parseFloat(lista2.votos/cocienteMinoriaCD).toFixed(3));
+            lista2.CF = Math.round(lista2.votos/cocienteCF);
+
+            lista3.AR = Math.round(parseFloat(lista3.votos/cocienteMinoriaAR).toFixed(3));
+            lista3.CD = Math.round(parseFloat(lista3.votos/cocienteMinoriaCD).toFixed(3));
+            lista3.CF = Math.round(lista3.votos/cocienteCF);
+
+            lista4.AR = Math.round(parseFloat(lista4.votos/cocienteMinoriaAR).toFixed(3));
+            lista4.CD = Math.round(parseFloat(lista4.votos/cocienteMinoriaCD).toFixed(3));
+            lista4.CF = Math.round(lista4.votos/cocienteCF);
+
+            lista5.AR = Math.round(parseFloat(lista5.votos/cocienteMinoriaAR).toFixed(3));
+            lista5.CD = Math.round(parseFloat(lista5.votos/cocienteMinoriaCD).toFixed(3));
+            lista5.CF = Math.round(lista5.votos/cocienteCF);
+
+            lista6.AR = Math.round(parseFloat(lista6.votos/cocienteMinoriaAR).toFixed(3));
+            lista6.CD = Math.round(parseFloat(lista6.votos/cocienteMinoriaCD).toFixed(3));
+            lista6.CF = Math.round(lista6.votos/cocienteCF);
+
+            lista7.AR = Math.round(parseFloat(lista7.votos/cocienteMinoriaAR).toFixed(3));
+            lista7.CD = Math.round(parseFloat(lista7.votos/cocienteMinoriaCD).toFixed(3));
+            lista7.CF = Math.round(lista7.votos/cocienteCF);
+
+            lista8.AR = Math.round(parseFloat(lista8.votos/cocienteMinoriaAR).toFixed(3));
+            lista8.CD = Math.round(parseFloat(lista8.votos/cocienteMinoriaCD).toFixed(3));
+            lista8.CF = Math.round(lista8.votos/cocienteCF);
+
+            lista9.AR = Math.round(parseFloat(lista9.votos/cocienteMinoriaAR).toFixed(3));
+            lista9.CD = Math.round(parseFloat(lista9.votos/cocienteMinoriaCD).toFixed(3));
+            lista9.CF = Math.round(lista9.votos/cocienteCF);
+
+            lista10.AR = Math.round(parseFloat(lista10.votos/cocienteMinoriaAR).toFixed(3));
+            lista10.CD = Math.round(parseFloat(lista10.votos/cocienteMinoriaCD).toFixed(3));
+            lista10.CF = Math.round(lista10.votos/cocienteCF);
+        break;
+    };
     
-    lista2.AR = Math.round(parseFloat(lista2.votos/cocienteMinoriaAR).toFixed(3));
     console.log(`La segunda lista accede a ${lista2.AR} cargos`);
-    lista3.AR = Math.round(parseFloat(lista3.votos/cocienteMinoriaAR).toFixed(3));
-    lista4.AR = Math.round(parseFloat(lista4.votos/cocienteMinoriaAR).toFixed(3));
-    lista5.AR = Math.round(parseFloat(lista5.votos/cocienteMinoriaAR).toFixed(3));
-    lista6.AR = Math.round(parseFloat(lista6.votos/cocienteMinoriaAR).toFixed(3));
-    lista7.AR = Math.round(parseFloat(lista7.votos/cocienteMinoriaAR).toFixed(3));
-    lista8.AR = Math.round(parseFloat(lista8.votos/cocienteMinoriaAR).toFixed(3));
-    lista9.AR = Math.round(parseFloat(lista9.votos/cocienteMinoriaAR).toFixed(3));
-    lista10.AR = Math.round(parseFloat(lista10.votos/cocienteMinoriaAR).toFixed(3));
-    
-    //COMISIÓN DIRECTIVA
-    
-    lista2.CD = Math.round(parseFloat(lista2.votos/cocienteMinoriaCD).toFixed(3));
-    console.log(lista2.CD);
-    lista3.CD = Math.round(parseFloat(lista3.votos/cocienteMinoriaCD).toFixed(3));
-    lista4.CD = Math.round(parseFloat(lista4.votos/cocienteMinoriaCD).toFixed(3));
-    lista5.CD = Math.round(parseFloat(lista5.votos/cocienteMinoriaCD).toFixed(3));
-    lista6.CD = Math.round(parseFloat(lista6.votos/cocienteMinoriaCD).toFixed(3));
-    lista7.CD = Math.round(parseFloat(lista7.votos/cocienteMinoriaCD).toFixed(3));
-    lista8.CD = Math.round(parseFloat(lista8.votos/cocienteMinoriaCD).toFixed(3));
-    lista9.CD = Math.round(parseFloat(lista9.votos/cocienteMinoriaCD).toFixed(3));
-    lista10.CD = Math.round(parseFloat(lista10.votos/cocienteMinoriaCD).toFixed(3));
-
-//Se calcula los miembros para comisión fiscalizadora
-
-let cocienteCF = votosTotales/7;
-lista1.CF = Math.round(lista1.votos/cocienteCF);
-lista2.CF = Math.round(lista2.votos/cocienteCF);
-lista3.CF = Math.round(lista3.votos/cocienteCF);
-lista4.CF = Math.round(lista4.votos/cocienteCF);
-lista5.CF = Math.round(lista5.votos/cocienteCF);
-lista6.CF = Math.round(lista6.votos/cocienteCF);
-lista7.CF = Math.round(lista7.votos/cocienteCF);
-lista8.CF = Math.round(lista8.votos/cocienteCF);
-lista9.CF = Math.round(lista9.votos/cocienteCF);
-lista10.CF = Math.round(lista10.votos/cocienteCF);
 
 let divEnunciado
 let fichaListas
