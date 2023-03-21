@@ -963,20 +963,6 @@ textoGanador.id = "textoGanador";
 textoGanador.innerHTML = `<p>Se contabilizan un total de ${votosTotales} votos con ${totBlancos} votos blancos. La mayoría obtuvo ${votosMayor} (${porcentajeMayoria}%) y la minoría ${votosMinoria} (${porcentajeMinoria}%).</p>`
 pie.appendChild(textoGanador);
 
-
-
-// const mayoria = document.createElement("div");
-// mayoria.id = "mayoria";
-// mayoria.innerHTML = `<p>La mayoría obtuvo un ${porcentajeMayoria} porciento</p>`;
-// pie.appendChild(mayoria);
-
-
-
-// const minoria = document.createElement("div");
-// minoria.id = "minoria";
-// minoria.innerHTML = `<p>La minoría obtuvo un total de ${votosMinoria} votos que equivalen al ${porcentajeMinoria} porciento.</p>`;
-// pie.appendChild(minoria);
-
 const btnTabla = document.createElement("button");
 btnTabla.id = "btnTabla";
 btnTabla.className = "boton";
