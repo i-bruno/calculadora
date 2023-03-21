@@ -366,11 +366,15 @@ function calculo(){
         cocienteMinoriaCD = Math.round((listaGanadora.votos+votosMinoria)/miembrosMinoriaCD);
     }    
     
+    console.log(`La minoria accede a ${miembrosMinoriaAR} miembros en AR`);
+    console.log(`El cociente de minoria para AR es: ${cocienteMinoriaAR}`);
+
     //Tercero: Se calculan los cargos para cada agrupación minoritaria a partir de la relación entre votos obtenidos y el cociente.
     
     //ASAMBLEA DE REPRESENTANTES
     
     lista2.AR = Math.round(parseFloat(lista2.votos/cocienteMinoriaAR).toFixed(3));
+    console.log(`La segunda lista accede a ${lista2.AR} cargos`);
     lista3.AR = Math.round(parseFloat(lista3.votos/cocienteMinoriaAR).toFixed(3));
     lista4.AR = Math.round(parseFloat(lista4.votos/cocienteMinoriaAR).toFixed(3));
     lista5.AR = Math.round(parseFloat(lista5.votos/cocienteMinoriaAR).toFixed(3));
