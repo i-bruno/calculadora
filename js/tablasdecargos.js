@@ -385,8 +385,15 @@ function verCargos(){
                             <h2>7</h2>
                         </div>`;
     pie.appendChild(divCF);  
-        
-console.log(listaGanadora);
+    
+    //Busca cual es la lista que sacó mayores votos.
+    let votosMayor = Math.max(lista1.votos, lista2.votos, lista3.votos, lista4.votos, lista5.votos, lista5.votos, lista6.votos, lista7.votos, lista8.votos, lista9.votos, lista10.votos);
+    
+    let listaGanadora = arrayListas.find (function (arrayListas){
+        return arrayListas.votos == votosMayor;
+    });
+    
+    console.log(listaGanadora);
 
     //Bucle para pintar los divs según resultado de las elecciones.
     let asambleista = document.getElementsByClassName("asambleista");
