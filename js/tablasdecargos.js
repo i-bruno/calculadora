@@ -396,6 +396,7 @@ function verCargos(){
     });
     
     console.log(arrayListas);
+    console.log(lista2);
     console.log(listaGanadora);
 
 
