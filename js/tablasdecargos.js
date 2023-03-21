@@ -386,6 +386,8 @@ function verCargos(){
                         </div>`;
     pie.appendChild(divCF);  
         
+console.log(listaGanadora);
+
     //Bucle para pintar los divs según resultado de las elecciones.
     let asambleista = document.getElementsByClassName("asambleista");
     let numeroAR = listaGanadora.AR-1;
