@@ -395,9 +395,9 @@ function verCargos(){
         return arrayListas.votos == votosMayor;
     });
     
-    // console.log(arrayListas);
-    //console.log(lista2.AR);
-    // console.log(listaGanadora);
+console.log(lista2.AR);
+console.log(lista2.CD);
+console.log(lista2.CF);
 
 
     //Bucle para pintar los divs según resultado de las elecciones.
