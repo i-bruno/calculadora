@@ -370,63 +370,28 @@ function calculo(){
     
     //ASAMBLEA DE REPRESENTANTES
     
-    let miembrosLista2AR = parseFloat(lista2.votos/cocienteMinoriaAR).toFixed(3);
-    lista2.AR = miembrosLista2AR;
-    
-    let miembrosLista3AR = parseFloat(lista3.votos/cocienteMinoriaAR).toFixed(3);
-    lista3.AR = miembrosLista3AR;
-    
-    let miembrosLista4AR = parseFloat(lista4.votos/cocienteMinoriaAR).toFixed(3);
-    lista4.AR = miembrosLista4AR;
-    
-    let miembrosLista5AR = parseFloat(lista5.votos/cocienteMinoriaAR).toFixed(3);
-    lista5.AR = miembrosLista5AR;
-    
-    let miembrosLista6AR = parseFloat(lista6.votos/cocienteMinoriaAR).toFixed(3);
-    lista6.AR = miembrosLista6AR;
-    
-    let miembrosLista7AR = parseFloat(lista7.votos/cocienteMinoriaAR).toFixed(3);
-    lista7.AR = miembrosLista7AR;
-    
-    let miembrosLista8AR = parseFloat(lista8.votos/cocienteMinoriaAR).toFixed(3);
-    lista8.AR = miembrosLista8AR;
-    
-    let miembrosLista9AR = parseFloat(lista9.votos/cocienteMinoriaAR).toFixed(3);
-    lista9.AR = miembrosLista9AR;
-    
-    let miembrosLista10AR = parseFloat(lista10.votos/cocienteMinoriaAR).toFixed(3);
-    lista10.AR = miembrosLista10AR;
+    lista2.AR = Math.round(parseFloat(lista2.votos/cocienteMinoriaAR).toFixed(3));
+    lista3.AR = Math.round(parseFloat(lista3.votos/cocienteMinoriaAR).toFixed(3));
+    lista4.AR = Math.round(parseFloat(lista4.votos/cocienteMinoriaAR).toFixed(3));
+    lista5.AR = Math.round(parseFloat(lista5.votos/cocienteMinoriaAR).toFixed(3));
+    lista6.AR = Math.round(parseFloat(lista6.votos/cocienteMinoriaAR).toFixed(3));
+    lista7.AR = Math.round(parseFloat(lista7.votos/cocienteMinoriaAR).toFixed(3));
+    lista8.AR = Math.round(parseFloat(lista8.votos/cocienteMinoriaAR).toFixed(3));
+    lista9.AR = Math.round(parseFloat(lista9.votos/cocienteMinoriaAR).toFixed(3));
+    lista10.AR = Math.round(parseFloat(lista10.votos/cocienteMinoriaAR).toFixed(3));
     
     //COMISIÓN DIRECTIVA
     
-    let miembrosLista2CD = parseFloat(lista2.votos/cocienteMinoriaCD).toFixed(3);
-    console.log(miembrosLista2CD);
-    lista2.CD = Math.round(miembrosLista2CD);
+    lista2.CD = Math.round(parseFloat(lista2.votos/cocienteMinoriaCD).toFixed(3));
     console.log(lista2.CD);
-    
-    let miembrosLista3CD = parseFloat(lista3.votos/cocienteMinoriaCD).toFixed(3);
-    lista3.CD = Math.round(miembrosLista3CD);
-    
-    let miembrosLista4CD = parseFloat(lista4.votos/cocienteMinoriaCD).toFixed(3);
-    lista4.CD = Math.round(miembrosLista4CD);
-    
-    let miembrosLista5CD = parseFloat(lista5.votos/cocienteMinoriaCD).toFixed(3);
-    lista5.CD = Math.round(miembrosLista5CD);
-    
-    let miembrosLista6CD = parseFloat(lista6.votos/cocienteMinoriaCD).toFixed(3);
-    lista6.CD = Math.round(miembrosLista6CD);
-    
-    let miembrosLista7CD = parseFloat(lista7.votos/cocienteMinoriaCD).toFixed(3);
-    lista7.CD = Math.round(miembrosLista7CD);
-    
-    let miembrosLista8CD = parseFloat(lista8.votos/cocienteMinoriaCD).toFixed(3);
-    lista8.CD = Math.round(miembrosLista8CD);
-    
-    let miembrosLista9CD = parseFloat(lista9.votos/cocienteMinoriaCD).toFixed(3);
-    lista9.CD = Math.round(miembrosLista9CD);
-    
-    let miembrosLista10CD = parseFloat(lista10.votos/cocienteMinoriaCD).toFixed(3);
-    lista10.CD = Math.round(miembrosLista10CD);
+    lista3.CD = Math.round(parseFloat(lista3.votos/cocienteMinoriaCD).toFixed(3));
+    lista4.CD = Math.round(parseFloat(lista4.votos/cocienteMinoriaCD).toFixed(3));
+    lista5.CD = Math.round(parseFloat(lista5.votos/cocienteMinoriaCD).toFixed(3));
+    lista6.CD = Math.round(parseFloat(lista6.votos/cocienteMinoriaCD).toFixed(3));
+    lista7.CD = Math.round(parseFloat(lista7.votos/cocienteMinoriaCD).toFixed(3));
+    lista8.CD = Math.round(parseFloat(lista8.votos/cocienteMinoriaCD).toFixed(3));
+    lista9.CD = Math.round(parseFloat(lista9.votos/cocienteMinoriaCD).toFixed(3));
+    lista10.CD = Math.round(parseFloat(lista10.votos/cocienteMinoriaCD).toFixed(3));
 
 //Se calcula los miembros para comisión fiscalizadora
 
