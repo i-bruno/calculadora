@@ -386,6 +386,8 @@ function verCargos(){
                         </div>`;
     pie.appendChild(divCF);  
     
+    const arrayListas = [lista1, lista2, lista3, lista4, lista5, lista6, lista7, lista8, lista9, lista10];
+
     //Busca cual es la lista que sacó mayores votos.
     let votosMayor = Math.max(lista1.votos, lista2.votos, lista3.votos, lista4.votos, lista5.votos, lista5.votos, lista6.votos, lista7.votos, lista8.votos, lista9.votos, lista10.votos);
     
