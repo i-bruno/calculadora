@@ -422,3 +422,10 @@ function verCargos(){
         fiscalizador[i].setAttribute('class', `${clasesActuales} fondo-${listaGanadora.color}`);
     };
     };
+
+    //Cargos para la segunda lista
+    let asambleistasSegundo = lista2.AR-1;
+    for (let i = numeroAR; i <= asambleistasSegundo; i++){
+        let clasesActuales = asambleista[i].getAttribute('class');
+        asambleista[i].setAttribute('class', `${clasesActuales} fondo-${lista2.color}`);
+    };
