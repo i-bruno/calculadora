@@ -395,7 +395,9 @@ function verCargos(){
         return arrayListas.votos == votosMayor;
     });
     
+    console.log(arrayListas);
     console.log(listaGanadora);
+
 
     //Bucle para pintar los divs según resultado de las elecciones.
     let asambleista = document.getElementsByClassName("asambleista");
