@@ -318,6 +318,8 @@ function calculo(){
         return arrayListas.votos == votosMayor;
     });
     
+    console.log(listaGanadora);
+    
     //Porcentaje de la mayoría
     let porcentajeMayoria = parseFloat((votosMayor*100)/votosTotales).toFixed(3);
     
@@ -454,9 +456,9 @@ let fichaListas
             fichaListas.id = "fichaListas";
             fichaListas.className = "fichaListas";
             fichaListas.innerHTML = `<div class='divLista1' id='divLista1'>
-                                        <h3>${listaGanadora.nombre}</h3>
-                                        <h4>Votos: ${listaGanadora.votos}</h4>
-                                        <h4>Porcentaje: ${listaGanadora.porcentaje}</h4>
+                                        <h3>${lista1.nombre}</h3>
+                                        <h4>Votos: ${lista1.votos}</h4>
+                                        <h4>Porcentaje: ${lista1.porcentaje}</h4>
                                     </div>
                                     <div class='divLista2' id='divLista2'>
                                         <h3>${lista2.nombre}</h3>
