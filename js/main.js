@@ -95,7 +95,8 @@ btnReset.id = "btnReset";
 btnReset.setAttribute('type', 'submit');
 btnReset.className = "boton";
 btnReset.innerText = "Resetear";
-btnReset.addEventListener("click", reset);
+btnReset.addEventListener('click', _ => {location.reload();});
+// btnReset.addEventListener("click", reset);
 preSeccion.appendChild(btnReset);
 
 //Quinto Nodo: Post sección principal
