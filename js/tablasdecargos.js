@@ -394,7 +394,11 @@ function verCargos(){
     let listaGanadora = arrayListas.find (function (arrayListas){
         return arrayListas.votos == votosMayor;
     });
-    
+
+console.log(listaGanadora.AR);
+console.log(listaGanadora.CD);
+console.log(listaGanadora.CF);
+
 console.log(lista2.AR);
 console.log(lista2.CD);
 console.log(lista2.CF);
