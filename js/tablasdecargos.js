@@ -431,7 +431,7 @@ console.log(lista2.CF);
 
     //Cargos para la segunda lista
     
-    for (let e = listaGanadora.AR; e <= lista2.AR; e++){
+    for (let e = numeroAR; e <= lista2.AR; e++){
         let clasesActuales = asambleista[e].getAttribute('class');
         asambleista[e].setAttribute('class', `${clasesActuales} fondo-${lista2.color}`);
     };    
