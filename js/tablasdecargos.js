@@ -399,13 +399,13 @@ function verCargos(){
 
     let segundaLista = arrayListas[1];
     let tercerLista = arrayListas[2];
-    let tercerLista = arrayListas[3];
-    let tercerLista = arrayListas[4];
-    let tercerLista = arrayListas[5];
-    let tercerLista = arrayListas[6];
-    let tercerLista = arrayListas[7];
-    let tercerLista = arrayListas[8];
-    let tercerLista = arrayListas[9];
+    let cuartaLista = arrayListas[3];
+    let quintaLista = arrayListas[4];
+    let sextaLista = arrayListas[5];
+    let septimaLista = arrayListas[6];
+    let octabaLista = arrayListas[7];
+    let novenaLista = arrayListas[8];
+    let decimaLista = arrayListas[9];
 
     console.log(segundaLista.AR);
 
