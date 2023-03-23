@@ -438,7 +438,7 @@ console.log(arrayListas);
         asambleista[i].setAttribute('class', `${clasesActuales} fondo-${lista2.color}`);
     };
 
-
+console.log(numeroAR);
 
 
 
