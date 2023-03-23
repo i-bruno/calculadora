@@ -440,6 +440,8 @@ console.log(arrayListas);
     };
 
 console.log(numeroARsegunda);
+console.log(lista2.color);
+console.log(asambleista);
 
 
 
