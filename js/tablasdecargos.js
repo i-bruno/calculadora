@@ -441,7 +441,7 @@ function verCargos(){
 
     for (let i = numeroARsegunda; i <= segundaLista.AR; i++){
         let clasesActuales = asambleistaSegunda[i].getAttribute('class');
-        asambleistaSegunda[i].setAttribute('class', `${clasesActuales} fondo-${lista2.color}`);
+        asambleistaSegunda[i].setAttribute('class', `${clasesActuales} fondo-${segundaLista.color}`);
     };
 
 
