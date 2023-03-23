@@ -398,11 +398,17 @@ function verCargos(){
     });
 
     let segundaLista = arrayListas[1];
-    console.log(`Esto es segundaLista: `);
-    console.log(segundaLista);
+    let tercerLista = arrayListas[2];
+    let tercerLista = arrayListas[3];
+    let tercerLista = arrayListas[4];
+    let tercerLista = arrayListas[5];
+    let tercerLista = arrayListas[6];
+    let tercerLista = arrayListas[7];
+    let tercerLista = arrayListas[8];
+    let tercerLista = arrayListas[9];
 
-    console.log(`Esto es listaGanadora: `);
-    console.log(listaGanadora);
+    console.log(segundaLista.AR);
+
 
     //Bucle para pintar los divs según resultado de las elecciones.
     let asambleista = document.getElementsByClassName("asambleista");
