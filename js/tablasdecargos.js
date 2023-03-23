@@ -397,6 +397,10 @@ function verCargos(){
         return arrayListas.votos == votosMayor;
     });
 
+    let segundaLista = arrayListas[1];
+    console.log(`Esto es segundaLista: `);
+    console.log(segundaLista);
+
     console.log(`Esto es listaGanadora: `);
     console.log(listaGanadora);
 
