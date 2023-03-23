@@ -439,7 +439,7 @@ function verCargos(){
     let asambleistaSegunda = document.getElementsByClassName("asambleista");
     let numeroARsegunda = numeroAR+1;
 
-    for (let i = numeroARsegunda; i <= lista2.AR; i++){
+    for (let i = numeroARsegunda; i <= segundaLista.AR; i++){
         let clasesActuales = asambleistaSegunda[i].getAttribute('class');
         asambleistaSegunda[i].setAttribute('class', `${clasesActuales} fondo-${lista2.color}`);
     };
