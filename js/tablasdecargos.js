@@ -432,11 +432,12 @@ console.log(arrayListas);
     };
 
     //Cargos para la segunda lista
+    let asambleistaSegunda = document.getElementsByClassName("asambleista");
     let numeroARsegunda = numeroAR+1;
 
-    for (let i = 59; i <= lista2.AR; i++){
-        let clasesActuales = asambleista[i].getAttribute('class');
-        asambleista[i].setAttribute('class', `${clasesActuales} fondo-${lista2.color}`);
+    for (let i = numeroARsegunda; i <= lista2.AR; i++){
+        let clasesActuales = asambleistaSegunda[i].getAttribute('class');
+        asambleistaSegunda[i].setAttribute('class', `${clasesActuales} fondo-${lista2.color}`);
     };
 
 console.log(numeroARsegunda);
