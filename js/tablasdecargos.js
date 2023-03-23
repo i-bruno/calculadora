@@ -403,6 +403,8 @@ console.log(lista2.AR);
 console.log(lista2.CD);
 console.log(lista2.CF);
 
+console.log(arrayListas);
+
 
     //Bucle para pintar los divs según resultado de las elecciones.
     let asambleista = document.getElementsByClassName("asambleista");
@@ -431,17 +433,10 @@ console.log(lista2.CF);
 
     //Cargos para la segunda lista
     
-    // for (let i = numeroAR; i <= lista2.AR; i++){
-    //     let clasesActuales = asambleista[i].getAttribute('class');
-    //     asambleista[i].setAttribute('class', `${clasesActuales} fondo-${lista2.color}`);
-    // };    
-
-    if (lista2.AR > numeroAR) {
-        for (let i = numeroAR + 1; i < lista2.AR; i++){
-            let clasesActuales = asambleista[i].getAttribute('class');
-            asambleista[i].setAttribute('class', `${clasesActuales} fondo-${lista2.color}`);
-        };
-      };
+    for (let i = numeroAR; i <= lista2.AR; i++){
+        let clasesActuales = asambleista[i].getAttribute('class');
+        asambleista[i].setAttribute('class', `${clasesActuales} fondo-${lista2.color}`);
+    };
 
 
 
