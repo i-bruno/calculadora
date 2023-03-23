@@ -395,16 +395,6 @@ function verCargos(){
         return arrayListas.votos == votosMayor;
     });
 
-console.log(listaGanadora.AR);
-console.log(listaGanadora.CD);
-console.log(listaGanadora.CF);
-
-console.log(lista2.AR);
-console.log(lista2.CD);
-console.log(lista2.CF);
-
-console.log(arrayListas);
-
 
     //Bucle para pintar los divs según resultado de las elecciones.
     let asambleista = document.getElementsByClassName("asambleista");
@@ -439,10 +429,6 @@ console.log(arrayListas);
         let clasesActuales = asambleistaSegunda[i].getAttribute('class');
         asambleistaSegunda[i].setAttribute('class', `${clasesActuales} fondo-${lista2.color}`);
     };
-
-console.log(numeroARsegunda);
-console.log(lista2.color);
-console.log(asambleista);
 
 
 

@@ -318,8 +318,6 @@ function calculo(){
         return arrayListas.votos == votosMayor;
     });
     
-    // console.log(listaGanadora);
-    
     //Porcentaje de la mayoría
     let porcentajeMayoria = parseFloat((votosMayor*100)/votosTotales).toFixed(3);
     
@@ -340,10 +338,10 @@ function calculo(){
         miembrosMayoriaAR = parseFloat((((porcentajeMayoria-50)/100)*60)+60).toFixed(3);
         miembrosMayoriaCD = parseFloat((((porcentajeMayoria-50)/100)*15)+15).toFixed(3);
     }
-    console.log(miembrosMayoriaCD);
+
     lista1.AR = Math.round(miembrosMayoriaAR);  
     lista1.CD = Math.round(miembrosMayoriaCD);
-    console.log(lista1.CD);
+
 
     //5 - Se calculan los miembros de Comisión fiscalizadora para la mayoria
     let cocienteCF = votosTotales/7;
@@ -356,7 +354,6 @@ function calculo(){
     let miembrosMinoriaAR = parseFloat(90 - miembrosMayoriaAR).toFixed(3);
     let miembrosMinoriaCD = parseFloat(20 - miembrosMayoriaCD).toFixed(3);
 
-    console.log(miembrosMinoriaCD);
     
     //Segundo: se define el cociente para la distribución de los cargos entre la minoría.
     let cocienteMinoriaAR
@@ -368,10 +365,7 @@ function calculo(){
     } else {
         cocienteMinoriaAR = Math.round((listaGanadora.votos+votosMinoria)/miembrosMinoriaAR);
         cocienteMinoriaCD = Math.round((listaGanadora.votos+votosMinoria)/miembrosMinoriaCD);
-    }    
-    
-    console.log(`La minoria accede a ${miembrosMinoriaAR} miembros en AR`);
-    console.log(`El cociente de minoria para AR es: ${cocienteMinoriaAR}`);
+    };
 
     //Tercero: Se realiza un switch para calcular los cargos para Asamblea de representantes, Comisión Directiva y Comisión fiscalizadora para las minorías
     switch(parseInt(cantidadListas)){
@@ -578,8 +572,6 @@ function calculo(){
             lista10.CF = Math.round(lista10.votos/cocienteCF);
         break;
     };
-    
-    console.log(`La segunda lista accede a ${lista2.AR} cargos`);
 
 let divEnunciado
 let fichaListas
