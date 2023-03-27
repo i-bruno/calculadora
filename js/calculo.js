@@ -952,7 +952,7 @@ let fichaListas
 
 const textoGanador = document.createElement("div");
 textoGanador.id = "textoGanador";
-textoGanador.innerHTML = `<p>Se contabilizan un total de ${votosTotales} votos con ${totBlancos} votos blancos. La mayoría obtuvo ${votosMayor} (${porcentajeMayoria}%) y la minoría ${votosMinoria} (${porcentajeMinoria}%).</p>`
+textoGanador.innerHTML = `<p>Se contabilizan un total de ${votosTotales} votos. Hubo ${totBlancos} votos blancos. La mayoría obtuvo ${votosMayor} (${porcentajeMayoria}%) y la minoría ${votosMinoria} (${porcentajeMinoria}%).</p>`
 pie.appendChild(textoGanador);
 
 const btnTabla = document.createElement("button");
