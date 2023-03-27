@@ -446,6 +446,7 @@ function verCargos(){
 
 
     console.log(segundaLista.AR);
+    console.log(lista2.AR);
     console.log(asambleistaSegunda);
     console.log(numeroARsegunda);
 
