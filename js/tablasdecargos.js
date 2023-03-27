@@ -397,19 +397,6 @@ function verCargos(){
         return arrayListas.votos == votosMayor;
     });
 
-    let segundaLista = arrayListas[1];
-    let tercerLista = arrayListas[2];
-    let cuartaLista = arrayListas[3];
-    let quintaLista = arrayListas[4];
-    let sextaLista = arrayListas[5];
-    let septimaLista = arrayListas[6];
-    let octabaLista = arrayListas[7];
-    let novenaLista = arrayListas[8];
-    let decimaLista = arrayListas[9];
-
-
-
-
     //Bucle para pintar los divs según resultado de las elecciones.
     let asambleista = document.getElementsByClassName("asambleista");
     let numeroAR = listaGanadora.AR-1;
@@ -439,14 +426,12 @@ function verCargos(){
     let asambleistaSegunda = document.getElementsByClassName("asambleista");
     let numeroARsegunda = numeroAR+1;
 
-    for (let i = numeroARsegunda; i <= segundaLista.AR; i++){
+    for (let i=numeroARsegunda; i<=lista2.AR; i++){
         let clasesActuales = asambleistaSegunda[i].getAttribute('class');
-        asambleistaSegunda[i].setAttribute('class', `${clasesActuales} fondo-${segundaLista.color}`);
+        asambleistaSegunda[i].setAttribute('class', `${clasesActuales} fondo-${lista2.color}`);
     };
 
-
-    console.log(segundaLista.AR);
-    console.log(lista2.AR);
+    console.log(lista2);
     console.log(asambleistaSegunda);
     console.log(numeroARsegunda);
 
