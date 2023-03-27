@@ -407,7 +407,7 @@ function verCargos(){
     let novenaLista = arrayListas[8];
     let decimaLista = arrayListas[9];
 
-    console.log(segundaLista.AR);
+
 
 
     //Bucle para pintar los divs según resultado de las elecciones.
@@ -445,7 +445,9 @@ function verCargos(){
     };
 
 
-
+    console.log(segundaLista.AR);
+    console.log(asambleistaSegunda);
+    console.log(numeroARsegunda);
 
 
 
