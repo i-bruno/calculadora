@@ -410,7 +410,7 @@ function verCargos(){
     for(let i = 0; i<=numeroAR;i++){
         let clasesActuales = asambleista[i].getAttribute('class');
         asambleista[i].setAttribute('class', `${clasesActuales} fondo-${listaGanadora.color}`);
-};
+    };
     
     for(let i = 0; i<=numeroCD; i++){
         let clasesActuales = directivo[i].getAttribute('class');
@@ -426,7 +426,7 @@ function verCargos(){
     let asambleistaSegunda = document.getElementsByClassName("asambleista");
     let numeroARsegunda = numeroAR+1;
 
-    for (let i=60; i<=lista2.AR; i++){
+    for (let i=numeroARsegunda; i<=lista2.AR; i++){
         let clasesActuales = asambleistaSegunda[i].getAttribute('class');
         asambleistaSegunda[i].setAttribute('class', `${clasesActuales} fondo-${lista2.color}`);
     };
