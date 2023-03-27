@@ -7,7 +7,7 @@ body {
   margin: 5px 5px 5px 5px;
   padding: 5px 5px 5px 5px;
   background-color: #263d54;
-  color: white;
+  color: rgb(0, 0, 0);
   font-family: monospace; }
 
 header {
@@ -17,7 +17,7 @@ header {
   text-align: center;
   height: auto;
   width: auto;
-  background-color: #bf1b27; }
+  background-color: #e4e4e4; }
 
 footer {
   margin: 5px 5px 5px 5px;
@@ -26,7 +26,7 @@ footer {
   text-align: center;
   height: auto;
   width: auto;
-  background-color: #bf1b27;
+  background-color: #e4e4e4;
   flex-direction: column;
   flex-wrap: wrap;
 }
@@ -34,7 +34,7 @@ footer {
 section {
   margin: 5px 5px 5px 5px;
   padding: 5px 5px 5px 5px;
-  background-color: #bf1b27;
+  background-color: #e4e4e4;
   border-radius: 10px; 
   display:flex;
   justify-content: center;
@@ -91,7 +91,7 @@ h1{
 .calculadora {
   margin: 5px 5px 5px 5px;
   padding: 5px 5px 5px 5px;
-  background-color: #bf1b27;
+  background-color: #e4e4e4;
   border-radius: 10px;
   display: flex;
   justify-content: space-between;
@@ -141,7 +141,7 @@ h1{
   overflow-y: scroll;
   text-align: justify;
   display: inline-block;
-  background-color: #bf1b27;
+  background-color: #e4e4e4;
   border-radius: 10px; }
   .aside h3 {
     margin: 5px 5px 5px 5px;
