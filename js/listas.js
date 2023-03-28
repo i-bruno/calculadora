@@ -70,6 +70,12 @@ let tercerInputJ
         break;
     
         case 2:
+            divMensaje = document.createElement("div");
+            divMensaje.className = "divMensaje";
+            divMensaje.id = "divMensaje";
+            divMensaje.innerHTML = "<h3>Los datos se deben cargar de mayor a menor, siendo los primeros datos los de la lista ganadora.</h3>";
+            infoPrincipal.appendChild(divMensaje);
+
             //Primer lista
             divListaA = document.createElement("div");
             divListaA.className = "agrupacion";
@@ -114,6 +120,12 @@ let tercerInputJ
         break;
     
         case 3:
+            divMensaje = document.createElement("div");
+            divMensaje.className = "divMensaje";
+            divMensaje.id = "divMensaje";
+            divMensaje.innerHTML = "<h3>Los datos se deben cargar de mayor a menor, siendo los primeros datos los de la lista ganadora.</h3>";
+            infoPrincipal.appendChild(divMensaje);
+
             //Primer lista
             divListaA = document.createElement("div");
             divListaA.className = "agrupacion";
@@ -179,6 +191,12 @@ let tercerInputJ
         break;
     
         case 4:
+            divMensaje = document.createElement("div");
+            divMensaje.className = "divMensaje";
+            divMensaje.id = "divMensaje";
+            divMensaje.innerHTML = "<h3>Los datos se deben cargar de mayor a menor, siendo los primeros datos los de la lista ganadora.</h3>";
+            infoPrincipal.appendChild(divMensaje);
+
             //Primer lista
             divListaA = document.createElement("div");
             divListaA.className = "agrupacion";
@@ -265,6 +283,12 @@ let tercerInputJ
         break;
     
         case 5:
+            divMensaje = document.createElement("div");
+            divMensaje.className = "divMensaje";
+            divMensaje.id = "divMensaje";
+            divMensaje.innerHTML = "<h3>Los datos se deben cargar de mayor a menor, siendo los primeros datos los de la lista ganadora.</h3>";
+            infoPrincipal.appendChild(divMensaje);
+
             divListaA = document.createElement("div");
             divListaA.className = "agrupacion";
             divListaA.id = "listaA";
@@ -370,6 +394,12 @@ let tercerInputJ
         break;
     
         case 6:
+            divMensaje = document.createElement("div");
+            divMensaje.className = "divMensaje";
+            divMensaje.id = "divMensaje";
+            divMensaje.innerHTML = "<h3>Los datos se deben cargar de mayor a menor, siendo los primeros datos los de la lista ganadora.</h3>";
+            infoPrincipal.appendChild(divMensaje);
+
             divListaA = document.createElement("div");
             divListaA.className = "agrupacion";
             divListaA.id = "listaA";
@@ -496,6 +526,12 @@ let tercerInputJ
         break;
     
         case 7:
+            divMensaje = document.createElement("div");
+            divMensaje.className = "divMensaje";
+            divMensaje.id = "divMensaje";
+            divMensaje.innerHTML = "<h3>Los datos se deben cargar de mayor a menor, siendo los primeros datos los de la lista ganadora.</h3>";
+            infoPrincipal.appendChild(divMensaje);
+
             divListaA = document.createElement("div");
             divListaA.className = "agrupacion";
             divListaA.id = "listaA";
@@ -643,6 +679,12 @@ let tercerInputJ
         break;
     
         case 8:
+            divMensaje = document.createElement("div");
+            divMensaje.className = "divMensaje";
+            divMensaje.id = "divMensaje";
+            divMensaje.innerHTML = "<h3>Los datos se deben cargar de mayor a menor, siendo los primeros datos los de la lista ganadora.</h3>";
+            infoPrincipal.appendChild(divMensaje);
+
             divListaA = document.createElement("div");
             divListaA.className = "agrupacion";
             divListaA.id = "listaA";
@@ -811,6 +853,12 @@ let tercerInputJ
         break;
     
         case 9:
+            divMensaje = document.createElement("div");
+            divMensaje.className = "divMensaje";
+            divMensaje.id = "divMensaje";
+            divMensaje.innerHTML = "<h3>Los datos se deben cargar de mayor a menor, siendo los primeros datos los de la lista ganadora.</h3>";
+            infoPrincipal.appendChild(divMensaje);
+
             divListaA = document.createElement("div");
             divListaA.className = "agrupacion";
             divListaA.id = "listaA";
@@ -1000,6 +1048,12 @@ let tercerInputJ
         break;
     
         case 10:
+            divMensaje = document.createElement("div");
+            divMensaje.className = "divMensaje";
+            divMensaje.id = "divMensaje";
+            divMensaje.innerHTML = "<h3>Los datos se deben cargar de mayor a menor, siendo los primeros datos los de la lista ganadora.</h3>";
+            infoPrincipal.appendChild(divMensaje);
+
             divListaA = document.createElement("div");
             divListaA.className = "agrupacion";
             divListaA.id = "listaA";
