@@ -313,6 +313,7 @@ function calculo() {
 
     const arrayListas = [lista1, lista2, lista3, lista4, lista5, lista6, lista7, lista8, lista9, lista10];
 
+//Ordena el array con las listas de candidatos de mayor a menor según los votos.
     arrayListas.sort((a, b)=>{
             if(a.votos<b.votos){
                 return 1
@@ -323,13 +324,8 @@ function calculo() {
             }
     });
 
-    const arrayMayor = arrayListas[0];
-
-    console.log(`El ganador es:`);
-    console.log(arrayMayor);
-    console.log(arrayListas);
-
-
+    console.log(arrayListas.votos[0]);
+    
     // Busca cual es la lista que sacó mayores votos.
     let votosMayor = Math.max(lista1.votos, lista2.votos, lista3.votos, lista4.votos, lista5.votos, lista5.votos, lista6.votos, lista7.votos, lista8.votos, lista9.votos, lista10.votos);
 
