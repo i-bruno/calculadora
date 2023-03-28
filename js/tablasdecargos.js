@@ -405,7 +405,7 @@ function verCargos(){
 
     let directivo = document.getElementsByClassName("directivo");
     let numeroCD = listaGanadora.CD-1;
-    
+
     let fiscalizador = document.getElementsByClassName("fiscalizador");
     let numeroCF = listaGanadora.CF-1;
     
@@ -428,19 +428,14 @@ function verCargos(){
 
     //Cargos para la segunda lista
     let asambleistaSegunda = document.getElementsByClassName("asambleista");
-    let numeroARsegunda = numeroAR+1;
 
     for (let i=listaGanadora.AR; i<=lista2.AR; i++){
         let clasesActuales = asambleistaSegunda[i].getAttribute('class');
         asambleistaSegunda[i].setAttribute('class', `${clasesActuales} fondo-${lista2.color}`);
     };
 
-    console.log(lista2);
-    console.log(asambleistaSegunda);
-    console.log(numeroAR);
-    console.log(numeroARsegunda);
-    console.log(listaGanadora.AR);
-
+console.log(`La lista ganadora obtiene ${listaGanadora.AR} asambleístas`);
+console.log(`La segunda lista obtiene ${lista2.AR} asambleístas`);
 
 
 
