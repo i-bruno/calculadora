@@ -427,12 +427,10 @@ function verCargos(){
     };
 
     //Cargos para la segunda lista
-    let asambleistaSegunda = document.getElementsByClassName("asambleista");
 
-    for (let i=listaGanadora.AR; i<=lista2.AR; i++){
-        let clasesActuales = asambleistaSegunda[i].getAttribute('class');
-        console.log(clasesActuales);
-        asambleistaSegunda[i].setAttribute('class', `${clasesActuales} fondo-${lista2.color}`);
+    for (let i=listaGanadora.AR; i>=lista2.AR; i++){
+        let clasesActuales = asambleista[i].getAttribute('class');
+        asambleista[i].setAttribute('class', `${clasesActuales} fondo-${lista2.color}`);
     };
 
 console.log(`La lista ganadora obtiene ${listaGanadora.AR} asambleístas`);
