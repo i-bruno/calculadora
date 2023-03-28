@@ -390,6 +390,10 @@ function calculo() {
         cocienteMinoriaCD = Math.round((arrayListas[0].votos + votosMinoria) / miembrosMinoriaCD);
     };
 
+    console.log(arrayListas);
+    console.log(cocienteMinoriaAR);
+    console.log(cocienteMinoriaCD);
+    
     //Tercero: Se realiza un switch para calcular los cargos para Asamblea de representantes, Comisión Directiva y Comisión fiscalizadora para las minorías
     switch (parseInt(cantidadListas)) {
         case 2:
