@@ -433,6 +433,16 @@ function verCargos(){
         asambleista[i].setAttribute('class', `${clasesActuales} fondo-${lista2.color}`);
     };
 
+    for (let i=listaGanadora.CD; i>=lista2.CD; i++){
+        let clasesActuales = directivo[i].getAttribute('class');
+        directivo[i].setAttribute('class', `${clasesActuales} fondo-${lista2.color}`);
+    };
+
+    for (let i=listaGanadora.CF; i>=lista2.CF; i++){
+        let clasesActuales = fiscalizador[i].getAttribute('class');
+        fiscalizador[i].setAttribute('class', `${clasesActuales} fondo-${lista2.color}`);
+    };
+
 console.log(`La lista ganadora obtiene ${listaGanadora.AR} asambleístas`);
 console.log(`La segunda lista obtiene ${lista2.AR} asambleístas`);
 console.log(asambleistaSegunda);
