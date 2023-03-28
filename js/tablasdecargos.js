@@ -433,8 +433,9 @@ function verCargos(){
 
     console.log(lista2);
     console.log(asambleistaSegunda);
+    console.log(numeroAR);
     console.log(numeroARsegunda);
-
+    console.log(listaGanadora.AR);
 
 
 
