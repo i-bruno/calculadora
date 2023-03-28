@@ -625,11 +625,13 @@ function calculo() {
                                         <h4>Porcentaje: ${arrayListas[1].porcentaje}</h4>
                                     </div>`;
             pie.appendChild(fichaListas);
+
             let fichaLista1 = document.getElementById("divLista1");
             fichaLista1.style.backgroundColor = `${arrayListas[0].color}`;
 
             let fichaLista2 = document.getElementById("divLista2");
             fichaLista2.style.backgroundColor = `${arrayListas[1].color}`;
+
             break;
         case 3:
             divEnunciado = document.createElement("section");
@@ -656,6 +658,16 @@ function calculo() {
                                         <h4>Porcentaje: ${arrayListas[2].porcentaje}</h4>
                                     </div>`;
             pie.appendChild(fichaListas);
+
+            let fichaLista1 = document.getElementById("divLista1");
+            fichaLista1.style.backgroundColor = `${arrayListas[0].color}`;
+
+            let fichaLista2 = document.getElementById("divLista2");
+            fichaLista2.style.backgroundColor = `${arrayListas[1].color}`;
+
+            let fichaLista3 = document.getElementById("divLista3");
+            fichaLista3.style.backgroundColor = `${arrayListas[2].color}`;
+
             break;
         case 4:
             divEnunciado = document.createElement("section");
@@ -687,6 +699,19 @@ function calculo() {
                                         <h4>Porcentaje: ${arrayListas[3].porcentaje}</h4>
                                     </div>`;
             pie.appendChild(fichaListas);
+
+            let fichaLista1 = document.getElementById("divLista1");
+            fichaLista1.style.backgroundColor = `${arrayListas[0].color}`;
+
+            let fichaLista2 = document.getElementById("divLista2");
+            fichaLista2.style.backgroundColor = `${arrayListas[1].color}`;
+
+            let fichaLista3 = document.getElementById("divLista3");
+            fichaLista3.style.backgroundColor = `${arrayListas[2].color}`;
+
+            let fichaLista4 = document.getElementById("divLista4");
+            fichaLista4.style.backgroundColor = `${arrayListas[3].color}`;
+
             break;
         case 5:
             divEnunciado = document.createElement("section");
@@ -723,6 +748,22 @@ function calculo() {
                                         <h4>Porcentaje: ${arrayListas[4].porcentaje}</h4>
                                     </div>`;
             pie.appendChild(fichaListas);
+
+            let fichaLista1 = document.getElementById("divLista1");
+            fichaLista1.style.backgroundColor = `${arrayListas[0].color}`;
+
+            let fichaLista2 = document.getElementById("divLista2");
+            fichaLista2.style.backgroundColor = `${arrayListas[1].color}`;
+
+            let fichaLista3 = document.getElementById("divLista3");
+            fichaLista3.style.backgroundColor = `${arrayListas[2].color}`;
+
+            let fichaLista4 = document.getElementById("divLista4");
+            fichaLista4.style.backgroundColor = `${arrayListas[3].color}`;
+
+            let fichaLista5 = document.getElementById("divLista5");
+            fichaLista5.style.backgroundColor = `${arrayListas[4].color}`;
+
             break;
         case 6:
             divEnunciado = document.createElement("section");
@@ -764,6 +805,25 @@ function calculo() {
                                         <h4>Porcentaje:${arrayListas[5].porcentaje}</h4>
                                     </div>`;
             pie.appendChild(fichaListas);
+
+            let fichaLista1 = document.getElementById("divLista1");
+            fichaLista1.style.backgroundColor = `${arrayListas[0].color}`;
+
+            let fichaLista2 = document.getElementById("divLista2");
+            fichaLista2.style.backgroundColor = `${arrayListas[1].color}`;
+
+            let fichaLista3 = document.getElementById("divLista3");
+            fichaLista3.style.backgroundColor = `${arrayListas[2].color}`;
+
+            let fichaLista4 = document.getElementById("divLista4");
+            fichaLista4.style.backgroundColor = `${arrayListas[3].color}`;
+
+            let fichaLista5 = document.getElementById("divLista5");
+            fichaLista5.style.backgroundColor = `${arrayListas[4].color}`;
+
+            let fichaLista6 = document.getElementById("divLista6");
+            fichaLista6.style.backgroundColor = `${arrayListas[5].color}`;
+
             break;
         case 7:
             divEnunciado = document.createElement("section");
@@ -810,6 +870,25 @@ function calculo() {
                                         <h4>Porcentaje: ${arrayListas[6].porcentaje}</h4>
                                     </div>`;
             pie.appendChild(fichaListas);
+
+            let fichaLista1 = document.getElementById("divLista1");
+            fichaLista1.style.backgroundColor = `${arrayListas[0].color}`;
+
+            let fichaLista2 = document.getElementById("divLista2");
+            fichaLista2.style.backgroundColor = `${arrayListas[1].color}`;
+
+            let fichaLista3 = document.getElementById("divLista3");
+            fichaLista3.style.backgroundColor = `${arrayListas[2].color}`;
+
+            let fichaLista4 = document.getElementById("divLista4");
+            fichaLista4.style.backgroundColor = `${arrayListas[3].color}`;
+
+            let fichaLista5 = document.getElementById("divLista5");
+            fichaLista5.style.backgroundColor = `${arrayListas[4].color}`;
+
+            let fichaLista6 = document.getElementById("divLista6");
+            fichaLista6.style.backgroundColor = `${arrayListas[5].color}`;
+
             break;
         case 8:
             divEnunciado = document.createElement("section");
@@ -861,6 +940,25 @@ function calculo() {
                                         <h4>Porcentaje: ${arrayListas[7].porcentaje}</h4>
                                     </div>`;
             pie.appendChild(fichaListas);
+
+            let fichaLista1 = document.getElementById("divLista1");
+            fichaLista1.style.backgroundColor = `${arrayListas[0].color}`;
+
+            let fichaLista2 = document.getElementById("divLista2");
+            fichaLista2.style.backgroundColor = `${arrayListas[1].color}`;
+
+            let fichaLista3 = document.getElementById("divLista3");
+            fichaLista3.style.backgroundColor = `${arrayListas[2].color}`;
+
+            let fichaLista4 = document.getElementById("divLista4");
+            fichaLista4.style.backgroundColor = `${arrayListas[3].color}`;
+
+            let fichaLista5 = document.getElementById("divLista5");
+            fichaLista5.style.backgroundColor = `${arrayListas[4].color}`;
+
+            let fichaLista6 = document.getElementById("divLista6");
+            fichaLista6.style.backgroundColor = `${arrayListas[5].color}`;
+
             break;
         case 9:
             divEnunciado = document.createElement("section");
@@ -917,6 +1015,25 @@ function calculo() {
                                         <h4>Porcentaje: ${arrayListas[8].porcentaje}</h4>
                                     </div>`;
             pie.appendChild(fichaListas);
+
+            let fichaLista1 = document.getElementById("divLista1");
+            fichaLista1.style.backgroundColor = `${arrayListas[0].color}`;
+
+            let fichaLista2 = document.getElementById("divLista2");
+            fichaLista2.style.backgroundColor = `${arrayListas[1].color}`;
+
+            let fichaLista3 = document.getElementById("divLista3");
+            fichaLista3.style.backgroundColor = `${arrayListas[2].color}`;
+
+            let fichaLista4 = document.getElementById("divLista4");
+            fichaLista4.style.backgroundColor = `${arrayListas[3].color}`;
+
+            let fichaLista5 = document.getElementById("divLista5");
+            fichaLista5.style.backgroundColor = `${arrayListas[4].color}`;
+
+            let fichaLista6 = document.getElementById("divLista6");
+            fichaLista6.style.backgroundColor = `${arrayListas[5].color}`;
+
             break;
         case 10:
             divEnunciado = document.createElement("section");
@@ -978,6 +1095,25 @@ function calculo() {
                                         <h4>Porcentaje: ${arrayListas[9].porcentaje}</h4>
                                     </div>`;
             pie.appendChild(fichaListas);
+
+            let fichaLista1 = document.getElementById("divLista1");
+            fichaLista1.style.backgroundColor = `${arrayListas[0].color}`;
+
+            let fichaLista2 = document.getElementById("divLista2");
+            fichaLista2.style.backgroundColor = `${arrayListas[1].color}`;
+
+            let fichaLista3 = document.getElementById("divLista3");
+            fichaLista3.style.backgroundColor = `${arrayListas[2].color}`;
+
+            let fichaLista4 = document.getElementById("divLista4");
+            fichaLista4.style.backgroundColor = `${arrayListas[3].color}`;
+
+            let fichaLista5 = document.getElementById("divLista5");
+            fichaLista5.style.backgroundColor = `${arrayListas[4].color}`;
+
+            let fichaLista6 = document.getElementById("divLista6");
+            fichaLista6.style.backgroundColor = `${arrayListas[5].color}`;
+
             break;
     }
 
