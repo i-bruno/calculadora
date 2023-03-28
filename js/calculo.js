@@ -625,6 +625,11 @@ function calculo() {
                                         <h4>Porcentaje: ${arrayListas[1].porcentaje}</h4>
                                     </div>`;
             pie.appendChild(fichaListas);
+            let fichaLista1 = document.getElementById("divLista1");
+            fichaLista1.style.backgroundColor = `${arrayListas[0].color}`;
+
+            let fichaLista2 = document.getElementById("divLista2");
+            fichaLista2.style.backgroundColor = `${arrayListas[1].color}`;
             break;
         case 3:
             divEnunciado = document.createElement("section");
