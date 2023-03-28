@@ -334,13 +334,16 @@ function calculo() {
     });
 
     //Porcentaje de la mayoría
-    let porcentajeMayoria = parseFloat((votosMayor * 100) / votosTotales).toFixed(3);
+    let porcentajeMayoria = parseFloat((arrayListas[0].votos * 100) / votosTotales).toFixed(3);
 
-    //Porcentaje de la minoría
-    let votosMinoria = (votosTotales - votosMayor) - totBlancos;
+    //PORCENTAJE DE MINORÍA
+    //Primero se calcula cuantos votos obtuvo la minoría (Votos totales menos los votos de la mayoría menos los votos en blanco)
+    let votosMinoria = (votosTotales - arrayListas[0].votos) - totBlancos;
 
+    //Después se calcula el porcentaje de la minoría.
     let porcentajeMinoria = parseFloat((votosMinoria * 100) / votosTotales).toFixed(3);
 
+    //MIEMBROS PARA LA MAYORÍA
     //4 - Se calculan los cargos en Asamblea de Representantes y Comisión Directiva que ocupa la mayoría.
 
     let miembrosMayoriaAR = 0;
@@ -354,14 +357,19 @@ function calculo() {
         miembrosMayoriaCD = parseFloat((((porcentajeMayoria - 50) / 100) * 15) + 15).toFixed(3);
     }
 
-    lista1.AR = Math.round(miembrosMayoriaAR);
-    lista1.CD = Math.round(miembrosMayoriaCD);
+    arrayListas[0].AR = Math.round(miembrosMayoriaAR);
+    arrayListas[0].CD = Math.round(miembrosMayoriaCD);
+
+    // lista1.AR = Math.round(miembrosMayoriaAR);
+    // lista1.CD = Math.round(miembrosMayoriaCD);
 
 
     //5 - Se calculan los miembros de Comisión fiscalizadora para la mayoria
     let cocienteCF = votosTotales / 7;
-    lista1.CF = Math.round(lista1.votos / cocienteCF);
+    arrayListas[0].CF = Math.round(lista1.votos / cocienteCF);
+    // lista1.CF = Math.round(lista1.votos / cocienteCF);
 
+    //MIEMBROS PARA LA MINORÍA
     //Definición de los miembros por la minoría.
 
     //Primero se definen cuantos miembros tiene la minoría.
@@ -378,8 +386,8 @@ function calculo() {
         cocienteMinoriaAR = Math.round(votosMinoria / miembrosMinoriaAR);
         cocienteMinoriaCD = Math.round(votosMinoria / miembrosMinoriaCD);
     } else {
-        cocienteMinoriaAR = Math.round((listaGanadora.votos + votosMinoria) / miembrosMinoriaAR);
-        cocienteMinoriaCD = Math.round((listaGanadora.votos + votosMinoria) / miembrosMinoriaCD);
+        cocienteMinoriaAR = Math.round((arrayListas[0].votos + votosMinoria) / miembrosMinoriaAR);
+        cocienteMinoriaCD = Math.round((arrayListas[0].votos + votosMinoria) / miembrosMinoriaCD);
     };
 
     //Tercero: Se realiza un switch para calcular los cargos para Asamblea de representantes, Comisión Directiva y Comisión fiscalizadora para las minorías
