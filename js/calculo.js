@@ -324,8 +324,8 @@ function calculo() {
             }
     });
 
-    console.log(arrayListas.votos[0]);
-    
+    console.log(arrayListas[0].votos);
+
     // Busca cual es la lista que sacó mayores votos.
     let votosMayor = Math.max(lista1.votos, lista2.votos, lista3.votos, lista4.votos, lista5.votos, lista5.votos, lista6.votos, lista7.votos, lista8.votos, lista9.votos, lista10.votos);
 
