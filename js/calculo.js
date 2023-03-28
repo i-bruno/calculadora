@@ -607,369 +607,369 @@ function calculo() {
         case 2:
             divEnunciado = document.createElement("div");
             divEnunciado.id = "divEnunciado";
-            divEnunciado.innerHTML = `<h2>Las elecciones las ganó: ${lista1.candidato} (${lista1.nombre})</h2>`;
+            divEnunciado.innerHTML = `<h2>Las elecciones las ganó: ${arrayListas[0].candidato} (${arrayListas[0].nombre})</h2>`;
             pie.appendChild(divEnunciado);
 
             fichaListas = document.createElement("section");
             fichaListas.id = "fichaListas";
             fichaListas.className = "fichaListas";
             fichaListas.innerHTML = `<div class='divLista1' id='divLista1'>
-                                        <h3>${lista1.nombre}</h3>
-                                        <h4>Votos: ${lista1.votos}</h4>
-                                        <h4>Porcentaje: ${lista1.porcentaje}</h4>
+                                        <h3>${arrayListas[0].nombre}</h3>
+                                        <h4>Votos: ${arrayListas[0].votos}</h4>
+                                        <h4>Porcentaje: ${arrayListas[0].porcentaje}</h4>
                                     </div>
                                     <div class='divLista2' id='divLista2'>
-                                        <h3>${lista2.nombre}</h3>
-                                        <h4>Votos: ${lista2.votos}</h4>
-                                        <h4>Porcentaje: ${lista2.porcentaje}</h4>
+                                        <h3>${arrayListas[1].nombre}</h3>
+                                        <h4>Votos: ${arrayListas[1].votos}</h4>
+                                        <h4>Porcentaje: ${arrayListas[1].porcentaje}</h4>
                                     </div>`;
             pie.appendChild(fichaListas);
             break;
         case 3:
             divEnunciado = document.createElement("section");
             divEnunciado.id = "divEnunciado";
-            divEnunciado.innerHTML = `<h2>Las elecciones las ganó: ${lista1.candidato} (${lista1.nombre})</h2>`;
+            divEnunciado.innerHTML = `<h2>Las elecciones las ganó: ${arrayListas[0].candidato} (${arrayListas[0].nombre})</h2>`;
             pie.appendChild(divEnunciado);
 
             fichaListas = document.createElement("div");
             fichaListas.id = "fichaListas";
             fichaListas.className = "fichaListas";
             fichaListas.innerHTML = `<div class='divLista1' id='divLista1'>
-                                        <h3>${lista1.nombre}</h3>
-                                        <h4>Votos: ${lista1.votos}</h4>
-                                        <h4>Porcentaje: ${lista1.porcentaje}</h4>
+                                        <h3>${arrayListas[0].nombre}</h3>
+                                        <h4>Votos: ${arrayListas[0].votos}</h4>
+                                        <h4>Porcentaje: ${arrayListas[0].porcentaje}</h4>
                                     </div>
                                     <div class='divLista2' id='divLista2'>
-                                        <h3>${lista2.nombre}</h3>
-                                        <h4>Votos: ${lista2.votos}</h4>
-                                        <h4>Porcentaje: ${lista2.porcentaje}</h4>
+                                        <h3>${arrayListas[1].nombre}</h3>
+                                        <h4>Votos: ${arrayListas[1].votos}</h4>
+                                        <h4>Porcentaje: ${arrayListas[1].porcentaje}</h4>
                                     </div>
                                     <div class='divLista3' id='divLista3'>
-                                        <h3>${lista3.nombre}</h3>
-                                        <h4>Votos: ${lista3.votos}</h4>
-                                        <h4>Porcentaje: ${lista3.porcentaje}</h4>
+                                        <h3>${arrayListas[2].nombre}</h3>
+                                        <h4>Votos: ${arrayListas[2].votos}</h4>
+                                        <h4>Porcentaje: ${arrayListas[2].porcentaje}</h4>
                                     </div>`;
             pie.appendChild(fichaListas);
             break;
         case 4:
             divEnunciado = document.createElement("section");
             divEnunciado.id = "divEnunciado";
-            divEnunciado.innerHTML = `<h2>Las elecciones las ganó: ${lista1.candidato} (${lista1.nombre})</h2>`;
+            divEnunciado.innerHTML = `<h2>Las elecciones las ganó: ${arrayListas[0].candidato} (${arrayListas[0].nombre})</h2>`;
             pie.appendChild(divEnunciado);
 
             fichaListas = document.createElement("div");
             fichaListas.id = "fichaListas";
             fichaListas.className = "fichaListas";
             fichaListas.innerHTML = `<div class='divLista1' id='divLista1'>
-                                        <h3>${lista1.nombre}</h3>
-                                        <h4>Votos: ${lista1.votos}</h4>
-                                        <h4>Porcentaje: ${lista1.porcentaje}</h4>
+                                        <h3>${arrayListas[0].nombre}</h3>
+                                        <h4>Votos: ${arrayListas[0].votos}</h4>
+                                        <h4>Porcentaje: ${arrayListas[0].porcentaje}</h4>
                                     </div>
                                     <div class='divLista2' id='divLista2'>
-                                        <h3>${lista2.nombre}</h3>
-                                        <h4>Votos: ${lista2.votos}</h4>
-                                        <h4>Porcentaje: ${lista2.porcentaje}</h4>
+                                        <h3>${arrayListas[1].nombre}</h3>
+                                        <h4>Votos: ${arrayListas[1].votos}</h4>
+                                        <h4>Porcentaje: ${arrayListas[1].porcentaje}</h4>
                                     </div>
                                     <div class='divLista3' id='divLista3'>
-                                        <h3>${lista3.nombre}</h3>
-                                        <h4>Votos: ${lista3.votos}</h4>
-                                        <h4>Porcentaje: ${lista3.porcentaje}</h4>
+                                        <h3>${arrayListas[2].nombre}</h3>
+                                        <h4>Votos: ${arrayListas[2].votos}</h4>
+                                        <h4>Porcentaje: ${arrayListas[2].porcentaje}</h4>
                                     </div>
                                     <div class='divLista4' id='divLista4'>
-                                        <h3>${lista4.nombre}</h3>
-                                        <h4>Votos: ${lista4.votos}</h4>
-                                        <h4>Porcentaje: ${lista4.porcentaje}</h4>
+                                        <h3>${arrayListas[3].nombre}</h3>
+                                        <h4>Votos: ${arrayListas[3].votos}</h4>
+                                        <h4>Porcentaje: ${arrayListas[3].porcentaje}</h4>
                                     </div>`;
             pie.appendChild(fichaListas);
             break;
         case 5:
             divEnunciado = document.createElement("section");
             divEnunciado.id = "divEnunciado";
-            divEnunciado.innerHTML = `<h2>Las elecciones las ganó: ${lista1.candidato} (${lista1.nombre})</h2>`;
+            divEnunciado.innerHTML = `<h2>Las elecciones las ganó: ${arrayListas[0].candidato} (${arrayListas[0].nombre})</h2>`;
             pie.appendChild(divEnunciado);
 
             fichaListas = document.createElement("div");
             fichaListas.id = "fichaListas";
             fichaListas.className = "fichaListas";
             fichaListas.innerHTML = `<div class='divLista1' id='divLista1'>
-                                        <h3>${lista1.nombre}</h3>
-                                        <h4>Votos: ${lista1.votos}</h4>
-                                        <h4>Porcentaje: ${lista1.porcentaje}</h4>
+                                        <h3>${arrayListas[0].nombre}</h3>
+                                        <h4>Votos: ${arrayListas[0].votos}</h4>
+                                        <h4>Porcentaje: ${arrayListas[0].porcentaje}</h4>
                                     </div>
                                     <div class='divLista2' id='divLista2'>
-                                        <h3>${lista2.nombre}</h3>
-                                        <h4>Votos: ${lista2.votos}</h4>
-                                        <h4>Porcentaje: ${lista2.porcentaje}</h4>
+                                        <h3>${arrayListas[1].nombre}</h3>
+                                        <h4>Votos: ${arrayListas[1].votos}</h4>
+                                        <h4>Porcentaje: ${arrayListas[1].porcentaje}</h4>
                                     </div>
                                     <div class='divLista3' id='divLista3'>
-                                        <h3>${lista3.nombre}</h3>
-                                        <h4>Votos: ${lista3.votos}</h4>
-                                        <h4>Porcentaje: ${lista3.porcentaje}</h4>
+                                        <h3>${arrayListas[2].nombre}</h3>
+                                        <h4>Votos: ${arrayListas[2].votos}</h4>
+                                        <h4>Porcentaje: ${arrayListas[2].porcentaje}</h4>
                                     </div>
                                     <div class='divLista4' id='divLista4'>
-                                        <h3>${lista4.nombre}</h3>
-                                        <h4>Votos: ${lista4.votos}</h4>
-                                        <h4>Porcentaje: ${lista4.porcentaje}</h4>
+                                        <h3>${arrayListas[3].nombre}</h3>
+                                        <h4>Votos: ${arrayListas[3].votos}</h4>
+                                        <h4>Porcentaje: ${arrayListas[3].porcentaje}</h4>
                                     </div>
                                     <div class='divLista5' id='divLista5'>
-                                        <h3>${lista5.nombre}</h3>
-                                        <h4>Votos: ${lista5.votos}</h4>
-                                        <h4>Porcentaje: ${lista5.porcentaje}</h4>
+                                        <h3>${arrayListas[4].nombre}</h3>
+                                        <h4>Votos: ${arrayListas[4].votos}</h4>
+                                        <h4>Porcentaje: ${arrayListas[4].porcentaje}</h4>
                                     </div>`;
             pie.appendChild(fichaListas);
             break;
         case 6:
             divEnunciado = document.createElement("section");
             divEnunciado.id = "divEnunciado";
-            divEnunciado.innerHTML = `<h2>Las elecciones las ganó: ${lista1.candidato} (${lista1.nombre})</h2>`;
+            divEnunciado.innerHTML = `<h2>Las elecciones las ganó: ${arrayListas[0].candidato} (${arrayListas[0].nombre})</h2>`;
             pie.appendChild(divEnunciado);
 
             fichaListas = document.createElement("div");
             fichaListas.id = "fichaListas";
             fichaListas.className = "fichaListas";
             fichaListas.innerHTML = `<div class='divLista1' id='divLista1'>
-                                        <h3>${lista1.nombre}</h3>
-                                        <h4>Votos: ${lista1.votos}</h4>
-                                        <h4>Porcentaje: ${lista1.porcentaje}</h4>
+                                        <h3>${arrayListas[0].nombre}</h3>
+                                        <h4>Votos: ${arrayListas[0].votos}</h4>
+                                        <h4>Porcentaje: ${arrayListas[0].porcentaje}</h4>
                                     </div>
                                     <div class='divLista2' id='divLista2'>
-                                        <h3>${lista2.nombre}</h3>
-                                        <h4>Votos: ${lista2.votos}</h4>
-                                        <h4>Porcentaje: ${lista2.porcentaje}</h4>
+                                        <h3>${arrayListas[1].nombre}</h3>
+                                        <h4>Votos: ${arrayListas[1].votos}</h4>
+                                        <h4>Porcentaje: ${arrayListas[1].porcentaje}</h4>
                                     </div>
                                     <div class='divLista3' id='divLista3'>
-                                        <h3>${lista3.nombre}</h3>
-                                        <h4>Votos: ${lista3.votos}</h4>
-                                        <h4>Porcentaje: ${lista3.porcentaje}</h4>
+                                        <h3>${arrayListas[2].nombre}</h3>
+                                        <h4>Votos: ${arrayListas[2].votos}</h4>
+                                        <h4>Porcentaje: ${arrayListas[2].porcentaje}</h4>
                                     </div>
                                     <div class='divLista4' id='divLista4'>
-                                        <h3>${lista4.nombre}</h3>
-                                        <h4>Votos: ${lista4.votos}</h4>
-                                        <h4>Porcentaje: ${lista4.porcentaje}</h4>
+                                        <h3>${arrayListas[3].nombre}</h3>
+                                        <h4>Votos: ${arrayListas[3].votos}</h4>
+                                        <h4>Porcentaje: ${arrayListas[3].porcentaje}</h4>
                                     </div>
                                     <div class='divLista5' id='divLista5'>
-                                        <h3>${lista5.nombre}</h3>
-                                        <h4>Votos: ${lista5.votos}</h4>
-                                        <h4>Porcentaje: ${lista5.porcentaje}</h4>
+                                        <h3>${arrayListas[4].nombre}</h3>
+                                        <h4>Votos: ${arrayListas[4].votos}</h4>
+                                        <h4>Porcentaje: ${arrayListas[4].porcentaje}</h4>
                                     </div>
                                     <div class='divLista6' id='divLista6'>
-                                        <h3>${lista6.nombre}</h3>
-                                        <h4>${lista6.votos}</h4>
-                                        <h4>${lista6.porcentaje}</h4>
+                                        <h3>${arrayListas[5].nombre}</h3>
+                                        <h4>Votos${arrayListas[5].votos}</h4>
+                                        <h4>Porcentaje:${arrayListas[5].porcentaje}</h4>
                                     </div>`;
             pie.appendChild(fichaListas);
             break;
         case 7:
             divEnunciado = document.createElement("section");
             divEnunciado.id = "divEnunciado";
-            divEnunciado.innerHTML = `<h2>Las elecciones las ganó: ${lista1.candidato} (${lista1.nombre})</h2>`;
+            divEnunciado.innerHTML = `<h2>Las elecciones las ganó: ${arrayListas[0].candidato} (${arrayListas[0].nombre})</h2>`;
             pie.appendChild(divEnunciado);
 
             fichaListas = document.createElement("div");
             fichaListas.id = "fichaListas";
             fichaListas.className = "fichaListas";
             fichaListas.innerHTML = `<div class='divLista1' id='divLista1'>
-                                        <h3>${lista1.nombre}</h3>
-                                        <h4>Votos: ${lista1.votos}</h4>
-                                        <h4>Porcentaje: ${lista1.porcentaje}</h4>
+                                        <h3>${arrayListas[0].nombre}</h3>
+                                        <h4>Votos: ${arrayListas[0].votos}</h4>
+                                        <h4>Porcentaje: ${arrayListas[0].porcentaje}</h4>
                                     </div>
                                     <div class='divLista2' id='divLista2'>
-                                        <h3>${lista2.nombre}</h3>
-                                        <h4>Votos: ${lista2.votos}</h4>
-                                        <h4>Porcentaje: ${lista2.porcentaje}</h4>
+                                        <h3>${arrayListas[1].nombre}</h3>
+                                        <h4>Votos: ${arrayListas[1].votos}</h4>
+                                        <h4>Porcentaje: ${arrayListas[1].porcentaje}</h4>
                                     </div>
                                     <div class='divLista3' id='divLista3'>
-                                        <h3>${lista3.nombre}</h3>
-                                        <h4>Votos: ${lista3.votos}</h4>
-                                        <h4>Porcentaje: ${lista3.porcentaje}</h4>
+                                        <h3>${arrayListas[2].nombre}</h3>
+                                        <h4>Votos: ${arrayListas[2].votos}</h4>
+                                        <h4>Porcentaje: ${arrayListas[2].porcentaje}</h4>
                                     </div>
                                     <div class='divLista4' id='divLista4'>
-                                        <h3>${lista4.nombre}</h3>
-                                        <h4>Votos: ${lista4.votos}</h4>
-                                        <h4>Porcentaje: ${lista4.porcentaje}</h4>
+                                        <h3>${arrayListas[3].nombre}</h3>
+                                        <h4>Votos: ${arrayListas[3].votos}</h4>
+                                        <h4>Porcentaje: ${arrayListas[3].porcentaje}</h4>
                                     </div>
                                     <div class='divLista5' id='divLista5'>
-                                        <h3>${lista5.nombre}</h3>
-                                        <h4>Votos: ${lista5.votos}</h4>
-                                        <h4>Porcentaje: ${lista5.porcentaje}</h4>
+                                        <h3>${arrayListas[4].nombre}</h3>
+                                        <h4>Votos: ${arrayListas[4].votos}</h4>
+                                        <h4>Porcentaje: ${arrayListas[4].porcentaje}</h4>
                                     </div>
                                     <div class='divLista6' id='divLista6'>
-                                        <h3>${lista6.nombre}</h3>
-                                        <h4>${lista6.votos}</h4>
-                                        <h4>${lista6.porcentaje}</h4>
+                                        <h3>${arrayListas[5].nombre}</h3>
+                                        <h4>Votos${arrayListas[5].votos}</h4>
+                                        <h4>Porcentaje:${arrayListas[5].porcentaje}</h4>
                                     </div>
                                     <div class='divLista7' id='divLista7'>
-                                        <h3>${lista7.nombre}</h3>
-                                        <h4>Votos: ${lista7.votos}</h4>
-                                        <h4>Porcentaje: ${lista7.porcentaje}</h4>
+                                        <h3>${arrayListas[6].nombre}</h3>
+                                        <h4>Votos: ${arrayListas[6].votos}</h4>
+                                        <h4>Porcentaje: ${arrayListas[6].porcentaje}</h4>
                                     </div>`;
             pie.appendChild(fichaListas);
             break;
         case 8:
             divEnunciado = document.createElement("section");
             divEnunciado.id = "divEnunciado";
-            divEnunciado.innerHTML = `<h2>Las elecciones las ganó: ${lista1.candidato} (${lista1.nombre})</h2>`;
+            divEnunciado.innerHTML = `<h2>Las elecciones las ganó: ${arrayListas[0].candidato} (${arrayListas[0].nombre})</h2>`;
             pie.appendChild(divEnunciado);
 
             fichaListas = document.createElement("div");
             fichaListas.id = "fichaListas";
             fichaListas.className = "fichaListas";
             fichaListas.innerHTML = `<div class='divLista1' id='divLista1'>
-                                        <h3>${lista1.nombre}</h3>
-                                        <h4>Votos: ${lista1.votos}</h4>
-                                        <h4>Porcentaje: ${lista1.porcentaje}</h4>
+                                        <h3>${arrayListas[0].nombre}</h3>
+                                        <h4>Votos: ${arrayListas[0].votos}</h4>
+                                        <h4>Porcentaje: ${arrayListas[0].porcentaje}</h4>
                                     </div>
                                     <div class='divLista2' id='divLista2'>
-                                        <h3>${lista2.nombre}</h3>
-                                        <h4>Votos: ${lista2.votos}</h4>
-                                        <h4>Porcentaje: ${lista2.porcentaje}</h4>
+                                        <h3>${arrayListas[1].nombre}</h3>
+                                        <h4>Votos: ${arrayListas[1].votos}</h4>
+                                        <h4>Porcentaje: ${arrayListas[1].porcentaje}</h4>
                                     </div>
                                     <div class='divLista3' id='divLista3'>
-                                        <h3>${lista3.nombre}</h3>
-                                        <h4>Votos: ${lista3.votos}</h4>
-                                        <h4>Porcentaje: ${lista3.porcentaje}</h4>
+                                        <h3>${arrayListas[2].nombre}</h3>
+                                        <h4>Votos: ${arrayListas[2].votos}</h4>
+                                        <h4>Porcentaje: ${arrayListas[2].porcentaje}</h4>
                                     </div>
                                     <div class='divLista4' id='divLista4'>
-                                        <h3>${lista4.nombre}</h3>
-                                        <h4>Votos: ${lista4.votos}</h4>
-                                        <h4>Porcentaje: ${lista4.porcentaje}</h4>
+                                        <h3>${arrayListas[3].nombre}</h3>
+                                        <h4>Votos: ${arrayListas[3].votos}</h4>
+                                        <h4>Porcentaje: ${arrayListas[3].porcentaje}</h4>
                                     </div>
                                     <div class='divLista5' id='divLista5'>
-                                        <h3>${lista5.nombre}</h3>
-                                        <h4>Votos: ${lista5.votos}</h4>
-                                        <h4>Porcentaje: ${lista5.porcentaje}</h4>
+                                        <h3>${arrayListas[4].nombre}</h3>
+                                        <h4>Votos: ${arrayListas[4].votos}</h4>
+                                        <h4>Porcentaje: ${arrayListas[4].porcentaje}</h4>
                                     </div>
                                     <div class='divLista6' id='divLista6'>
-                                        <h3>${lista6.nombre}</h3>
-                                        <h4>${lista6.votos}</h4>
-                                        <h4>${lista6.porcentaje}</h4>
+                                        <h3>${arrayListas[5].nombre}</h3>
+                                        <h4>Votos${arrayListas[5].votos}</h4>
+                                        <h4>Porcentaje:${arrayListas[5].porcentaje}</h4>
                                     </div>
                                     <div class='divLista7' id='divLista7'>
-                                        <h3>${lista7.nombre}</h3>
-                                        <h4>Votos: ${lista7.votos}</h4>
-                                        <h4>Porcentaje: ${lista7.porcentaje}</h4>
+                                        <h3>${arrayListas[6].nombre}</h3>
+                                        <h4>Votos: ${arrayListas[6].votos}</h4>
+                                        <h4>Porcentaje: ${arrayListas[6].porcentaje}</h4>
                                     </div>
                                     <div class='divLista8' id='divLista8'>
-                                        <h3>${lista8.nombre}</h3>
-                                        <h4>Votos: ${lista8.votos}</h4>
-                                        <h4>Porcentaje: ${lista8.porcentaje}</h4>
+                                        <h3>${arrayListas[7].nombre}</h3>
+                                        <h4>Votos: ${arrayListas[7].votos}</h4>
+                                        <h4>Porcentaje: ${arrayListas[7].porcentaje}</h4>
                                     </div>`;
             pie.appendChild(fichaListas);
             break;
         case 9:
             divEnunciado = document.createElement("section");
             divEnunciado.id = "divEnunciado";
-            divEnunciado.innerHTML = `<h2>Las elecciones las ganó: ${lista1.candidato} (${lista1.nombre})</h2>`;
+            divEnunciado.innerHTML = `<h2>Las elecciones las ganó: ${arrayListas[0].candidato} (${arrayListas[0].nombre})</h2>`;
             pie.appendChild(divEnunciado);
 
             fichaListas = document.createElement("div");
             fichaListas.id = "fichaListas";
             fichaListas.className = "fichaListas";
             fichaListas.innerHTML = `<div class='divLista1' id='divLista1'>
-                                        <h3>${lista1.nombre}</h3>
-                                        <h4>Votos: ${lista1.votos}</h4>
-                                        <h4>Porcentaje: ${lista1.porcentaje}</h4>
+                                        <h3>${arrayListas[0].nombre}</h3>
+                                        <h4>Votos: ${arrayListas[0].votos}</h4>
+                                        <h4>Porcentaje: ${arrayListas[0].porcentaje}</h4>
                                     </div>
                                     <div class='divLista2' id='divLista2'>
-                                        <h3>${lista2.nombre}</h3>
-                                        <h4>Votos: ${lista2.votos}</h4>
-                                        <h4>Porcentaje: ${lista2.porcentaje}</h4>
+                                        <h3>${arrayListas[1].nombre}</h3>
+                                        <h4>Votos: ${arrayListas[1].votos}</h4>
+                                        <h4>Porcentaje: ${arrayListas[1].porcentaje}</h4>
                                     </div>
                                     <div class='divLista3' id='divLista3'>
-                                        <h3>${lista3.nombre}</h3>
-                                        <h4>Votos: ${lista3.votos}</h4>
-                                        <h4>Porcentaje: ${lista3.porcentaje}</h4>
+                                        <h3>${arrayListas[2].nombre}</h3>
+                                        <h4>Votos: ${arrayListas[2].votos}</h4>
+                                        <h4>Porcentaje: ${arrayListas[2].porcentaje}</h4>
                                     </div>
                                     <div class='divLista4' id='divLista4'>
-                                        <h3>${lista4.nombre}</h3>
-                                        <h4>Votos: ${lista4.votos}</h4>
-                                        <h4>Porcentaje: ${lista4.porcentaje}</h4>
+                                        <h3>${arrayListas[3].nombre}</h3>
+                                        <h4>Votos: ${arrayListas[3].votos}</h4>
+                                        <h4>Porcentaje: ${arrayListas[3].porcentaje}</h4>
                                     </div>
                                     <div class='divLista5' id='divLista5'>
-                                        <h3>${lista5.nombre}</h3>
-                                        <h4>Votos: ${lista5.votos}</h4>
-                                        <h4>Porcentaje: ${lista5.porcentaje}</h4>
+                                        <h3>${arrayListas[4].nombre}</h3>
+                                        <h4>Votos: ${arrayListas[4].votos}</h4>
+                                        <h4>Porcentaje: ${arrayListas[4].porcentaje}</h4>
                                     </div>
                                     <div class='divLista6' id='divLista6'>
-                                        <h3>${lista6.nombre}</h3>
-                                        <h4>${lista6.votos}</h4>
-                                        <h4>${lista6.porcentaje}</h4>
+                                        <h3>${arrayListas[5].nombre}</h3>
+                                        <h4>Votos${arrayListas[5].votos}</h4>
+                                        <h4>Porcentaje:${arrayListas[5].porcentaje}</h4>
                                     </div>
                                     <div class='divLista7' id='divLista7'>
-                                        <h3>${lista7.nombre}</h3>
-                                        <h4>Votos: ${lista7.votos}</h4>
-                                        <h4>Porcentaje: ${lista7.porcentaje}</h4>
+                                        <h3>${arrayListas[6].nombre}</h3>
+                                        <h4>Votos: ${arrayListas[6].votos}</h4>
+                                        <h4>Porcentaje: ${arrayListas[6].porcentaje}</h4>
                                     </div>
                                     <div class='divLista8' id='divLista8'>
-                                        <h3>${lista8.nombre}</h3>
-                                        <h4>Votos: ${lista8.votos}</h4>
-                                        <h4>Porcentaje: ${lista8.porcentaje}</h4>
+                                        <h3>${arrayListas[7].nombre}</h3>
+                                        <h4>Votos: ${arrayListas[7].votos}</h4>
+                                        <h4>Porcentaje: ${arrayListas[7].porcentaje}</h4>
                                     </div>
                                     <div class='divLista9' id='divLista9'>
-                                        <h3>${lista9.nombre}</h3>
-                                        <h4>Votos: ${lista9.votos}</h4>
-                                        <h4>Porcentaje: ${lista9.porcentaje}</h4>
+                                        <h3>${arrayListas[8].nombre}</h3>
+                                        <h4>Votos: ${arrayListas[8].votos}</h4>
+                                        <h4>Porcentaje: ${arrayListas[8].porcentaje}</h4>
                                     </div>`;
             pie.appendChild(fichaListas);
             break;
         case 10:
             divEnunciado = document.createElement("section");
             divEnunciado.id = "divEnunciado";
-            divEnunciado.innerHTML = `<h2>Las elecciones las ganó: ${lista1.candidato} (${lista1.nombre})</h2>`;
+            divEnunciado.innerHTML = `<h2>Las elecciones las ganó: ${arrayListas[0].candidato} (${arrayListas[0].nombre})</h2>`;
             pie.appendChild(divEnunciado);
 
             fichaListas = document.createElement("div");
             fichaListas.id = "fichaListas";
             fichaListas.className = "fichaListas";
             fichaListas.innerHTML = `<div class='divLista1' id='divLista1'>
-                                        <h3>${lista1.nombre}</h3>
-                                        <h4>Votos: ${lista1.votos}</h4>
-                                        <h4>Porcentaje: ${lista1.porcentaje}</h4>
+                                        <h3>${arrayListas[0].nombre}</h3>
+                                        <h4>Votos: ${arrayListas[0].votos}</h4>
+                                        <h4>Porcentaje: ${arrayListas[0].porcentaje}</h4>
                                     </div>
                                     <div class='divLista2' id='divLista2'>
-                                        <h3>${lista2.nombre}</h3>
-                                        <h4>Votos: ${lista2.votos}</h4>
-                                        <h4>Porcentaje: ${lista2.porcentaje}</h4>
+                                        <h3>${arrayListas[1].nombre}</h3>
+                                        <h4>Votos: ${arrayListas[1].votos}</h4>
+                                        <h4>Porcentaje: ${arrayListas[1].porcentaje}</h4>
                                     </div>
                                     <div class='divLista3' id='divLista3'>
-                                        <h3>${lista3.nombre}</h3>
-                                        <h4>Votos: ${lista3.votos}</h4>
-                                        <h4>Porcentaje: ${lista3.porcentaje}</h4>
+                                        <h3>${arrayListas[2].nombre}</h3>
+                                        <h4>Votos: ${arrayListas[2].votos}</h4>
+                                        <h4>Porcentaje: ${arrayListas[2].porcentaje}</h4>
                                     </div>
                                     <div class='divLista4' id='divLista4'>
-                                        <h3>${lista4.nombre}</h3>
-                                        <h4>Votos: ${lista4.votos}</h4>
-                                        <h4>Porcentaje: ${lista4.porcentaje}</h4>
+                                        <h3>${arrayListas[3].nombre}</h3>
+                                        <h4>Votos: ${arrayListas[3].votos}</h4>
+                                        <h4>Porcentaje: ${arrayListas[3].porcentaje}</h4>
                                     </div>
                                     <div class='divLista5' id='divLista5'>
-                                        <h3>${lista5.nombre}</h3>
-                                        <h4>Votos: ${lista5.votos}</h4>
-                                        <h4>Porcentaje: ${lista5.porcentaje}</h4>
+                                        <h3>${arrayListas[4].nombre}</h3>
+                                        <h4>Votos: ${arrayListas[4].votos}</h4>
+                                        <h4>Porcentaje: ${arrayListas[4].porcentaje}</h4>
                                     </div>
                                     <div class='divLista6' id='divLista6'>
-                                        <h3>${lista6.nombre}</h3>
-                                        <h4>${lista6.votos}</h4>
-                                        <h4>${lista6.porcentaje}</h4>
+                                        <h3>${arrayListas[5].nombre}</h3>
+                                        <h4>Votos${arrayListas[5].votos}</h4>
+                                        <h4>Porcentaje:${arrayListas[5].porcentaje}</h4>
                                     </div>
                                     <div class='divLista7' id='divLista7'>
-                                        <h3>${lista7.nombre}</h3>
-                                        <h4>Votos: ${lista7.votos}</h4>
-                                        <h4>Porcentaje: ${lista7.porcentaje}</h4>
+                                        <h3>${arrayListas[6].nombre}</h3>
+                                        <h4>Votos: ${arrayListas[6].votos}</h4>
+                                        <h4>Porcentaje: ${arrayListas[6].porcentaje}</h4>
                                     </div>
                                     <div class='divLista8' id='divLista8'>
-                                        <h3>${lista8.nombre}</h3>
-                                        <h4>Votos: ${lista8.votos}</h4>
-                                        <h4>Porcentaje: ${lista8.porcentaje}</h4>
+                                        <h3>${arrayListas[7].nombre}</h3>
+                                        <h4>Votos: ${arrayListas[7].votos}</h4>
+                                        <h4>Porcentaje: ${arrayListas[7].porcentaje}</h4>
                                     </div>
                                     <div class='divLista9' id='divLista9'>
-                                        <h3>${lista9.nombre}</h3>
-                                        <h4>Votos: ${lista9.votos}</h4>
-                                        <h4>Porcentaje: ${lista9.porcentaje}</h4>
+                                        <h3>${arrayListas[8].nombre}</h3>
+                                        <h4>Votos: ${arrayListas[8].votos}</h4>
+                                        <h4>Porcentaje: ${arrayListas[8].porcentaje}</h4>
                                     </div>
                                     <div class='divLista10' id='divLista10'>
-                                        <h3>${lista10.nombre}</h3>
-                                        <h4>Votos: ${lista10.votos}</h4>
-                                        <h4>Porcentaje: ${lista10.porcentaje}</h4>
+                                        <h3>${arrayListas[9].nombre}</h3>
+                                        <h4>Votos: ${arrayListas[9].votos}</h4>
+                                        <h4>Porcentaje: ${arrayListas[9].porcentaje}</h4>
                                     </div>`;
             pie.appendChild(fichaListas);
             break;
