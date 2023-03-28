@@ -403,36 +403,38 @@ function verCargos() {
     //Variable que busca capturar todos los divs con la clase asambleísta
     let asambleista = document.getElementsByClassName("asambleista");
     //numeroAR: la variable asambleísta hace un HTMLCollection, donde el primer valor del índice es 0, por ende en el bucle for se le debe restar uno para que pinte los divs correctamente.
-    let numeroAR = listaGanadora.AR - 1;
+    let numeroAR = arrayListas[0].AR-1;
+
+    // let numeroAR = listaGanadora.AR - 1;
 
     let directivo = document.getElementsByClassName("directivo");
-    let numeroCD = listaGanadora.CD - 1;
+    let numeroCD = arrayListas[0].CD - 1;
 
     let fiscalizador = document.getElementsByClassName("fiscalizador");
-    let numeroCF = listaGanadora.CF - 1;
+    let numeroCF = arrayListas[0].CF - 1;
 
 
     //Cargos para la lista ganadora
     for (let i = 0; i <= numeroAR; i++) {
         let clasesActuales = asambleista[i].getAttribute('class');
-        asambleista[i].setAttribute('class', `${clasesActuales} fondo-${listaGanadora.color}`);
+        asambleista[i].setAttribute('class', `${clasesActuales} fondo-${arrayListas[0].color}`);
     };
 
     for (let i = 0; i <= numeroCD; i++) {
         let clasesActuales = directivo[i].getAttribute('class');
-        directivo[i].setAttribute('class', `${clasesActuales} fondo-${listaGanadora.color}`);
+        directivo[i].setAttribute('class', `${clasesActuales} fondo-${arrayListas[0].color}`);
     };
 
     for (let i = 0; i <= numeroCF; i++) {
         let clasesActuales = fiscalizador[i].getAttribute('class');
-        fiscalizador[i].setAttribute('class', `${clasesActuales} fondo-${listaGanadora.color}`);
+        fiscalizador[i].setAttribute('class', `${clasesActuales} fondo-${arrayListas[0].color}`);
     };
 
     //Cargos para la segunda lista
 
-    for (let i = listaGanadora.AR; i >= lista2.AR; i++) {
+    for (let i = arrayListas[0].AR; i >= arrayListas[1].AR; i++) {
         let clasesActuales = asambleista[i].getAttribute('class');
-        asambleista[i].setAttribute('class', `${clasesActuales} fondo-${lista2.color}`);
+        asambleista[i].setAttribute('class', `${clasesActuales} fondo-${arrayListas[1].color}`);
     };
 
     // for (let i=listaGanadora.CD; i>=lista2.CD; i++){
@@ -440,14 +442,12 @@ function verCargos() {
     //     directivo[i].setAttribute('class', `${clasesActuales} fondo-${lista2.color}`);
     // };
 
-    for (let i = listaGanadora.CF; i >= lista2.CF; i++) {
+    for (let i = arrayListas[0].CF; i >= arrayListas[1].CF; i++) {
         let clasesActuales = fiscalizador[i].getAttribute('class');
-        fiscalizador[i].setAttribute('class', `${clasesActuales} fondo-${lista2.color}`);
+        fiscalizador[i].setAttribute('class', `${clasesActuales} fondo-${arrayListas[1].color}`);
     };
 
-    console.log(`La lista ganadora obtiene ${listaGanadora.AR} asambleístas`);
     console.log(`La segunda lista obtiene ${lista2.AR} asambleístas`);
-    console.log(asambleistaSegunda);
 
 
 
