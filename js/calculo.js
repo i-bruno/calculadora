@@ -1,6 +1,8 @@
 function calculo() {
+    //Toma la cantidad de listas que se presentan a elecciones según input.
     let cantidadListas = document.getElementById("numListas").value;
 
+    //Mediante un switch a partir del número establecido por el usuario sobre la cantidad de listas, se capturan los valores ingresados en los inputs.
     switch (parseInt(cantidadListas)) {
         case 2:
             lista1.nombre = document.getElementById("inputListaA").value;
@@ -311,6 +313,7 @@ function calculo() {
     lista9.porcentaje = ((lista9.votos * 100) / votosTotales).toFixed(3);
     lista10.porcentaje = ((lista10.votos * 100) / votosTotales).toFixed(3);
 
+   //Se construye un array con todas las listas que participan en las elecciones.
     const arrayListas = [lista1, lista2, lista3, lista4, lista5, lista6, lista7, lista8, lista9, lista10];
 
 //Ordena el array con las listas de candidatos de mayor a menor según los votos.
@@ -324,14 +327,12 @@ function calculo() {
             }
     });
 
-    console.log(arrayListas[0].votos);
-
     // Busca cual es la lista que sacó mayores votos.
-    let votosMayor = Math.max(lista1.votos, lista2.votos, lista3.votos, lista4.votos, lista5.votos, lista5.votos, lista6.votos, lista7.votos, lista8.votos, lista9.votos, lista10.votos);
+    // let votosMayor = Math.max(lista1.votos, lista2.votos, lista3.votos, lista4.votos, lista5.votos, lista5.votos, lista6.votos, lista7.votos, lista8.votos, lista9.votos, lista10.votos);
 
-    let listaGanadora = arrayListas.find(function (arrayListas) {
-        return arrayListas.votos == votosMayor;
-    });
+    // let listaGanadora = arrayListas.find(function (arrayListas) {
+    //     return arrayListas.votos == votosMayor;
+    // });
 
     //Porcentaje de la mayoría
     let porcentajeMayoria = parseFloat((arrayListas[0].votos * 100) / votosTotales).toFixed(3);
