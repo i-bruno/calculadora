@@ -314,9 +314,9 @@ function calculo() {
     const arrayListas = [lista1, lista2, lista3, lista4, lista5, lista6, lista7, lista8, lista9, lista10];
 
     arrayListas.sort((a, b)=>{
-            if(a.votos>b.votos){
+            if(a.votos<b.votos){
                 return 1
-            } else if (a.votos<b.votos) {
+            } else if (a.votos>b.votos) {
                 return -1
             } else {
                 return 0
