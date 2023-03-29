@@ -5,7 +5,7 @@ const options = {
     }
 };
 
-fetch("http://repositorio.archivocasla.com.ar/api", options)
+fetch("https://repositorio.archivocasla.com.ar/api", options)
     .then(res => res.json())
     .then(response =>{
         console.log(response)
