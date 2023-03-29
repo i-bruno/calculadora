@@ -433,7 +433,7 @@ function verCargos() {
 
     //Cargos para la segunda lista
 
-    for (let i = arrayListas[1].AR; i >= arrayListas[1].AR; i++) {
+    for (let i = arrayListas[0].AR; i >= arrayListas[1].AR; i++) {
         let clasesActuales = asambleista[i].getAttribute('class');
         asambleista[i].setAttribute('class', `${clasesActuales} fondo-${arrayListas[1].color}`);
     };
