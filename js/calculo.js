@@ -313,18 +313,18 @@ function calculo() {
     lista9.porcentaje = ((lista9.votos * 100) / votosTotales).toFixed(3);
     lista10.porcentaje = ((lista10.votos * 100) / votosTotales).toFixed(3);
 
-   //Se construye un array con todas las listas que participan en las elecciones.
+    //Se construye un array con todas las listas que participan en las elecciones.
     const arrayListas = [lista1, lista2, lista3, lista4, lista5, lista6, lista7, lista8, lista9, lista10];
 
-//Ordena el array con las listas de candidatos de mayor a menor según los votos.
-    arrayListas.sort((a, b)=>{
-            if(a.votos<b.votos){
-                return 1
-            } else if (a.votos>b.votos) {
-                return -1
-            } else {
-                return 0
-            }
+    //Ordena el array con las listas de candidatos de mayor a menor según los votos.
+    arrayListas.sort((a, b) => {
+        if (a.votos < b.votos) {
+            return 1
+        } else if (a.votos > b.votos) {
+            return -1
+        } else {
+            return 0
+        }
     });
 
     // Busca cual es la lista que sacó mayores votos.
@@ -1156,8 +1156,6 @@ function calculo() {
 
             break;
     }
-
-
 
     const textoGanador = document.createElement("div");
     textoGanador.id = "textoGanador";
