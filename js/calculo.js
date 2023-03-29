@@ -899,6 +899,9 @@ function calculo() {
             fichaLista6 = document.getElementById("divLista6");
             fichaLista6.style.backgroundColor = `${arrayListas[5].color}`;
 
+            fichaLista7 = document.getElementById("divLista7");
+            fichaLista7.style.backgroundColor = `${arrayListas[6].color}`;
+
             break;
         case 8:
             divEnunciado = document.createElement("section");
@@ -968,6 +971,12 @@ function calculo() {
 
             fichaLista6 = document.getElementById("divLista6");
             fichaLista6.style.backgroundColor = `${arrayListas[5].color}`;
+
+            fichaLista7 = document.getElementById("divLista7");
+            fichaLista7.style.backgroundColor = `${arrayListas[6].color}`;
+
+            fichaLista8 = document.getElementById("divLista8");
+            fichaLista8.style.backgroundColor = `${arrayListas[7].color}`;
 
             break;
         case 9:
@@ -1043,6 +1052,15 @@ function calculo() {
 
             fichaLista6 = document.getElementById("divLista6");
             fichaLista6.style.backgroundColor = `${arrayListas[5].color}`;
+
+            fichaLista7 = document.getElementById("divLista7");
+            fichaLista7.style.backgroundColor = `${arrayListas[6].color}`;
+
+            fichaLista8 = document.getElementById("divLista8");
+            fichaLista8.style.backgroundColor = `${arrayListas[7].color}`;
+
+            fichaLista9 = document.getElementById("divLista9");
+            fichaLista9.style.backgroundColor = `${arrayListas[8].color}`;
 
             break;
         case 10:
@@ -1123,6 +1141,18 @@ function calculo() {
 
             fichaLista6 = document.getElementById("divLista6");
             fichaLista6.style.backgroundColor = `${arrayListas[5].color}`;
+
+            fichaLista7 = document.getElementById("divLista7");
+            fichaLista7.style.backgroundColor = `${arrayListas[6].color}`;
+
+            fichaLista8 = document.getElementById("divLista8");
+            fichaLista8.style.backgroundColor = `${arrayListas[7].color}`;
+
+            fichaLista9 = document.getElementById("divLista9");
+            fichaLista9.style.backgroundColor = `${arrayListas[8].color}`;
+
+            fichaLista10 = document.getElementById("divLista10");
+            fichaLista10.style.backgroundColor = `${arrayListas[9].color}`;
 
             break;
     }
