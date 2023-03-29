@@ -438,7 +438,7 @@ function verCargos() {
     //     asambleista[i].setAttribute('class', `${clasesActuales} fondo-${arrayListas[1].color}`);
     // };
 
-    for (let i=arrayListas[0].CD; i <= 2; i++){
+    for (let i=arrayListas[0].CD; i >= 2; i++){
         let clasesActuales = directivo[i].getAttribute('class');
         directivo[i].setAttribute('class', `${clasesActuales} fondo-${arrayListas[1].color}`);
     };
