@@ -1,16 +1,12 @@
-const apiRepo = "http://repositorio.archivocasla.com.ar/api/items";
-const contenedorInfo = document.getElementById("contenedorInfo");
+const options = {
+    method: 'GET',
+    headers: {
+        'key_archivocasla': 'b45c1bb6580d6623321f90a9e2e0c660ee8fd984'
+    }
+};
 
-fetch(apiRepo)
-    .then(respuesta => respuesta.json())
-    .then((datos) =>{
-        console.log(datos);
-    })
-
-    .catch(error => console.log(error));
-
-    function mostrarInfo (datos){
-        datos.forEach(info => {
-            const inf = document.createElement("p");
-        });
-    };
+fetch("http://repositorio.archivocasla.com.ar/api/items", options)
+    .then(res => res.json())
+    .then(response =>{
+        console.log(response)
+    });
