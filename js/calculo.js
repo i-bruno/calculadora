@@ -603,6 +603,16 @@ function calculo() {
 
     let divEnunciado
     let fichaListas
+    let fichaLista1
+    let fichaLista2
+    let fichaLista3
+    let fichaLista4
+    let fichaLista5
+    let fichaLista6
+    let fichaLista7
+    let fichaLista8
+    let fichaLista9
+    let fichaLista10
 
     switch (parseInt(cantidadListas)) {
         case 2:
@@ -626,10 +636,10 @@ function calculo() {
                                     </div>`;
             pie.appendChild(fichaListas);
 
-            let fichaLista1 = document.getElementById("divLista1");
+            fichaLista1 = document.getElementById("divLista1");
             fichaLista1.style.backgroundColor = `${arrayListas[0].color}`;
 
-            let fichaLista2 = document.getElementById("divLista2");
+            fichaLista2 = document.getElementById("divLista2");
             fichaLista2.style.backgroundColor = `${arrayListas[1].color}`;
 
             break;
@@ -659,13 +669,13 @@ function calculo() {
                                     </div>`;
             pie.appendChild(fichaListas);
 
-            let fichaLista1 = document.getElementById("divLista1");
+            fichaLista1 = document.getElementById("divLista1");
             fichaLista1.style.backgroundColor = `${arrayListas[0].color}`;
 
-            let fichaLista2 = document.getElementById("divLista2");
+            fichaLista2 = document.getElementById("divLista2");
             fichaLista2.style.backgroundColor = `${arrayListas[1].color}`;
 
-            let fichaLista3 = document.getElementById("divLista3");
+            fichaLista3 = document.getElementById("divLista3");
             fichaLista3.style.backgroundColor = `${arrayListas[2].color}`;
 
             break;
@@ -700,16 +710,16 @@ function calculo() {
                                     </div>`;
             pie.appendChild(fichaListas);
 
-            let fichaLista1 = document.getElementById("divLista1");
+            fichaLista1 = document.getElementById("divLista1");
             fichaLista1.style.backgroundColor = `${arrayListas[0].color}`;
 
-            let fichaLista2 = document.getElementById("divLista2");
+            fichaLista2 = document.getElementById("divLista2");
             fichaLista2.style.backgroundColor = `${arrayListas[1].color}`;
 
-            let fichaLista3 = document.getElementById("divLista3");
+            fichaLista3 = document.getElementById("divLista3");
             fichaLista3.style.backgroundColor = `${arrayListas[2].color}`;
 
-            let fichaLista4 = document.getElementById("divLista4");
+            fichaLista4 = document.getElementById("divLista4");
             fichaLista4.style.backgroundColor = `${arrayListas[3].color}`;
 
             break;
@@ -749,19 +759,19 @@ function calculo() {
                                     </div>`;
             pie.appendChild(fichaListas);
 
-            let fichaLista1 = document.getElementById("divLista1");
+            fichaLista1 = document.getElementById("divLista1");
             fichaLista1.style.backgroundColor = `${arrayListas[0].color}`;
 
-            let fichaLista2 = document.getElementById("divLista2");
+            fichaLista2 = document.getElementById("divLista2");
             fichaLista2.style.backgroundColor = `${arrayListas[1].color}`;
 
-            let fichaLista3 = document.getElementById("divLista3");
+            fichaLista3 = document.getElementById("divLista3");
             fichaLista3.style.backgroundColor = `${arrayListas[2].color}`;
 
-            let fichaLista4 = document.getElementById("divLista4");
+            fichaLista4 = document.getElementById("divLista4");
             fichaLista4.style.backgroundColor = `${arrayListas[3].color}`;
 
-            let fichaLista5 = document.getElementById("divLista5");
+            fichaLista5 = document.getElementById("divLista5");
             fichaLista5.style.backgroundColor = `${arrayListas[4].color}`;
 
             break;
@@ -806,22 +816,22 @@ function calculo() {
                                     </div>`;
             pie.appendChild(fichaListas);
 
-            let fichaLista1 = document.getElementById("divLista1");
+            fichaLista1 = document.getElementById("divLista1");
             fichaLista1.style.backgroundColor = `${arrayListas[0].color}`;
 
-            let fichaLista2 = document.getElementById("divLista2");
+            fichaLista2 = document.getElementById("divLista2");
             fichaLista2.style.backgroundColor = `${arrayListas[1].color}`;
 
-            let fichaLista3 = document.getElementById("divLista3");
+            fichaLista3 = document.getElementById("divLista3");
             fichaLista3.style.backgroundColor = `${arrayListas[2].color}`;
 
-            let fichaLista4 = document.getElementById("divLista4");
+            fichaLista4 = document.getElementById("divLista4");
             fichaLista4.style.backgroundColor = `${arrayListas[3].color}`;
 
-            let fichaLista5 = document.getElementById("divLista5");
+            fichaLista5 = document.getElementById("divLista5");
             fichaLista5.style.backgroundColor = `${arrayListas[4].color}`;
 
-            let fichaLista6 = document.getElementById("divLista6");
+            fichaLista6 = document.getElementById("divLista6");
             fichaLista6.style.backgroundColor = `${arrayListas[5].color}`;
 
             break;
@@ -871,22 +881,22 @@ function calculo() {
                                     </div>`;
             pie.appendChild(fichaListas);
 
-            let fichaLista1 = document.getElementById("divLista1");
+            fichaLista1 = document.getElementById("divLista1");
             fichaLista1.style.backgroundColor = `${arrayListas[0].color}`;
 
-            let fichaLista2 = document.getElementById("divLista2");
+            fichaLista2 = document.getElementById("divLista2");
             fichaLista2.style.backgroundColor = `${arrayListas[1].color}`;
 
-            let fichaLista3 = document.getElementById("divLista3");
+            fichaLista3 = document.getElementById("divLista3");
             fichaLista3.style.backgroundColor = `${arrayListas[2].color}`;
 
-            let fichaLista4 = document.getElementById("divLista4");
+            fichaLista4 = document.getElementById("divLista4");
             fichaLista4.style.backgroundColor = `${arrayListas[3].color}`;
 
-            let fichaLista5 = document.getElementById("divLista5");
+            fichaLista5 = document.getElementById("divLista5");
             fichaLista5.style.backgroundColor = `${arrayListas[4].color}`;
 
-            let fichaLista6 = document.getElementById("divLista6");
+            fichaLista6 = document.getElementById("divLista6");
             fichaLista6.style.backgroundColor = `${arrayListas[5].color}`;
 
             break;
@@ -941,22 +951,22 @@ function calculo() {
                                     </div>`;
             pie.appendChild(fichaListas);
 
-            let fichaLista1 = document.getElementById("divLista1");
+            fichaLista1 = document.getElementById("divLista1");
             fichaLista1.style.backgroundColor = `${arrayListas[0].color}`;
 
-            let fichaLista2 = document.getElementById("divLista2");
+            fichaLista2 = document.getElementById("divLista2");
             fichaLista2.style.backgroundColor = `${arrayListas[1].color}`;
 
-            let fichaLista3 = document.getElementById("divLista3");
+            fichaLista3 = document.getElementById("divLista3");
             fichaLista3.style.backgroundColor = `${arrayListas[2].color}`;
 
-            let fichaLista4 = document.getElementById("divLista4");
+            fichaLista4 = document.getElementById("divLista4");
             fichaLista4.style.backgroundColor = `${arrayListas[3].color}`;
 
-            let fichaLista5 = document.getElementById("divLista5");
+            fichaLista5 = document.getElementById("divLista5");
             fichaLista5.style.backgroundColor = `${arrayListas[4].color}`;
 
-            let fichaLista6 = document.getElementById("divLista6");
+            fichaLista6 = document.getElementById("divLista6");
             fichaLista6.style.backgroundColor = `${arrayListas[5].color}`;
 
             break;
@@ -1016,22 +1026,22 @@ function calculo() {
                                     </div>`;
             pie.appendChild(fichaListas);
 
-            let fichaLista1 = document.getElementById("divLista1");
+            fichaLista1 = document.getElementById("divLista1");
             fichaLista1.style.backgroundColor = `${arrayListas[0].color}`;
 
-            let fichaLista2 = document.getElementById("divLista2");
+            fichaLista2 = document.getElementById("divLista2");
             fichaLista2.style.backgroundColor = `${arrayListas[1].color}`;
 
-            let fichaLista3 = document.getElementById("divLista3");
+            fichaLista3 = document.getElementById("divLista3");
             fichaLista3.style.backgroundColor = `${arrayListas[2].color}`;
 
-            let fichaLista4 = document.getElementById("divLista4");
+            fichaLista4 = document.getElementById("divLista4");
             fichaLista4.style.backgroundColor = `${arrayListas[3].color}`;
 
-            let fichaLista5 = document.getElementById("divLista5");
+            fichaLista5 = document.getElementById("divLista5");
             fichaLista5.style.backgroundColor = `${arrayListas[4].color}`;
 
-            let fichaLista6 = document.getElementById("divLista6");
+            fichaLista6 = document.getElementById("divLista6");
             fichaLista6.style.backgroundColor = `${arrayListas[5].color}`;
 
             break;
@@ -1096,22 +1106,22 @@ function calculo() {
                                     </div>`;
             pie.appendChild(fichaListas);
 
-            let fichaLista1 = document.getElementById("divLista1");
+            fichaLista1 = document.getElementById("divLista1");
             fichaLista1.style.backgroundColor = `${arrayListas[0].color}`;
 
-            let fichaLista2 = document.getElementById("divLista2");
+            fichaLista2 = document.getElementById("divLista2");
             fichaLista2.style.backgroundColor = `${arrayListas[1].color}`;
 
-            let fichaLista3 = document.getElementById("divLista3");
+            fichaLista3 = document.getElementById("divLista3");
             fichaLista3.style.backgroundColor = `${arrayListas[2].color}`;
 
-            let fichaLista4 = document.getElementById("divLista4");
+            fichaLista4 = document.getElementById("divLista4");
             fichaLista4.style.backgroundColor = `${arrayListas[3].color}`;
 
-            let fichaLista5 = document.getElementById("divLista5");
+            fichaLista5 = document.getElementById("divLista5");
             fichaLista5.style.backgroundColor = `${arrayListas[4].color}`;
 
-            let fichaLista6 = document.getElementById("divLista6");
+            fichaLista6 = document.getElementById("divLista6");
             fichaLista6.style.backgroundColor = `${arrayListas[5].color}`;
 
             break;
