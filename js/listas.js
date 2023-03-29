@@ -62,11 +62,18 @@ let tercerInputJ
 
     switch(parseInt(cantidadListas)){
         case 1:
-            divMensaje = document.createElement("div");
-            divMensaje.className = "divMensaje";
-            divMensaje.id = "divMensaje";
-            divMensaje.innerHTML = "<h3>No se realizan las elecciones</h3>";
-            infoPrincipal.appendChild(divMensaje);
+            Swal.fire({
+                title: 'No hay elecciones',
+                text: "No se presentan listas a las elecciones",
+                icon: 'warning',
+                confirmButtonColor: '#bf1b27',
+                confirmButtonText: 'Salir'
+              })
+            // divMensaje = document.createElement("div");
+            // divMensaje.className = "divMensaje";
+            // divMensaje.id = "divMensaje";
+            // divMensaje.innerHTML = "<h3>No se realizan las elecciones</h3>";
+            // infoPrincipal.appendChild(divMensaje);
         break;
     
         case 2:
