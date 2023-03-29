@@ -1099,7 +1099,7 @@ function calculo() {
                                     </div>
                                     <div class='divLista6' id='divLista6'>
                                         <h3>${arrayListas[5].nombre}</h3>
-                                        <h4>Votos${arrayListas[5].votos}</h4>
+                                        <h4>Votos: ${arrayListas[5].votos}</h4>
                                         <h4>Porcentaje:${arrayListas[5].porcentaje}</h4>
                                     </div>
                                     <div class='divLista7' id='divLista7'>

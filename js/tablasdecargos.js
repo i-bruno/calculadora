@@ -442,12 +442,10 @@ function verCargos() {
     //     directivo[i].setAttribute('class', `${clasesActuales} fondo-${lista2.color}`);
     // };
 
-    for (let i = arrayListas[0].CF; i >= arrayListas[1].CF; i++) {
-        let clasesActuales = fiscalizador[i].getAttribute('class');
-        fiscalizador[i].setAttribute('class', `${clasesActuales} fondo-${arrayListas[1].color}`);
-    };
-
-    console.log(`La segunda lista obtiene ${lista2.AR} asambleístas`);
+    // for (let i = arrayListas[0].CF; i >= arrayListas[1].CF; i++) {
+    //     let clasesActuales = fiscalizador[i].getAttribute('class');
+    //     fiscalizador[i].setAttribute('class', `${clasesActuales} fondo-${arrayListas[1].color}`);
+    // };
 
 
 
