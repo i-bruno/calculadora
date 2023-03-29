@@ -229,3 +229,5 @@ const lista7 = new Agrupaciones ("sin definir", "sin definir", 0, 0, "black", 0,
 const lista8 = new Agrupaciones ("sin definir", "sin definir", 0, 0, "purple", 0, 0, 0);
 const lista9 = new Agrupaciones ("sin definir", "sin definir", 0, 0, "cadetblue", 0, 0, 0);
 const lista10 = new Agrupaciones ("sin definir", "sin definir", 0, 0, "darkgoldenrod", 0, 0, 0);
+
+arrayListas = [lista1, lista2, lista3, lista4, lista5, lista5, lista6, lista7, lista8, lista9, lista10];
