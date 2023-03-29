@@ -399,13 +399,14 @@ function verCargos() {
         }
     });
 
+    console.log(`La segunda lista consigue ${arrayListas[1].AR} asambleístas`);
+    
+
     //Bucle para pintar los divs según resultado de las elecciones.
     //Variable que busca capturar todos los divs con la clase asambleísta
     let asambleista = document.getElementsByClassName("asambleista");
-    //numeroAR: la variable asambleísta hace un HTMLCollection, donde el primer valor del índice es 0, por ende en el bucle for se le debe restar uno para que pinte los divs correctamente.
-    let numeroAR = arrayListas[0].AR-1;
 
-    // let numeroAR = listaGanadora.AR - 1;
+    let numeroAR = arrayListas[0].AR-1;
 
     let directivo = document.getElementsByClassName("directivo");
     let numeroCD = arrayListas[0].CD - 1;
