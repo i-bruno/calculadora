@@ -399,9 +399,6 @@ function verCargos() {
         }
     });
 
-    console.log(`La segunda lista consigue ${arrayListas[1].AR} asambleístas`);
-    
-
     //Bucle para pintar los divs según resultado de las elecciones.
     //Variable que busca capturar todos los divs con la clase asambleísta
     let asambleista = document.getElementsByClassName("asambleista");
