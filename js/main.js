@@ -1,6 +1,6 @@
 const body = document.body;
 body.id = "cuerpo";
-body.innerHTML = '<header id="encabezado"><nav id="navBar"></nav></header> <section id="preSeccion"></section> <div id="divSeccionPrincipal"><section id="seccionPrincipal"></section><aside id="menuLateral"></aside></div> <section id="posSeccion"></section>  <section id="piePagina"></section>';
+body.innerHTML = '<header id="encabezado"><nav id="navBar"></nav></header> <section id="preSeccion"></section> <div id="divSeccionPrincipal"><section id="seccionPrincipal"></section><aside id="menuLateral"></aside></div> <section id="posSeccion"></section>  <section id="piePagina"></section> <footer id=footer></footer>';
 
 //Encabezado
 const encabezado = document.getElementById("encabezado");
@@ -26,6 +26,9 @@ posSeccion.className = "classPosSeccion";
 //Pie de página con los resultados
 const pie = document.getElementById("piePagina"); 
 pie.className = "classPie";
+//Último pie de página copyright
+const footer = document.getElementById("footer");
+footer.className = "classFooter";
 
 //Primer Nodo: Título
 const titulo = document.createElement("h1");
@@ -70,6 +73,12 @@ linkElementoCuatro.innerText="Contacto";
 elementoListaOrdenada4.appendChild(linkElementoCuatro);
 linkElementoCuatro.setAttribute('href', '#');
 
+const btnColor = document.createElement("button");
+btnColor.id = "btnColor";
+btnColor.innerText = "Rojo";
+btnColor.className = "boton";
+navegacion.appendChild(btnColor);
+
 //Tercer Nodo: ¿Cuántas agrupaciones son?
 const etiquetaPreSeccion = document.createElement("label");
 etiquetaPreSeccion.innerText="¿Cuántas listas o agrupaciones participan de la elección?";
@@ -96,7 +105,6 @@ btnReset.setAttribute('type', 'submit');
 btnReset.className = "boton";
 btnReset.innerText = "Resetear";
 btnReset.addEventListener('click', _ => {location.reload();});
-// btnReset.addEventListener("click", reset);
 preSeccion.appendChild(btnReset);
 
 //Quinto Nodo: Post sección principal
@@ -126,6 +134,7 @@ posSeccion.appendChild(votosImpugnados);
 
 const boton = document.createElement("button");
 boton.setAttribute('type', 'submit');
+boton.id = "btnConsulta";
 boton.className = "boton";
 boton.innerText = "Enviar consulta";
 boton.addEventListener("click", calculo);
@@ -204,7 +213,11 @@ infoSecundaria.appendChild(parrafoArt106);
 
 
 
-//Séptimo Nodo: Pie de página
+//Octavo Nodo: footercopyright
+
+const derechos = document.createElement("p");
+derechos.innerText = "©Biblioteca Popular Sanlorencista Leónidas Barletta - Todos los derechos reservados.";
+footer.appendChild(derechos);
 
 class Agrupaciones {
     constructor (nombre, candidato, votos, porcentaje, color, AR, CD, CF){
@@ -230,4 +243,4 @@ const lista8 = new Agrupaciones ("sin definir", "sin definir", 0, 0, "purple", 0
 const lista9 = new Agrupaciones ("sin definir", "sin definir", 0, 0, "cadetblue", 0, 0, 0);
 const lista10 = new Agrupaciones ("sin definir", "sin definir", 0, 0, "darkgoldenrod", 0, 0, 0);
 
-arrayListas = [lista1, lista2, lista3, lista4, lista5, lista5, lista6, lista7, lista8, lista9, lista10];
+arrayListas = [lista1, lista2, lista3, lista4, lista5, lista6, lista7, lista8, lista9, lista10];
