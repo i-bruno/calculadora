@@ -84,6 +84,15 @@ h1{
 }
 
 /*Clases*/
+
+.blue{
+  background-color: #263d54;
+}
+
+.red{
+  background-color: #bf1b27;
+}
+
 .divEnunciado{
   justify-content: center;
 }
@@ -103,7 +112,7 @@ h1{
   padding: 5px 5px 5px 5px;
   border-radius: 10px;
   color: bisque;
-  background-color: #263d54;
+  background-color: #bf1b27;
   cursor: pointer; }
 
 .navBar {
@@ -126,7 +135,7 @@ h1{
 
 .classNavegacion {
   display: flex;
-  justify-content: space-evenly; }
+  justify-content: space-between; }
 
 .classPreSeccion {
   display: flex;
