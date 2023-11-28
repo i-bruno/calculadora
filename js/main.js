@@ -32,9 +32,13 @@ footer.className = "classFooter";
 
 //Primer Nodo: Título
 const titulo = document.createElement("h1");
+const subtitulo = document.createElement("h3");
 titulo.innerText = "Calculadora de cargos del Club Atlético San Lorenzo de Almagro";
 titulo.id = "tituloPrincipal";
+subtitulo.innerText = "Versión Beta";
+subtitulo.id = "subTitulo";
 encabezado.appendChild(titulo);
+encabezado.appendChild(subtitulo);
 
 //Segundo Nodo: Menú de navegación
 const listaOrdenada = document.createElement("ul");
