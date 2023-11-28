@@ -1265,5 +1265,16 @@ function funListas() {
             tercerInputJ.setAttribute('placeholder', 'Votos')
             divListaJ.appendChild(tercerInputJ);
             break;
+
+            //Cuando se ingresa la opción de una decimo primer lista, el sistema avisa que no es posible.
+            case 11:
+                Swal.fire({
+                    title: 'Excede el límite',
+                    text: "La calculadora solo acepta por el momento diez listas",
+                    icon: 'warning',
+                    confirmButtonColor: '#bf1b27',
+                    confirmButtonText: 'Salir'
+                })
+            break;
     }
 };
