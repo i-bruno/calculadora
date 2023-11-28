@@ -1,4 +1,3 @@
-# Proyecto final Javascript - Ignacio Bruno
 # Calculadora de cargos del Club Atlético San Lorenzo de Almagro
 https://i-bruno.github.io/proyectofinal-JS-BrunoIgnacio/
 
