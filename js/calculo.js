@@ -614,7 +614,7 @@ function calculo() {
         case 2:
             divEnunciado = document.createElement("div");
             divEnunciado.id = "divEnunciado";
-            divEnunciado.innerHTML = `<h2>Las elecciones las ganó: ${arrayListas[0].candidato} (${arrayListas[0].nombre})</h2>`;
+            divEnunciado.innerHTML = `<h2>Las elecciones las ganaría: ${arrayListas[0].candidato} (${arrayListas[0].nombre})</h2>`;
             pie.appendChild(divEnunciado);
 
             fichaListas = document.createElement("section");
@@ -642,7 +642,7 @@ function calculo() {
         case 3:
             divEnunciado = document.createElement("section");
             divEnunciado.id = "divEnunciado";
-            divEnunciado.innerHTML = `<h2>Las elecciones las ganó: ${arrayListas[0].candidato} (${arrayListas[0].nombre})</h2>`;
+            divEnunciado.innerHTML = `<h2>Las elecciones las ganaría: ${arrayListas[0].candidato} (${arrayListas[0].nombre})</h2>`;
             pie.appendChild(divEnunciado);
 
             fichaListas = document.createElement("div");
@@ -678,7 +678,7 @@ function calculo() {
         case 4:
             divEnunciado = document.createElement("section");
             divEnunciado.id = "divEnunciado";
-            divEnunciado.innerHTML = `<h2>Las elecciones las ganó: ${arrayListas[0].candidato} (${arrayListas[0].nombre})</h2>`;
+            divEnunciado.innerHTML = `<h2>Las elecciones las ganaría: ${arrayListas[0].candidato} (${arrayListas[0].nombre})</h2>`;
             pie.appendChild(divEnunciado);
 
             fichaListas = document.createElement("div");
@@ -722,7 +722,7 @@ function calculo() {
         case 5:
             divEnunciado = document.createElement("section");
             divEnunciado.id = "divEnunciado";
-            divEnunciado.innerHTML = `<h2>Las elecciones las ganó: ${arrayListas[0].candidato} (${arrayListas[0].nombre})</h2>`;
+            divEnunciado.innerHTML = `<h2>Las elecciones las ganaría: ${arrayListas[0].candidato} (${arrayListas[0].nombre})</h2>`;
             pie.appendChild(divEnunciado);
 
             fichaListas = document.createElement("div");
@@ -774,7 +774,7 @@ function calculo() {
         case 6:
             divEnunciado = document.createElement("section");
             divEnunciado.id = "divEnunciado";
-            divEnunciado.innerHTML = `<h2>Las elecciones las ganó: ${arrayListas[0].candidato} (${arrayListas[0].nombre})</h2>`;
+            divEnunciado.innerHTML = `<h2>Las elecciones las ganaría: ${arrayListas[0].candidato} (${arrayListas[0].nombre})</h2>`;
             pie.appendChild(divEnunciado);
 
             fichaListas = document.createElement("div");
@@ -834,7 +834,7 @@ function calculo() {
         case 7:
             divEnunciado = document.createElement("section");
             divEnunciado.id = "divEnunciado";
-            divEnunciado.innerHTML = `<h2>Las elecciones las ganó: ${arrayListas[0].candidato} (${arrayListas[0].nombre})</h2>`;
+            divEnunciado.innerHTML = `<h2>Las elecciones las ganaría: ${arrayListas[0].candidato} (${arrayListas[0].nombre})</h2>`;
             pie.appendChild(divEnunciado);
 
             fichaListas = document.createElement("div");
@@ -902,7 +902,7 @@ function calculo() {
         case 8:
             divEnunciado = document.createElement("section");
             divEnunciado.id = "divEnunciado";
-            divEnunciado.innerHTML = `<h2>Las elecciones las ganó: ${arrayListas[0].candidato} (${arrayListas[0].nombre})</h2>`;
+            divEnunciado.innerHTML = `<h2>Las elecciones las ganaría: ${arrayListas[0].candidato} (${arrayListas[0].nombre})</h2>`;
             pie.appendChild(divEnunciado);
 
             fichaListas = document.createElement("div");
@@ -978,7 +978,7 @@ function calculo() {
         case 9:
             divEnunciado = document.createElement("section");
             divEnunciado.id = "divEnunciado";
-            divEnunciado.innerHTML = `<h2>Las elecciones las ganó: ${arrayListas[0].candidato} (${arrayListas[0].nombre})</h2>`;
+            divEnunciado.innerHTML = `<h2>Las elecciones las ganaría: ${arrayListas[0].candidato} (${arrayListas[0].nombre})</h2>`;
             pie.appendChild(divEnunciado);
 
             fichaListas = document.createElement("div");
@@ -1062,7 +1062,7 @@ function calculo() {
         case 10:
             divEnunciado = document.createElement("section");
             divEnunciado.id = "divEnunciado";
-            divEnunciado.innerHTML = `<h2>Las elecciones las ganó: ${arrayListas[0].candidato} (${arrayListas[0].nombre})</h2>`;
+            divEnunciado.innerHTML = `<h2>Las elecciones las ganaría: ${arrayListas[0].candidato} (${arrayListas[0].nombre})</h2>`;
             pie.appendChild(divEnunciado);
 
             fichaListas = document.createElement("div");
