@@ -710,4 +710,12 @@ h1{
 .classPosSeccion{
   flex-direction: column;
 }
+
+.container {  
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "gridListas" 
+    "gridEstatuto";
+}
 }
