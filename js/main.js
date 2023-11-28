@@ -95,13 +95,17 @@ inputPreSeccion.setAttribute('type', 'number');
 preSeccion.appendChild(inputPreSeccion);
 
 ///Botón para que el usuario envíe la información.
+const contenedorBtn = document.createElement("div");
+contenedorBtn.id = "contenedorBtn";
+contenedorBtn.className = "contenedorBotonera";
 const btn = document.createElement("button");
 btn.id = "btn";
 btn.setAttribute('type', 'submit');
 btn.className = "boton";
 btn.innerText = "Enviar";
 btn.addEventListener("click", funListas);
-preSeccion.appendChild(btn);
+contenedorBtn.appendChild(btn);
+preSección.appendChild(contenedorBtn);
 
 const btnReset = document.createElement("button");
 btnReset.id = "btnReset";
