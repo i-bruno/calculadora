@@ -1,5 +1,5 @@
 # Calculadora de cargos del Club Atlético San Lorenzo de Almagro
-https://i-bruno.github.io/proyectofinal-JS-BrunoIgnacio/
+https://i-bruno.github.io/calculadora/
 
 Se trabajó de manera integral en el desarrollo de una app, que calcule los cargos en cada uno de los organos de gobierno del club correspondientes a cada una de las listas que se presentan a elecciones.
 Para ello el sistema ofrece en una primer instancia la posibilidad de establecer cuántas listas se presentan.
