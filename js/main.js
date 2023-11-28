@@ -70,7 +70,7 @@ linkElementoDos.setAttribute('href', '#');
 const linkElementoTres = document.createElement("a");
 linkElementoTres.innerText="Otros proyectos";
 elementoListaOrdenada3.appendChild(linkElementoTres);
-linkElementoTres.setAttribute('href', '#');
+linkElementoTres.setAttribute('href', './js/proyectos.js');
 
 const linkElementoCuatro = document.createElement("a");
 linkElementoCuatro.innerText="Contacto";
