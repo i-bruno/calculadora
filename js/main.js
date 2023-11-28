@@ -104,8 +104,8 @@ btn.setAttribute('type', 'submit');
 btn.className = "boton";
 btn.innerText = "Enviar";
 btn.addEventListener("click", funListas);
-contenedorBtn.appendChild(btn);
-preSección.appendChild(contenedorBtn);
+// contenedorBtn.appendChild(btn);
+preSección.appendChild(btn);
 
 const btnReset = document.createElement("button");
 btnReset.id = "btnReset";
