@@ -715,9 +715,9 @@ h1{
 @media only screen and (max-width: 470px){
   .gridCF {  
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-auto-rows: 0.1fr 0.1fr;
+    grid-template-rows: 0.1fr 0.1fr;
     grid-template-areas:
-      "cf1 cf2 cf3 cf4 "
+      "cf1 cf2 cf3 cf4"
       "cf5 cf6 cf7";
   }
 }
