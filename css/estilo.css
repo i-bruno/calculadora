@@ -749,11 +749,7 @@ h1{
   }
 }
 
-@media only screen and (max-width: 380px){
-  .classPreSeccion{
-    flex-direction: column;
-  }
-  
+@media only screen and (max-width: 420px){
   .containerGrafica {  
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -774,4 +770,11 @@ h1{
       "as79 as80 as81 as82 as83 as84"
       "as85 as86 as87 as88 as89 as90";
   }
+}
+
+
+@media only screen and (max-width: 380px){
+  .classPreSeccion{
+    flex-direction: column;
+  } 
 }
