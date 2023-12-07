@@ -1,14 +1,16 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 body {
   margin: 5px 5px 5px 5px;
   padding: 5px 5px 5px 5px;
   background-color: #263d54;
   color: rgb(0, 0, 0);
-  font-family: monospace; }
+  font-family: monospace;
+}
 
 header {
   margin: 5px 5px 5px 5px;
@@ -17,7 +19,8 @@ header {
   text-align: center;
   height: auto;
   width: auto;
-  background-color: #e4e4e4; }
+  background-color: #e4e4e4;
+}
 
 footer {
   margin: 5px 5px 5px 5px;
@@ -35,23 +38,27 @@ section {
   margin: 5px 5px 5px 5px;
   padding: 5px 5px 5px 5px;
   background-color: #e4e4e4;
-  border-radius: 10px; 
-  display:flex;
+  border-radius: 10px;
+  display: flex;
   justify-content: center;
 }
 
 table {
   background-color: white;
   border-radius: 5px;
-  color: black; }
+  color: black;
+}
 
-th, tr, td {
+th,
+tr,
+td {
   padding: 1px 1px 1px 1px;
   border-style: solid;
   border-width: 2px;
   border-color: #263d54;
   border-radius: 3px;
-  text-align: center; }
+  text-align: center;
+}
 
 input {
   margin: 5px 5px 5px 5px;
@@ -60,24 +67,26 @@ input {
   width: 150px;
   height: 25px;
   border-style: none;
-  text-align: center; }
+  text-align: center;
+}
 
 a {
   margin: 5px 5px 5px 5px;
   padding: 5px 5px 5px 5px;
   text-decoration: none;
-  color: rgb(0, 0, 0); }
+  color: rgb(0, 0, 0);
+}
 
 div {
-  display:flex;
+  display: flex;
   justify-content: space-around;
   align-content: center;
   flex-wrap: wrap;
-  margin: 5px 5px 5px 5px;
-  padding: 5px 5px 5px 5px;
+  /* margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px; */
 }
 
-h1{
+h1 {
   text-align: center;
   margin: 5px 5px 5px 5px;
   padding: 5px 5px 5px 5px;
@@ -85,15 +94,15 @@ h1{
 
 /*Clases*/
 
-.blue{
+.blue {
   background-color: #263d54;
 }
 
-.red{
+.red {
   background-color: #bf1b27;
 }
 
-.divEnunciado{
+.divEnunciado {
   justify-content: center;
 }
 
@@ -105,7 +114,8 @@ h1{
   display: flex;
   justify-content: space-between;
   height: auto;
-  width: 100%; }
+  width: 100%;
+}
 
 .boton {
   margin: 5px 5px 5px 5px;
@@ -113,34 +123,43 @@ h1{
   border-radius: 10px;
   color: bisque;
   background-color: #bf1b27;
-  cursor: pointer; }
+  cursor: pointer;
+}
 
 .navBar {
   margin: 5px 5px 5px 5px;
   padding: 5px 5px 5px 5px;
   list-style-type: none;
   justify-content: space-evenly;
-  display: flex; }
-  .navBar ul {
-    margin: 5px 5px 5px 5px;
-    padding: 5px 5px 5px 5px; }
-    .navBar ul li {
-      margin: 5px 5px 5px 5px;
-      padding: 5px 5px 5px 5px; }
+  display: flex;
+}
+
+.navBar ul {
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
+}
+
+.navBar ul li {
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
+}
 
 .cuadroSeleccion {
   width: 200px;
   margin: 5px 5px 5px 5px;
-  padding: 5px 5px 5px 5px; }
+  padding: 5px 5px 5px 5px;
+}
 
 .classNavegacion {
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+}
 
 .classPreSeccion {
   display: flex;
   justify-content: left;
-  align-items: center; }
+  align-items: center;
+}
 
 .aside {
   margin: 5px 5px 5px 5px;
@@ -151,25 +170,34 @@ h1{
   text-align: justify;
   display: inline-block;
   background-color: #e4e4e4;
-  border-radius: 10px; }
-  .aside h3 {
-    margin: 5px 5px 5px 5px;
-    padding: 5px 5px 5px 5px; }
-  .aside h4 {
-    margin: 5px 5px 5px 5px;
-    padding: 5px 5px 5px 5px; }
-  .aside p {
-    margin: 5px 5px 5px 5px;
-    padding: 5px 5px 5px 5px; }
-  .aside li {
-    margin: 5px 5px 5px 5px;
-    padding: 5px 5px 5px 5px;
-    list-style-type: none; }
+  border-radius: 10px;
+}
+
+.aside h3 {
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
+}
+
+.aside h4 {
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
+}
+
+.aside p {
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
+}
+
+.aside li {
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
+  list-style-type: none;
+}
 
 .classPosSeccion {
   display: flex;
   justify-content: space-evenly;
-  align-items: center; 
+  align-items: center;
   margin: 5px 5px 5px 5px;
   padding: 5px 5px 5px 5px;
 }
@@ -179,11 +207,11 @@ h1{
   justify-content: space-evenly;
   flex-direction: column;
   margin: 5px 5px 5px 5px;
-  padding: 5px 5px 5px 5px; 
+  padding: 5px 5px 5px 5px;
 }
 
 /* GRID ASAMBLEA */
-.container {  
+.container {
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-template-rows: 1fr;
@@ -194,7 +222,7 @@ h1{
     "gridListas gridEstatuto";
 }
 
-.gridListas { 
+.gridListas {
   grid-area: gridListas;
   display: flex;
   justify-content: space-evenly;
@@ -202,15 +230,15 @@ h1{
   align-items: center;
 }
 
-.gridEstatuto { 
-  grid-area: gridEstatuto; 
+.gridEstatuto {
+  grid-area: gridEstatuto;
 }
 
-.containerGrafica {  
+.containerGrafica {
   display: grid;
   margin: 5px 5px 5px 5px;
   padding: 5px 5px 5px 5px;
-  border-color:#263d54;
+  border-color: #263d54;
   border-style: solid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -229,372 +257,552 @@ h1{
     "as81 as82 as83 as84 as85 as86 as87 as88 as89 as90";
 }
 
-.as1 { 
+.as1 {
   grid-area: as1;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as2 { 
+.as2 {
   grid-area: as2;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as3 { 
+.as3 {
   grid-area: as3;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as4 { 
+.as4 {
   grid-area: as4;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as5 { 
+.as5 {
   grid-area: as5;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as6 { 
+.as6 {
   grid-area: as6;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as7 { 
+.as7 {
   grid-area: as7;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as8 { 
+.as8 {
   grid-area: as8;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as9 { 
+.as9 {
   grid-area: as9;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as10 { 
+.as10 {
   grid-area: as10;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as11 { 
+.as11 {
   grid-area: as11;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as12 { 
+.as12 {
   grid-area: as12;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as13 { 
+.as13 {
   grid-area: as13;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as14 { 
+.as14 {
   grid-area: as14;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as15 { 
+.as15 {
   grid-area: as15;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as16 { 
+.as16 {
   grid-area: as16;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as17 { 
+.as17 {
   grid-area: as17;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as18 { 
+.as18 {
   grid-area: as18;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as19 { 
+.as19 {
   grid-area: as19;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as20 { 
+.as20 {
   grid-area: as20;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as30 { 
-  grid-area: as30;
-}
-
-.as40 { 
-  grid-area: as40;
-}
-
-.as50 { 
-  grid-area: as50;
-}
-
-.as21 { 
+.as21 {
   grid-area: as21;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as22 { 
+.as22 {
   grid-area: as22;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as23 { 
+.as23 {
   grid-area: as23;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as24 { 
+.as24 {
   grid-area: as24;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as25 { 
+.as25 {
   grid-area: as25;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as26 { 
+.as26 {
   grid-area: as26;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as27 { 
+.as27 {
   grid-area: as27;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as28 { 
+.as28 {
   grid-area: as28;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as29 { 
+.as29 {
   grid-area: as29;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as31 { 
+.as30 {
+  grid-area: as30;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
+}
+
+.as31 {
   grid-area: as31;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as32 { 
+.as32 {
   grid-area: as32;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as33 { 
+.as33 {
   grid-area: as33;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as34 { 
+.as34 {
   grid-area: as34;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as35 { 
+.as35 {
   grid-area: as35;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as36 { 
+.as36 {
   grid-area: as36;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as37 { 
+.as37 {
   grid-area: as37;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as38 { 
+.as38 {
   grid-area: as38;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as39 { 
+.as39 {
   grid-area: as39;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as41 { 
+.as40 {
+  grid-area: as40;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
+}
+
+.as41 {
   grid-area: as41;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as42 { 
+.as42 {
   grid-area: as42;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as43 { 
+.as43 {
   grid-area: as43;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as44 { 
+.as44 {
   grid-area: as44;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as45 { 
+.as45 {
   grid-area: as45;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as46 { 
+.as46 {
   grid-area: as46;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as47 { 
+.as47 {
   grid-area: as47;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as48 { 
+.as48 {
   grid-area: as48;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as49 { 
+.as49 {
   grid-area: as49;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as51 { 
+.as50 {
+  grid-area: as50;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
+}
+
+.as51 {
   grid-area: as51;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as52 { 
+.as52 {
   grid-area: as52;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as53 { 
+.as53 {
   grid-area: as53;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as54 { 
+.as54 {
   grid-area: as54;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as55 { 
+.as55 {
   grid-area: as55;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as56 { 
+.as56 {
   grid-area: as56;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as57 { 
+.as57 {
   grid-area: as57;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as58 { 
+.as58 {
   grid-area: as58;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as59 { 
+.as59 {
   grid-area: as59;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as60 { 
+.as60 {
   grid-area: as60;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as61 { 
+.as61 {
   grid-area: as61;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as62 { 
+.as62 {
   grid-area: as62;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as63 { 
+.as63 {
   grid-area: as63;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as64 { 
+.as64 {
   grid-area: as64;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as65 { 
+.as65 {
   grid-area: as65;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as66 { 
+.as66 {
   grid-area: as66;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as67 { 
+.as67 {
   grid-area: as67;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as68 { 
+.as68 {
   grid-area: as68;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as69 { 
+.as69 {
   grid-area: as69;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as70 { 
+.as70 {
   grid-area: as70;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as71 { 
+.as71 {
   grid-area: as71;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as72 { 
+.as72 {
   grid-area: as72;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as73 { 
+.as73 {
   grid-area: as73;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as74 { 
+.as74 {
   grid-area: as74;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as75 { 
+.as75 {
   grid-area: as75;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as76 { 
+.as76 {
   grid-area: as76;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as77 { 
+.as77 {
   grid-area: as77;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as78 { 
+.as78 {
   grid-area: as78;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as79 { 
+.as79 {
   grid-area: as79;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as80 { 
+.as80 {
   grid-area: as80;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as81 { 
+.as81 {
   grid-area: as81;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as82 { 
+.as82 {
   grid-area: as82;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as83 { 
+.as83 {
   grid-area: as83;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as84 { 
+.as84 {
   grid-area: as84;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as85 { 
+.as85 {
   grid-area: as85;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as86 { 
+.as86 {
   grid-area: as86;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as87 { 
+.as87 {
   grid-area: as87;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as88 { 
+.as88 {
   grid-area: as88;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as89 { 
+.as89 {
   grid-area: as89;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
-.as90 { 
+.as90 {
   grid-area: as90;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
 /* GRID COMISIÓN DIRECTIVA */
-.containerCD {  
+.containerCD {
   display: grid;
   margin: 5px 5px 5px 5px;
   padding: 5px 5px 5px 5px;
-  border-color:#263d54;
+  border-color: #263d54;
   border-style: solid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -606,53 +814,93 @@ h1{
     "cd11 cd12 cd13 cd14 cd15 cd16 cd17 cd18 cd19 cd20";
 }
 
-.cd1 { grid-area: cd1; }
+.cd1 {
+  grid-area: cd1;
+}
 
-.cd2 { grid-area: cd2; }
+.cd2 {
+  grid-area: cd2;
+}
 
-.cd3 { grid-area: cd3; }
+.cd3 {
+  grid-area: cd3;
+}
 
-.cd4 { grid-area: cd4; }
+.cd4 {
+  grid-area: cd4;
+}
 
-.cd5 { grid-area: cd5; }
+.cd5 {
+  grid-area: cd5;
+}
 
-.cd6 { grid-area: cd6; }
+.cd6 {
+  grid-area: cd6;
+}
 
-.cd7 { grid-area: cd7; }
+.cd7 {
+  grid-area: cd7;
+}
 
-.cd8 { grid-area: cd8; }
+.cd8 {
+  grid-area: cd8;
+}
 
-.cd9 { grid-area: cd9; }
+.cd9 {
+  grid-area: cd9;
+}
 
-.cd10 { grid-area: cd10; }
+.cd10 {
+  grid-area: cd10;
+}
 
-.cd11 { grid-area: cd11; }
+.cd11 {
+  grid-area: cd11;
+}
 
-.cd12 { grid-area: cd12; }
+.cd12 {
+  grid-area: cd12;
+}
 
-.cd13 { grid-area: cd13; }
+.cd13 {
+  grid-area: cd13;
+}
 
-.cd14 { grid-area: cd14; }
+.cd14 {
+  grid-area: cd14;
+}
 
-.cd15 { grid-area: cd15; }
+.cd15 {
+  grid-area: cd15;
+}
 
-.cd16 { grid-area: cd16; }
+.cd16 {
+  grid-area: cd16;
+}
 
-.cd17 { grid-area: cd17; }
+.cd17 {
+  grid-area: cd17;
+}
 
-.cd18 { grid-area: cd18; }
+.cd18 {
+  grid-area: cd18;
+}
 
-.cd19 { grid-area: cd19; }
+.cd19 {
+  grid-area: cd19;
+}
 
-.cd20 { grid-area: cd20; }
+.cd20 {
+  grid-area: cd20;
+}
 
 /* GRID COMISIÓN FISCALIZADORA */
 
-.gridCF {  
+.gridCF {
   display: grid;
   margin: 5px 5px 5px 5px;
   padding: 5px 5px 5px 5px;
-  border-color:#263d54;
+  border-color: #263d54;
   border-style: solid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr;
@@ -664,23 +912,37 @@ h1{
     "cf1 cf2 cf3 cf4 cf5 cf6 cf7";
 }
 
-.cf1 { grid-area: cf1; }
+.cf1 {
+  grid-area: cf1;
+}
 
-.cf2 { grid-area: cf2; }
+.cf2 {
+  grid-area: cf2;
+}
 
-.cf3 { grid-area: cf3; }
+.cf3 {
+  grid-area: cf3;
+}
 
-.cf4 { grid-area: cf4; }
+.cf4 {
+  grid-area: cf4;
+}
 
-.cf5 { grid-area: cf5; }
+.cf5 {
+  grid-area: cf5;
+}
 
-.cf6 { grid-area: cf6; }
+.cf6 {
+  grid-area: cf6;
+}
 
-.cf7 { grid-area: cf7; }
+.cf7 {
+  grid-area: cf7;
+}
 
 /* FICHAS DE RESULTADOS */
 
-.fichasListas{
+.fichasListas {
   height: auto;
   width: auto;
   align-items: center;
@@ -689,12 +951,13 @@ h1{
   flex-direction: row;
   justify-content: space-around;
 }
-.divLista1{
-  width:200px;
-  height:125px;
-  padding:10px;
-  background-color:green;
-  border:2px solid black;
+
+.divLista1 {
+  width: 200px;
+  height: 125px;
+  padding: 10px;
+  background-color: green;
+  border: 2px solid black;
   border-radius: 10px;
   margin: 5px 5px 5px 5px;
   padding: 5px 5px 5px 5px;
@@ -703,12 +966,13 @@ h1{
   justify-content: center;
   align-items: center;
 }
-.divLista2{
-  width:200px;
-  height:125px;
-  padding:10px;
-  background-color:orange;
-  border:2px solid black;
+
+.divLista2 {
+  width: 200px;
+  height: 125px;
+  padding: 10px;
+  background-color: orange;
+  border: 2px solid black;
   border-radius: 10px;
   margin: 5px 5px 5px 5px;
   padding: 5px 5px 5px 5px;
@@ -717,12 +981,13 @@ h1{
   justify-content: center;
   align-items: center;
 }
-.divLista3{
-  width:200px;
-  height:125px;
-  padding:10px;
-  background-color:deeppink;
-  border:2px solid black;
+
+.divLista3 {
+  width: 200px;
+  height: 125px;
+  padding: 10px;
+  background-color: deeppink;
+  border: 2px solid black;
   border-radius: 10px;
   margin: 5px 5px 5px 5px;
   padding: 5px 5px 5px 5px;
@@ -731,12 +996,13 @@ h1{
   justify-content: center;
   align-items: center;
 }
-.divLista4{
-  width:200px;
-  height:125px;
-  padding:10px;
-  background-color:blue;
-  border:2px solid black;
+
+.divLista4 {
+  width: 200px;
+  height: 125px;
+  padding: 10px;
+  background-color: blue;
+  border: 2px solid black;
   border-radius: 10px;
   margin: 5px 5px 5px 5px;
   padding: 5px 5px 5px 5px;
@@ -745,12 +1011,13 @@ h1{
   justify-content: center;
   align-items: center;
 }
-.divLista5{
-  width:200px;
-  height:125px;
-  padding:10px;
-  background-color:red;
-  border:2px solid black;
+
+.divLista5 {
+  width: 200px;
+  height: 125px;
+  padding: 10px;
+  background-color: red;
+  border: 2px solid black;
   border-radius: 10px;
   margin: 5px 5px 5px 5px;
   padding: 5px 5px 5px 5px;
@@ -759,12 +1026,13 @@ h1{
   justify-content: center;
   align-items: center;
 }
-.divLista6{
-  width:200px;
-  height:125px;
-  padding:10px;
+
+.divLista6 {
+  width: 200px;
+  height: 125px;
+  padding: 10px;
   background-color: grey;
-  border:2px solid black;
+  border: 2px solid black;
   border-radius: 10px;
   margin: 5px 5px 5px 5px;
   padding: 5px 5px 5px 5px;
@@ -773,12 +1041,13 @@ h1{
   justify-content: center;
   align-items: center;
 }
-.divLista7{
-  width:200px;
-  height:125px;
-  padding:10px;
+
+.divLista7 {
+  width: 200px;
+  height: 125px;
+  padding: 10px;
   background-color: black;
-  border:2px solid black;
+  border: 2px solid black;
   border-radius: 10px;
   margin: 5px 5px 5px 5px;
   padding: 5px 5px 5px 5px;
@@ -787,12 +1056,13 @@ h1{
   justify-content: center;
   align-items: center;
 }
-.divLista8{
-  width:200px;
-  height:125px;
-  padding:10px;
+
+.divLista8 {
+  width: 200px;
+  height: 125px;
+  padding: 10px;
   background-color: purple;
-  border:2px solid black;
+  border: 2px solid black;
   border-radius: 10px;
   margin: 5px 5px 5px 5px;
   padding: 5px 5px 5px 5px;
@@ -801,12 +1071,13 @@ h1{
   justify-content: center;
   align-items: center;
 }
-.divLista9{
-  width:200px;
-  height:125px;
-  padding:10px;
+
+.divLista9 {
+  width: 200px;
+  height: 125px;
+  padding: 10px;
   background-color: cadetblue;
-  border:2px solid black;
+  border: 2px solid black;
   border-radius: 10px;
   margin: 5px 5px 5px 5px;
   padding: 5px 5px 5px 5px;
@@ -815,12 +1086,13 @@ h1{
   justify-content: center;
   align-items: center;
 }
-.divLista10{
-  width:200px;
-  height:125px;
-  padding:10px;
+
+.divLista10 {
+  width: 200px;
+  height: 125px;
+  padding: 10px;
   background-color: darkgoldenrod;
-  border:2px solid black;
+  border: 2px solid black;
   border-radius: 10px;
   margin: 5px 5px 5px 5px;
   padding: 5px 5px 5px 5px;
@@ -833,22 +1105,22 @@ h1{
 
 /*Colores para las tablas de cargos*/
 
-.fondo-green{
+.fondo-green {
   background-color: green;
   border-radius: 10px;
 }
 
-.fondo-orange{
+.fondo-orange {
   background-color: orange;
   border-radius: 10px;
 }
 
-.fondo-deeppink{
+.fondo-deeppink {
   background-color: deeppink;
   border-radius: 10px;
 }
 
-.fondo-blue{
+.fondo-blue {
   background-color: blue;
   border-radius: 10px;
 }
@@ -858,49 +1130,49 @@ h1{
   border-radius: 10px;
 }
 
-.fondo-grey{
+.fondo-grey {
   background-color: grey;
   border-radius: 10px;
 }
 
-.fondo-black{
+.fondo-black {
   background-color: black;
   border-radius: 10px;
 }
 
-.fondo-purple{
+.fondo-purple {
   background-color: purple;
   border-radius: 10px;
 }
 
-.fondo-cadetblue{
+.fondo-cadetblue {
   background-color: cadetblue;
   border-radius: 10px;
 }
 
-.fondo-darkgoldenrod{
+.fondo-darkgoldenrod {
   background-color: darkgoldenrod;
   border-radius: 10px;
 }
 
-@media only screen and (max-width: 1200px){
-  .container {  
+@media only screen and (max-width: 1200px) {
+  .container {
     grid-template-columns: 1fr;
     grid-template-rows: 0.1fr 0.1fr;
     grid-template-areas:
-      "gridListas" 
+      "gridListas"
       "gridEstatuto";
   }
+}
+
+@media only screen and (max-width: 768px) {
+  .classPosSeccion {
+    flex-direction: column;
   }
-
-@media only screen and (max-width: 768px){
-.classPosSeccion{
-  flex-direction: column;
-}
 }
 
-@media only screen and (max-width: 470px){
-  .containerGrafica {  
+@media only screen and (max-width: 470px) {
+  .containerGrafica {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas:
@@ -916,7 +1188,7 @@ h1{
       "as82 as83 as84 as85 as86 as87 as88 as89 as90";
   }
 
-  .containerCD {  
+  .containerCD {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-areas:
@@ -927,8 +1199,8 @@ h1{
   }
 }
 
-@media only screen and (max-width: 420px){
-  .containerGrafica {  
+@media only screen and (max-width: 420px) {
+  .containerGrafica {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas:
@@ -951,8 +1223,8 @@ h1{
 }
 
 
-@media only screen and (max-width: 380px){
-  .classPreSeccion{
+@media only screen and (max-width: 380px) {
+  .classPreSeccion {
     flex-direction: column;
-  } 
+  }
 }
