@@ -95,17 +95,16 @@ inputPreSeccion.setAttribute('type', 'number');
 preSeccion.appendChild(inputPreSeccion);
 
 ///Botón para que el usuario envíe la información.
-// const contenedorBtn = document.createElement("div");
-// contenedorBtn.id = "contenedorBtn";
-// contenedorBtn.className = "contenedorBotonera";
+const contenedor = document.createElement("div");
+preSeccion.appendChild(contenedor);
+
 const btn = document.createElement("button");
 btn.id = "btn";
 btn.setAttribute('type', 'submit');
 btn.className = "boton";
 btn.innerText = "Enviar";
 btn.addEventListener("click", funListas);
-// contenedorBtn.appendChild(btn);
-preSeccion.appendChild(btn);
+contenedor.appendChild(btn);
 
 const btnReset = document.createElement("button");
 btnReset.id = "btnReset";
@@ -113,7 +112,7 @@ btnReset.setAttribute('type', 'submit');
 btnReset.className = "boton";
 btnReset.innerText = "Resetear";
 btnReset.addEventListener('click', _ => {location.reload();});
-preSeccion.appendChild(btnReset);
+contenedor.appendChild(btnReset);
 
 //Quinto Nodo: Post sección principal
 const etiqVotosBlancos = document.createElement("label");
