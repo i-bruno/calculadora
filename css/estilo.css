@@ -706,6 +706,12 @@ h1{
 }
 
 
+@media only screen and (max-width: 380px){
+  .classPreSeccion{
+    flex-direction: column;
+  }
+}
+
 @media only screen and (max-width: 768px){
 .classPosSeccion{
   flex-direction: column;
