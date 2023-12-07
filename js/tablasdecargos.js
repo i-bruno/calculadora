@@ -431,13 +431,14 @@ function verCargos() {
 
     //Cargos para la segunda lista
 
-    for (let i = arrayListas[0].AR; i >= arrayListas[1].AR; i++) {
-        console.log("Index:", i, "asambleista:", asambleista[i]);
-        let clasesActuales = asambleista[i].getAttribute('class');
-        asambleista[i].setAttribute('class', `${clasesActuales} fondo-${arrayListas[1].color}`);
-    };
+    // for (let i = arrayListas[0].AR; i >= arrayListas[1].AR; i++) {
+    //     console.log("Index:", i, "asambleista:", asambleista[i]);
+    //     let clasesActuales = asambleista[i].getAttribute('class');
+    //     asambleista[i].setAttribute('class', `${clasesActuales} fondo-${arrayListas[1].color}`);
+    // };
 
     for (let i=arrayListas[0].CD; i >= arrayListas[1].CD; i++){
+        console.log("Index:", i, "directivo:", directivo[i]);
         let clasesActuales = directivo[i].getAttribute('class');
         directivo[i].setAttribute('class', `${clasesActuales} fondo-${arrayListas[1].color}`);
     };
