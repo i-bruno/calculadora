@@ -403,6 +403,7 @@ function verCargos() {
     //Bucle para pintar los divs según resultado de las elecciones.
     //Variable que busca capturar todos los divs con la clase asambleísta
     let asambleista = document.getElementsByClassName("asambleista");
+    console.log(asambleista);
 
     let numeroAR = arrayListas[0].AR-1;
 
