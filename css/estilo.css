@@ -710,9 +710,6 @@ h1{
   .classPreSeccion{
     flex-direction: column;
   }
-}
-
-@media only screen and (max-width: 470px){
   .containerGrafica {  
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -729,6 +726,24 @@ h1{
       "as73 as74 as75 as76 as77 as78 as79 as80"
       "as81 as82 as83 as84 as85 as86 as87 as88"
       "as89 as90";
+  }
+}
+
+@media only screen and (max-width: 470px){
+  .containerGrafica {  
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+      "as1 as2 as3 as4 as5 as6 as7 as8 as9"
+      "as10 as11 as12 as13 as14 as15 as16 as17 as18"
+      "as19 as20 as21 as22 as23 as24 as25 as26 as27"
+      "as28 as29 as30 as31 as32 as33 as34 as35 as36"
+      "as37 as38 as39 as40 as41 as42 as43 as44 as45"
+      "as46 as47 as48 as49 as50 as51 as52 as53 as54"
+      "as55 as56 as57 as58 as59 as60 as61 as62 as63"
+      "as64 as65 as66 as67 as68 as69 as70 as71 as72"
+      "as73 as74 as75 as76 as77 as78 as79 as80 as81"
+      "as82 as83 as84 as85 as86 as87 as88 as89 as90";
   }
 
   .containerCD {  
