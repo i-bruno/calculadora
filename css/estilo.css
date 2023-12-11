@@ -1290,11 +1290,12 @@ h1 {
 }
 
 .menu-toggle span {
-  background-color: #fff;
+  background-color: #000000;
   display: block;
   height: 3px;
   width: 25px;
   margin-bottom: 5px;
+  margin-left: 5px;
 }
 
 @media screen and (max-width: 768px) {
