@@ -15,9 +15,9 @@ const span3 = document.getElementById("span3");
             btnEnviar.style.backgroundColor = "#263d54";
             btnResetear.style.backgroundColor = "#263d54";
             btnConsulta.style.backgroundColor = "#263d54";
-            span1.style.backgroundColor = "#263d54";
-            span2.style.backgroundColor = "#263d54";
-            span3.style.backgroundColor = "#263d54";
+            // span1.style.backgroundColor = "#263d54";
+            // span2.style.backgroundColor = "#263d54";
+            // span3.style.backgroundColor = "#263d54";
         } else {
             localStorage.setItem("modo", "blue");
             btnFondo.innerText = "Rojo";
@@ -25,9 +25,9 @@ const span3 = document.getElementById("span3");
             btnEnviar.style.backgroundColor = "#bf1b27";
             btnResetear.style.backgroundColor = "#bf1b27";
             btnConsulta.style.backgroundColor = "#bf1b27";
-            span1.style.backgroundColor = "#bf1b27";
-            span2.style.backgroundColor = "#bf1b27";
-            span3.style.backgroundColor = "#bf1b27";
+            // span1.style.backgroundColor = "#bf1b27";
+            // span2.style.backgroundColor = "#bf1b27";
+            // span3.style.backgroundColor = "#bf1b27";
         }
     });
 
