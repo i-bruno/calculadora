@@ -86,16 +86,6 @@ const linkElementoUno = document.createElement("a");
 linkElementoUno.innerText="Inicio";
 elementoListaOrdenada1.appendChild(linkElementoUno);
 linkElementoUno.setAttribute('href', '#');
-linkElementoUno.addEventListener('click', (event) => {
-    event.preventDefault();
-    
-    Swal.fire({
-        title: 'Error!',
-        text: 'Do you want to continue',
-        icon: 'error',
-        confirmButtonText: 'Cool'
-      })
-};
 
 const linkElementoDos = document.createElement("a");
 linkElementoDos.innerText="Quienes somos";
