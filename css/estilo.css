@@ -1282,3 +1282,43 @@ h1 {
     flex-direction: column;
   }
 }
+
+/*Menú hamburguesa*/
+.menu-toggle {
+  cursor: pointer;
+  display: none;
+}
+
+.menu-toggle span {
+  background-color: #fff;
+  display: block;
+  height: 3px;
+  width: 25px;
+  margin-bottom: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .navBar {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      background-color: #333;
+  }
+
+  .navBar.show {
+      display: flex;
+  }
+
+  .navBar li {
+      margin: 0;
+      text-align: center;
+      padding: 10px;
+  }
+
+  .menu-toggle {
+      display: block;
+  }
+}

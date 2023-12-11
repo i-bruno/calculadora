@@ -5,27 +5,35 @@ body.innerHTML = '<header id="encabezado"><nav id="navBar"></nav></header> <sect
 //Encabezado
 const encabezado = document.getElementById("encabezado");
 encabezado.className = "classEncabezado";
+
 ///Menú de navegación
 const navegacion = document.getElementById("navBar");
 navegacion.className = "classNavegacion";
+
 //Pre sección principal
 const preSeccion = document.getElementById("preSeccion");
 preSeccion.className = "classPreSeccion";
+
 //Contenedor de sección principal y info secundaria
 const divSeccionPrincipal = document.getElementById("divSeccionPrincipal");
 divSeccionPrincipal.className = "container";
+
 ///Sección principal
 const infoPrincipal = document.getElementById("seccionPrincipal");
 infoPrincipal.className = "gridListas";
+
 ///Información secundaria sobre el estatuto
 const infoSecundaria = document.getElementById("menuLateral");
 infoSecundaria.className = "gridEstatuto";
+
 //Pos sección principal
 const posSeccion = document.getElementById("posSeccion");
 posSeccion.className = "classPosSeccion";
+
 //Pie de página con los resultados
 const pie = document.getElementById("piePagina"); 
 pie.className = "classPie";
+
 //Último pie de página copyright
 const footer = document.getElementById("footer");
 footer.className = "classFooter";
@@ -44,6 +52,20 @@ encabezado.appendChild(subtitulo);
 const listaOrdenada = document.createElement("ul");
 navegacion.appendChild(listaOrdenada);
 listaOrdenada.className = "navBar";
+
+const toggle = document.createElement("div");
+toggle.className = "menu-toggle";
+toggle.id = "mobile-menu";
+navegacion.appendChild(toggle);
+
+const span1 = document.createElement("span");
+toggle.appendChild(span1);
+
+const span2 = document.createElement("span");
+toggle.appendChild(span2);
+
+const span3 = document.createElement("span");
+toggle.appendChild(span3);
 
 const elementoListaOrdenada1 = document.createElement("li");
 listaOrdenada.appendChild(elementoListaOrdenada1);
