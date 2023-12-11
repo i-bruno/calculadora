@@ -1304,13 +1304,14 @@ h1 {
       flex-direction: column;
       position: absolute;
       top: 60px;
-      left: 0;
+      left: 10px;
       width: 100%;
       background-color: #e4e4e4;
   }
 
   .navBar.show {
       display: flex;
+      width: 34rem;
   }
 
   .navBar li {
