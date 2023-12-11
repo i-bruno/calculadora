@@ -1253,12 +1253,12 @@ h1 {
       "cd16 cd17 cd18 cd19 cd20";
   }
 
-  h1{
-    font-size:medium;
+  h1 {
+    font-size: medium;
   }
 
-  h3{
-    font-size:smaller;
+  h3 {
+    font-size: smaller;
   }
 }
 
@@ -1311,29 +1311,33 @@ h1 {
 
 @media screen and (max-width: 768px) {
   .navBar {
-      display: none;
-      flex-direction: column;
-      position: absolute;
-      top: 60px;
-      left: 10px;
-      width: 100%;
-      background-color: #e4e4e4;
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 10px;
+    width: 100%;
+    background-color: #e4e4e4;
   }
 
   .navBar.show {
-      display: flex;
-      width: auto;
-      flex-direction: column;
-      background-color: #e4e4e4;
+    display: flex;
+    width: auto;
+    flex-direction: column;
+    background-color: #e4e4e4;
   }
 
   .navBar li {
-      margin: 0;
-      text-align: center;
-      padding: 10px;
+    margin: 0;
+    text-align: center;
+    padding: 10px;
   }
 
   .menu-toggle {
-      display: block;
+    display: block;
   }
+}
+
+.divLista7{
+  color: white;
 }
