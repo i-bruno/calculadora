@@ -1281,6 +1281,10 @@ h1 {
   .classPreSeccion {
     flex-direction: column;
   }
+
+  h1{
+    font-size: small;
+  }
 }
 
 /*Menú hamburguesa*/
