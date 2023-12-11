@@ -1251,6 +1251,14 @@ h1 {
       "cd11 cd12 cd13 cd14 cd15"
       "cd16 cd17 cd18 cd19 cd20";
   }
+
+  h1{
+    font-size:medium;
+  }
+
+  h3{
+    font-size: small;
+  }
 }
 
 @media only screen and (max-width: 420px) {
@@ -1273,14 +1281,6 @@ h1 {
       "as73 as74 as75 as76 as77 as78"
       "as79 as80 as81 as82 as83 as84"
       "as85 as86 as87 as88 as89 as90";
-  }
-
-  h1{
-    font-size:medium;
-  }
-
-  h3{
-    font-size: small;
   }
 }
 
