@@ -86,7 +86,9 @@ const linkElementoUno = document.createElement("a");
 linkElementoUno.innerText="Inicio";
 elementoListaOrdenada1.appendChild(linkElementoUno);
 linkElementoUno.setAttribute('href', '#');
-linkElementoUno.addEventListener('click', () => {
+linkElementoUno.addEventListener('click', (event) => {
+    event.preventDefault();
+    
     Swal.fire({
         title: 'Error!',
         text: 'Do you want to continue',
