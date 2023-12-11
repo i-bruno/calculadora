@@ -59,12 +59,15 @@ toggle.id = "mobile-menu";
 navegacion.appendChild(toggle);
 
 const span1 = document.createElement("span");
+span1.id = "span1";
 toggle.appendChild(span1);
 
 const span2 = document.createElement("span");
+span2.id = "span2";
 toggle.appendChild(span2);
 
 const span3 = document.createElement("span");
+span3.id = "span3";
 toggle.appendChild(span3);
 
 const elementoListaOrdenada1 = document.createElement("li");
