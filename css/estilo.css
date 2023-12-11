@@ -1287,6 +1287,7 @@ h1 {
 .menu-toggle {
   cursor: pointer;
   display: none;
+  margin: 5px 5px 5px 5px;
 }
 
 .menu-toggle span {
