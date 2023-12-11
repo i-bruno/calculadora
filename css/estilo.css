@@ -1312,9 +1312,8 @@ h1 {
   .navBar.show {
       display: flex;
       width: auto;
-      flex-direction: row;
-      justify-content: flex-start;
-      background-color: transparent;
+      flex-direction: column;
+      background-color: #e4e4e4;
   }
 
   .navBar li {
