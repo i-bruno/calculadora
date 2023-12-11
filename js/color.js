@@ -2,9 +2,9 @@ const btnFondo = document.getElementById("btnColor");
 const btnEnviar = document.getElementById("btn");
 const btnResetear = document.getElementById("btnReset");
 const btnConsulta = document.getElementById("btnConsulta");
-// const span1 = document.getElementById("span1");
-// const span2 = document.getElementById("span2");
-// const span3 = document.getElementById("span3");
+const spanA = document.getElementById("span1");
+const spanB = document.getElementById("span2");
+const spanC = document.getElementById("span3");
 
     btnFondo.addEventListener("click", ()=>{
         document.body.classList.toggle("red");
@@ -15,9 +15,9 @@ const btnConsulta = document.getElementById("btnConsulta");
             btnEnviar.style.backgroundColor = "#263d54";
             btnResetear.style.backgroundColor = "#263d54";
             btnConsulta.style.backgroundColor = "#263d54";
-            // span1.style.backgroundColor = "#263d54";
-            // span2.style.backgroundColor = "#263d54";
-            // span3.style.backgroundColor = "#263d54";
+            spanA.style.backgroundColor = "#263d54";
+            spanB.style.backgroundColor = "#263d54";
+            spanC.style.backgroundColor = "#263d54";
         } else {
             localStorage.setItem("modo", "blue");
             btnFondo.innerText = "Rojo";
@@ -25,9 +25,9 @@ const btnConsulta = document.getElementById("btnConsulta");
             btnEnviar.style.backgroundColor = "#bf1b27";
             btnResetear.style.backgroundColor = "#bf1b27";
             btnConsulta.style.backgroundColor = "#bf1b27";
-            // span1.style.backgroundColor = "#bf1b27";
-            // span2.style.backgroundColor = "#bf1b27";
-            // span3.style.backgroundColor = "#bf1b27";
+            spanA.style.backgroundColor = "#bf1b27";
+            spanB.style.backgroundColor = "#bf1b27";
+            spanC.style.backgroundColor = "#bf1b27";
         }
     });
 
