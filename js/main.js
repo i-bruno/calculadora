@@ -86,6 +86,14 @@ const linkElementoUno = document.createElement("a");
 linkElementoUno.innerText="Inicio";
 elementoListaOrdenada1.appendChild(linkElementoUno);
 linkElementoUno.setAttribute('href', '#');
+linkElementoUno.addEventListener('click', () => {
+    Swal.fire({
+        title: 'Error!',
+        text: 'Do you want to continue',
+        icon: 'error',
+        confirmButtonText: 'Cool'
+      })
+};
 
 const linkElementoDos = document.createElement("a");
 linkElementoDos.innerText="Quienes somos";
@@ -155,6 +163,8 @@ etiqVotosNulos.innerText = "Votos nulos"
 posSeccion.appendChild(etiqVotosNulos);
 
 const votosNulos = document.createElement("input");
+votosNulos.setAttribute ('type', 'number');
+votosNulos.setAttribute ('value', 0);
 posSeccion.appendChild(votosNulos);
 
 const etiqVotosImpugnados = document.createElement("label");
@@ -162,6 +172,8 @@ etiqVotosImpugnados.innerText = "Votos impugnados";
 posSeccion.appendChild(etiqVotosImpugnados);
 
 const votosImpugnados = document.createElement("input");
+votosImpugnados.setAttribute ('type', 'number');
+votosImpugnados.setAttribute ('value', 0);
 posSeccion.appendChild(votosImpugnados);
 
 const boton = document.createElement("button");
