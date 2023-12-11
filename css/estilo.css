@@ -1274,16 +1274,20 @@ h1 {
       "as79 as80 as81 as82 as83 as84"
       "as85 as86 as87 as88 as89 as90";
   }
+
+  h1{
+    font-size:medium;
+  }
+
+  h3{
+    font-size: small;
+  }
 }
 
 
 @media only screen and (max-width: 380px) {
   .classPreSeccion {
     flex-direction: column;
-  }
-
-  h1{
-    font-size: small;
   }
 }
 
