@@ -1344,11 +1344,11 @@ function calculo() {
     textoGanador.innerHTML = `<p>Se contabilizan un total de ${votosTotales} votos. La mayoría obtuvo ${arrayListas[0].votos} (${porcentajeMayoria}%) y la minoría ${votosMinoria} (${porcentajeMinoria}%). Hubo ${totBlancos} (${porcentajeBlanco}) votos blancos.</p>`
     pie.appendChild(textoGanador);
 
-    const btnTabla = document.createElement("button");
-    btnTabla.id = "btnTabla";
-    btnTabla.className = "boton";
-    btnTabla.innerText = "Ver cargos";
-    btnTabla.addEventListener('click', verCargos)
-    pie.appendChild(btnTabla);
+    // const btnTabla = document.createElement("button");
+    // btnTabla.id = "btnTabla";
+    // btnTabla.className = "boton";
+    // btnTabla.innerText = "Ver cargos";
+    // btnTabla.addEventListener('click', verCargos)
+    // pie.appendChild(btnTabla);
 
 };
