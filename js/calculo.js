@@ -403,7 +403,7 @@ function calculo() {
     let cocienteMinoriaAR
     let cocienteMinoriaCD
 
-    if (porcentajeMinoria > 50) {
+    if (porcentajeMinoria < 50) {
         cocienteMinoriaAR = Math.round(votosMinoria / miembrosMinoriaAR);
         cocienteMinoriaCD = Math.round(votosMinoria / miembrosMinoriaCD);
     } else {
