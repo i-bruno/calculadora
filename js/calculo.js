@@ -395,6 +395,8 @@ function calculo() {
 
     let miembrosMinoriaAR = parseFloat(90 - miembrosMayoriaAR).toFixed(3);
     let miembrosMinoriaCD = parseFloat(20 - miembrosMayoriaCD).toFixed(3);
+    console.log(`La minoría se debe repartir ${miembrosMinoriaAR} asambleístas`);
+    console.log(`La minoría se debe repartir ${miembrosMinoriaCD} cargos en Comisión Directiva`)
 
 
     //Segundo: se define el cociente para la distribución de los cargos entre la minoría.
@@ -408,6 +410,10 @@ function calculo() {
         cocienteMinoriaAR = Math.round((arrayListas[0].votos + votosMinoria) / miembrosMinoriaAR);
         cocienteMinoriaCD = Math.round((arrayListas[0].votos + votosMinoria) / miembrosMinoriaCD);
     };
+
+    console.log(`El cociente de minoría para la asamblea es: ${cocienteMinoriaAR}`);
+    console.log(`El cociente de minoría para la comisión directiva es: ${cocienteMinoriaCD}`);
+
 
     //Tercero: Se realiza un switch para calcular los cargos para Asamblea de representantes, Comisión Directiva y Comisión fiscalizadora para las minorías
     switch (parseInt(cantidadListas)) {
