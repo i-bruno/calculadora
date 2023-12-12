@@ -315,6 +315,7 @@ function calculo() {
 
     //Se construye un array con todas las listas que participan en las elecciones.
     const arrayListas = [lista1, lista2, lista3, lista4, lista5, lista6, lista7, lista8, lista9, lista10];
+    console.log(arrayListas);
 
     //Ordena el array con las listas de candidatos de mayor a menor según los votos.
     arrayListas.sort((a, b) => {
