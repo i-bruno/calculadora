@@ -301,6 +301,10 @@ function calculo() {
     let votosTotales = lista1.votos + lista2.votos + lista3.votos + lista4.votos + lista5.votos + lista6.votos + lista7.votos + lista8.votos + lista9.votos + lista10.votos + totBlancos;
     votosTotales = parseInt(votosTotales);
 
+    //Porcentaje de votos en blanco
+    let porcentajeBlanco = parseFloat((totBlancos * 100) / votosTotales).toFixed(3);
+    console.log(`Porcentaje de votos en blanco: ${porcentajeBlanco}`)
+
     //Se calcula el porcentajes de listas
     lista1.porcentaje = ((lista1.votos * 100) / votosTotales).toFixed(3);
     lista2.porcentaje = ((lista2.votos * 100) / votosTotales).toFixed(3);
