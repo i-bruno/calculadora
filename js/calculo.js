@@ -1341,7 +1341,7 @@ function calculo() {
 
     const textoGanador = document.createElement("div");
     textoGanador.id = "textoGanador";
-    textoGanador.innerHTML = `<p>Se contabilizan un total de ${votosTotales} votos. La mayoría obtuvo ${arrayListas[0].votos} (${porcentajeMayoria}%) y la minoría ${votosMinoria} (${porcentajeMinoria}%). Hubo ${totBlancos} (${porcentajeBlanco}) votos blancos.</p>`
+    textoGanador.innerHTML = `<p>Se contabilizan un total de ${votosTotales} votos. La mayoría obtuvo ${arrayListas[0].votos} (${porcentajeMayoria}%) y la minoría ${votosMinoria} (${porcentajeMinoria}%). Hubo ${totBlancos} (${porcentajeBlanco}%) votos blancos.</p>`
     pie.appendChild(textoGanador);
 
     // const btnTabla = document.createElement("button");
