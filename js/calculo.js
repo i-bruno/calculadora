@@ -337,13 +337,16 @@ function calculo() {
 
     //Porcentaje de la mayoría
     let porcentajeMayoria = parseFloat((arrayListas[0].votos * 100) / votosTotales).toFixed(3);
+    console.log(`Porcentaje de la lista mayoritaria: ${porcentajeMayoria}`);
 
     //PORCENTAJE DE MINORÍA
     //Primero se calcula cuantos votos obtuvo la minoría (Votos totales menos los votos de la mayoría menos los votos en blanco)
     let votosMinoria = (votosTotales - arrayListas[0].votos) - totBlancos;
+    console.log(`Votos totales de la minoría: ${votosMinoria}`);
 
     //Después se calcula el porcentaje de la minoría.
     let porcentajeMinoria = parseFloat((votosMinoria * 100) / votosTotales).toFixed(3);
+    console.log(`Porcentaje de la minoría: ${porcentajeMinoria}`);
 
     //MIEMBROS PARA LA MAYORÍA
     //4 - Se calculan los cargos en Asamblea de Representantes y Comisión Directiva que ocupa la mayoría.
@@ -359,8 +362,16 @@ function calculo() {
         miembrosMayoriaCD = parseFloat((((porcentajeMayoria - 50) / 100) * 15) + 15).toFixed(3);
     }
 
+    console.log(`La mayoría obtiene ${miembrosMayoriaAR} asambleístas`);
+    console.log(`La mayoría obtiene ${miembrosMayoriaCD} miembros en Comisión Directiva`);
+
     arrayListas[0].AR = Math.round(miembrosMayoriaAR);
     arrayListas[0].CD = Math.round(miembrosMayoriaCD);
+
+    console.log(`La mayoría obtiene ${arrayListas[0].AR} asambleístas según arrayListas[0].AR`);
+    console.log(`La mayoría obtiene ${arrayListas[0].CD} miembros en Comisión Directiva arrayListas[0].CD`);
+
+
 
     // lista1.AR = Math.round(miembrosMayoriaAR);
     // lista1.CD = Math.round(miembrosMayoriaCD);
@@ -369,6 +380,8 @@ function calculo() {
     //5 - Se calculan los miembros de Comisión fiscalizadora para la mayoria
     let cocienteCF = votosTotales / 7;
     arrayListas[0].CF = Math.round(lista1.votos / cocienteCF);
+
+    console.log(`La mayoría obtiene ${arrayListas[0].CF} miembros en Comisión Fiscalizadora`);
     // lista1.CF = Math.round(lista1.votos / cocienteCF);
 
     //MIEMBROS PARA LA MINORÍA
@@ -626,8 +639,8 @@ function calculo() {
                                         <h4>Votos: ${arrayListas[0].votos}</h4>
                                         <h4>Porcentaje: ${arrayListas[0].porcentaje}</h4>
                                         <h4>CD:${arrayListas[0].CD}</h4>
-                                        <h4>AR:</h4>
-                                        <h4>CF:</h4>
+                                        <h4>AR:${arrayListas[0].AR}</h4>
+                                        <h4>CF:${arrayListas[0].AR}</h4>
                                     </div>
                                     <div class='divLista2' id='divLista2'>
                                         <h3>${arrayListas[1].nombre}</h3>
