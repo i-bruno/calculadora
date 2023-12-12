@@ -625,11 +625,17 @@ function calculo() {
                                         <h3>${arrayListas[0].nombre}</h3>
                                         <h4>Votos: ${arrayListas[0].votos}</h4>
                                         <h4>Porcentaje: ${arrayListas[0].porcentaje}</h4>
+                                        <h4>CD:${arrayListas[0].CD}</h4>
+                                        <h4>AR:</h4>
+                                        <h4>CF:</h4>
                                     </div>
                                     <div class='divLista2' id='divLista2'>
                                         <h3>${arrayListas[1].nombre}</h3>
                                         <h4>Votos: ${arrayListas[1].votos}</h4>
                                         <h4>Porcentaje: ${arrayListas[1].porcentaje}</h4>
+                                        <h4>CD:${arrayListas[1].CD}</h4>
+                                        <h4>AR:</h4>
+                                        <h4>CF:</h4>
                                     </div>`;
             pie.appendChild(fichaListas);
 
@@ -653,16 +659,25 @@ function calculo() {
                                         <h3>${arrayListas[0].nombre}</h3>
                                         <h4>Votos: ${arrayListas[0].votos}</h4>
                                         <h4>Porcentaje: ${arrayListas[0].porcentaje}</h4>
+                                        <h4>CD:${arrayListas[0].CD}</h4>
+                                        <h4>AR:</h4>
+                                        <h4>CF:</h4>
                                     </div>
                                     <div class='divLista2' id='divLista2'>
                                         <h3>${arrayListas[1].nombre}</h3>
                                         <h4>Votos: ${arrayListas[1].votos}</h4>
                                         <h4>Porcentaje: ${arrayListas[1].porcentaje}</h4>
+                                        <h4>CD:${arrayListas[1].CD}</h4>
+                                        <h4>AR:</h4>
+                                        <h4>CF:</h4>
                                     </div>
                                     <div class='divLista3' id='divLista3'>
                                         <h3>${arrayListas[2].nombre}</h3>
                                         <h4>Votos: ${arrayListas[2].votos}</h4>
                                         <h4>Porcentaje: ${arrayListas[2].porcentaje}</h4>
+                                        <h4>CD:${arrayListas[2].CD}</h4>
+                                        <h4>AR:</h4>
+                                        <h4>CF:</h4>
                                     </div>`;
             pie.appendChild(fichaListas);
 
@@ -689,21 +704,33 @@ function calculo() {
                                         <h3>${arrayListas[0].nombre}</h3>
                                         <h4>Votos: ${arrayListas[0].votos}</h4>
                                         <h4>Porcentaje: ${arrayListas[0].porcentaje}</h4>
+                                        <h4>CD:${arrayListas[0].CD}</h4>
+                                        <h4>AR:</h4>
+                                        <h4>CF:</h4>
                                     </div>
                                     <div class='divLista2' id='divLista2'>
                                         <h3>${arrayListas[1].nombre}</h3>
                                         <h4>Votos: ${arrayListas[1].votos}</h4>
                                         <h4>Porcentaje: ${arrayListas[1].porcentaje}</h4>
+                                        <h4>CD:${arrayListas[1].CD}</h4>
+                                        <h4>AR:</h4>
+                                        <h4>CF:</h4>
                                     </div>
                                     <div class='divLista3' id='divLista3'>
                                         <h3>${arrayListas[2].nombre}</h3>
                                         <h4>Votos: ${arrayListas[2].votos}</h4>
                                         <h4>Porcentaje: ${arrayListas[2].porcentaje}</h4>
+                                        <h4>CD:${arrayListas[2].CD}</h4>
+                                        <h4>AR:</h4>
+                                        <h4>CF:</h4>
                                     </div>
                                     <div class='divLista4' id='divLista4'>
                                         <h3>${arrayListas[3].nombre}</h3>
                                         <h4>Votos: ${arrayListas[3].votos}</h4>
                                         <h4>Porcentaje: ${arrayListas[3].porcentaje}</h4>
+                                        <h4>CD:${arrayListas[3].CD}</h4>
+                                        <h4>AR:</h4>
+                                        <h4>CF:</h4>
                                     </div>`;
             pie.appendChild(fichaListas);
 
@@ -733,26 +760,41 @@ function calculo() {
                                         <h3>${arrayListas[0].nombre}</h3>
                                         <h4>Votos: ${arrayListas[0].votos}</h4>
                                         <h4>Porcentaje: ${arrayListas[0].porcentaje}</h4>
+                                        <h4>CD:${arrayListas[0].CD}</h4>
+                                        <h4>AR:</h4>
+                                        <h4>CF:</h4>
                                     </div>
                                     <div class='divLista2' id='divLista2'>
                                         <h3>${arrayListas[1].nombre}</h3>
                                         <h4>Votos: ${arrayListas[1].votos}</h4>
                                         <h4>Porcentaje: ${arrayListas[1].porcentaje}</h4>
+                                        <h4>CD:${arrayListas[1].CD}</h4>
+                                        <h4>AR:</h4>
+                                        <h4>CF:</h4>
                                     </div>
                                     <div class='divLista3' id='divLista3'>
                                         <h3>${arrayListas[2].nombre}</h3>
                                         <h4>Votos: ${arrayListas[2].votos}</h4>
                                         <h4>Porcentaje: ${arrayListas[2].porcentaje}</h4>
+                                        <h4>CD:${arrayListas[2].CD}</h4>
+                                        <h4>AR:</h4>
+                                        <h4>CF:</h4>
                                     </div>
                                     <div class='divLista4' id='divLista4'>
                                         <h3>${arrayListas[3].nombre}</h3>
                                         <h4>Votos: ${arrayListas[3].votos}</h4>
                                         <h4>Porcentaje: ${arrayListas[3].porcentaje}</h4>
+                                        <h4>CD:${arrayListas[3].CD}</h4>
+                                        <h4>AR:</h4>
+                                        <h4>CF:</h4>
                                     </div>
                                     <div class='divLista5' id='divLista5'>
                                         <h3>${arrayListas[4].nombre}</h3>
                                         <h4>Votos: ${arrayListas[4].votos}</h4>
                                         <h4>Porcentaje: ${arrayListas[4].porcentaje}</h4>
+                                        <h4>CD:${arrayListas[4].CD}</h4>
+                                        <h4>AR:</h4>
+                                        <h4>CF:</h4>
                                     </div>`;
             pie.appendChild(fichaListas);
 
@@ -785,31 +827,49 @@ function calculo() {
                                         <h3>${arrayListas[0].nombre}</h3>
                                         <h4>Votos: ${arrayListas[0].votos}</h4>
                                         <h4>Porcentaje: ${arrayListas[0].porcentaje}</h4>
+                                        <h4>CD:${arrayListas[0].CD}</h4>
+                                        <h4>AR:</h4>
+                                        <h4>CF:</h4>
                                     </div>
                                     <div class='divLista2' id='divLista2'>
                                         <h3>${arrayListas[1].nombre}</h3>
                                         <h4>Votos: ${arrayListas[1].votos}</h4>
                                         <h4>Porcentaje: ${arrayListas[1].porcentaje}</h4>
+                                        <h4>CD:${arrayListas[1].CD}</h4>
+                                        <h4>AR:</h4>
+                                        <h4>CF:</h4>
                                     </div>
                                     <div class='divLista3' id='divLista3'>
                                         <h3>${arrayListas[2].nombre}</h3>
                                         <h4>Votos: ${arrayListas[2].votos}</h4>
                                         <h4>Porcentaje: ${arrayListas[2].porcentaje}</h4>
+                                        <h4>CD:${arrayListas[2].CD}</h4>
+                                        <h4>AR:</h4>
+                                        <h4>CF:</h4>
                                     </div>
                                     <div class='divLista4' id='divLista4'>
                                         <h3>${arrayListas[3].nombre}</h3>
                                         <h4>Votos: ${arrayListas[3].votos}</h4>
                                         <h4>Porcentaje: ${arrayListas[3].porcentaje}</h4>
+                                        <h4>CD:${arrayListas[3].CD}</h4>
+                                        <h4>AR:</h4>
+                                        <h4>CF:</h4>
                                     </div>
                                     <div class='divLista5' id='divLista5'>
                                         <h3>${arrayListas[4].nombre}</h3>
                                         <h4>Votos: ${arrayListas[4].votos}</h4>
                                         <h4>Porcentaje: ${arrayListas[4].porcentaje}</h4>
+                                        <h4>CD:${arrayListas[4].CD}</h4>
+                                        <h4>AR:</h4>
+                                        <h4>CF:</h4>
                                     </div>
                                     <div class='divLista6' id='divLista6'>
                                         <h3>${arrayListas[5].nombre}</h3>
                                         <h4>Votos${arrayListas[5].votos}</h4>
                                         <h4>Porcentaje:${arrayListas[5].porcentaje}</h4>
+                                        <h4>CD:${arrayListas[5].CD}</h4>
+                                        <h4>AR:</h4>
+                                        <h4>CF:</h4>
                                     </div>`;
             pie.appendChild(fichaListas);
 
@@ -845,36 +905,57 @@ function calculo() {
                                         <h3>${arrayListas[0].nombre}</h3>
                                         <h4>Votos: ${arrayListas[0].votos}</h4>
                                         <h4>Porcentaje: ${arrayListas[0].porcentaje}</h4>
+                                        <h4>CD:${arrayListas[0].CD}</h4>
+                                        <h4>AR:</h4>
+                                        <h4>CF:</h4>
                                     </div>
                                     <div class='divLista2' id='divLista2'>
                                         <h3>${arrayListas[1].nombre}</h3>
                                         <h4>Votos: ${arrayListas[1].votos}</h4>
                                         <h4>Porcentaje: ${arrayListas[1].porcentaje}</h4>
+                                        <h4>CD:${arrayListas[1].CD}</h4>
+                                        <h4>AR:</h4>
+                                        <h4>CF:</h4>
                                     </div>
                                     <div class='divLista3' id='divLista3'>
                                         <h3>${arrayListas[2].nombre}</h3>
                                         <h4>Votos: ${arrayListas[2].votos}</h4>
                                         <h4>Porcentaje: ${arrayListas[2].porcentaje}</h4>
+                                        <h4>CD:${arrayListas[2].CD}</h4>
+                                        <h4>AR:</h4>
+                                        <h4>CF:</h4>
                                     </div>
                                     <div class='divLista4' id='divLista4'>
                                         <h3>${arrayListas[3].nombre}</h3>
                                         <h4>Votos: ${arrayListas[3].votos}</h4>
                                         <h4>Porcentaje: ${arrayListas[3].porcentaje}</h4>
+                                        <h4>CD:${arrayListas[3].CD}</h4>
+                                        <h4>AR:</h4>
+                                        <h4>CF:</h4>
                                     </div>
                                     <div class='divLista5' id='divLista5'>
                                         <h3>${arrayListas[4].nombre}</h3>
                                         <h4>Votos: ${arrayListas[4].votos}</h4>
                                         <h4>Porcentaje: ${arrayListas[4].porcentaje}</h4>
+                                        <h4>CD:${arrayListas[4].CD}</h4>
+                                        <h4>AR:</h4>
+                                        <h4>CF:</h4>
                                     </div>
                                     <div class='divLista6' id='divLista6'>
                                         <h3>${arrayListas[5].nombre}</h3>
                                         <h4>Votos${arrayListas[5].votos}</h4>
                                         <h4>Porcentaje:${arrayListas[5].porcentaje}</h4>
+                                        <h4>CD:${arrayListas[5].CD}</h4>
+                                        <h4>AR:</h4>
+                                        <h4>CF:</h4>
                                     </div>
                                     <div class='divLista7' id='divLista7'>
                                         <h3>${arrayListas[6].nombre}</h3>
                                         <h4>Votos: ${arrayListas[6].votos}</h4>
                                         <h4>Porcentaje: ${arrayListas[6].porcentaje}</h4>
+                                        <h4>CD:${arrayListas[6].CD}</h4>
+                                        <h4>AR:</h4>
+                                        <h4>CF:</h4>
                                     </div>`;
             pie.appendChild(fichaListas);
 
@@ -913,41 +994,65 @@ function calculo() {
                                         <h3>${arrayListas[0].nombre}</h3>
                                         <h4>Votos: ${arrayListas[0].votos}</h4>
                                         <h4>Porcentaje: ${arrayListas[0].porcentaje}</h4>
+                                        <h4>CD:${arrayListas[0].CD}</h4>
+                                        <h4>AR:</h4>
+                                        <h4>CF:</h4>
                                     </div>
                                     <div class='divLista2' id='divLista2'>
                                         <h3>${arrayListas[1].nombre}</h3>
                                         <h4>Votos: ${arrayListas[1].votos}</h4>
                                         <h4>Porcentaje: ${arrayListas[1].porcentaje}</h4>
+                                        <h4>CD:${arrayListas[1].CD}</h4>
+                                        <h4>AR:</h4>
+                                        <h4>CF:</h4>
                                     </div>
                                     <div class='divLista3' id='divLista3'>
                                         <h3>${arrayListas[2].nombre}</h3>
                                         <h4>Votos: ${arrayListas[2].votos}</h4>
                                         <h4>Porcentaje: ${arrayListas[2].porcentaje}</h4>
+                                        <h4>CD:${arrayListas[2].CD}</h4>
+                                        <h4>AR:</h4>
+                                        <h4>CF:</h4>
                                     </div>
                                     <div class='divLista4' id='divLista4'>
                                         <h3>${arrayListas[3].nombre}</h3>
                                         <h4>Votos: ${arrayListas[3].votos}</h4>
                                         <h4>Porcentaje: ${arrayListas[3].porcentaje}</h4>
+                                        <h4>CD:${arrayListas[3].CD}</h4>
+                                        <h4>AR:</h4>
+                                        <h4>CF:</h4>
                                     </div>
                                     <div class='divLista5' id='divLista5'>
                                         <h3>${arrayListas[4].nombre}</h3>
                                         <h4>Votos: ${arrayListas[4].votos}</h4>
                                         <h4>Porcentaje: ${arrayListas[4].porcentaje}</h4>
+                                        <h4>CD:${arrayListas[4].CD}</h4>
+                                        <h4>AR:</h4>
+                                        <h4>CF:</h4>
                                     </div>
                                     <div class='divLista6' id='divLista6'>
                                         <h3>${arrayListas[5].nombre}</h3>
                                         <h4>Votos${arrayListas[5].votos}</h4>
                                         <h4>Porcentaje:${arrayListas[5].porcentaje}</h4>
+                                        <h4>CD:${arrayListas[5].CD}</h4>
+                                        <h4>AR:</h4>
+                                        <h4>CF:</h4>
                                     </div>
                                     <div class='divLista7' id='divLista7'>
                                         <h3>${arrayListas[6].nombre}</h3>
                                         <h4>Votos: ${arrayListas[6].votos}</h4>
                                         <h4>Porcentaje: ${arrayListas[6].porcentaje}</h4>
+                                        <h4>CD:${arrayListas[6].CD}</h4>
+                                        <h4>AR:</h4>
+                                        <h4>CF:</h4>
                                     </div>
                                     <div class='divLista8' id='divLista8'>
                                         <h3>${arrayListas[7].nombre}</h3>
                                         <h4>Votos: ${arrayListas[7].votos}</h4>
                                         <h4>Porcentaje: ${arrayListas[7].porcentaje}</h4>
+                                        <h4>CD:${arrayListas[7].CD}</h4>
+                                        <h4>AR:</h4>
+                                        <h4>CF:</h4>
                                     </div>`;
             pie.appendChild(fichaListas);
 
@@ -989,46 +1094,73 @@ function calculo() {
                                         <h3>${arrayListas[0].nombre}</h3>
                                         <h4>Votos: ${arrayListas[0].votos}</h4>
                                         <h4>Porcentaje: ${arrayListas[0].porcentaje}</h4>
+                                        <h4>CD: ${arrayListas[0].CD}</h4>
+                                        <h4>AR:</h4>
+                                        <h4>CF:</h4>
                                     </div>
                                     <div class='divLista2' id='divLista2'>
                                         <h3>${arrayListas[1].nombre}</h3>
                                         <h4>Votos: ${arrayListas[1].votos}</h4>
                                         <h4>Porcentaje: ${arrayListas[1].porcentaje}</h4>
+                                        <h4>CD:${arrayListas[1].CD}</h4>
+                                        <h4>AR:</h4>
+                                        <h4>CF:</h4>
                                     </div>
                                     <div class='divLista3' id='divLista3'>
                                         <h3>${arrayListas[2].nombre}</h3>
                                         <h4>Votos: ${arrayListas[2].votos}</h4>
                                         <h4>Porcentaje: ${arrayListas[2].porcentaje}</h4>
+                                        <h4>CD:${arrayListas[2].CD}</h4>
+                                        <h4>AR:</h4>
+                                        <h4>CF:</h4>
                                     </div>
                                     <div class='divLista4' id='divLista4'>
                                         <h3>${arrayListas[3].nombre}</h3>
                                         <h4>Votos: ${arrayListas[3].votos}</h4>
                                         <h4>Porcentaje: ${arrayListas[3].porcentaje}</h4>
+                                        <h4>CD:${arrayListas[3].CD}</h4>
+                                        <h4>AR:</h4>
+                                        <h4>CF:</h4>
                                     </div>
                                     <div class='divLista5' id='divLista5'>
                                         <h3>${arrayListas[4].nombre}</h3>
                                         <h4>Votos: ${arrayListas[4].votos}</h4>
                                         <h4>Porcentaje: ${arrayListas[4].porcentaje}</h4>
+                                        <h4>CD:${arrayListas[4].CD}</h4>
+                                        <h4>AR:</h4>
+                                        <h4>CF:</h4>
                                     </div>
                                     <div class='divLista6' id='divLista6'>
                                         <h3>${arrayListas[5].nombre}</h3>
                                         <h4>Votos${arrayListas[5].votos}</h4>
                                         <h4>Porcentaje:${arrayListas[5].porcentaje}</h4>
+                                        <h4>CD:${arrayListas[5].CD}</h4>
+                                        <h4>AR:</h4>
+                                        <h4>CF:</h4>
                                     </div>
                                     <div class='divLista7' id='divLista7'>
                                         <h3>${arrayListas[6].nombre}</h3>
                                         <h4>Votos: ${arrayListas[6].votos}</h4>
                                         <h4>Porcentaje: ${arrayListas[6].porcentaje}</h4>
+                                        <h4>CD:${arrayListas[6].CD}</h4>
+                                        <h4>AR:</h4>
+                                        <h4>CF:</h4>
                                     </div>
                                     <div class='divLista8' id='divLista8'>
                                         <h3>${arrayListas[7].nombre}</h3>
                                         <h4>Votos: ${arrayListas[7].votos}</h4>
                                         <h4>Porcentaje: ${arrayListas[7].porcentaje}</h4>
+                                        <h4>CD:${arrayListas[7].CD}</h4>
+                                        <h4>AR:</h4>
+                                        <h4>CF:</h4>
                                     </div>
                                     <div class='divLista9' id='divLista9'>
                                         <h3>${arrayListas[8].nombre}</h3>
                                         <h4>Votos: ${arrayListas[8].votos}</h4>
                                         <h4>Porcentaje: ${arrayListas[8].porcentaje}</h4>
+                                        <h4>CD:${arrayListas[8].CD}</h4>
+                                        <h4>AR:</h4>
+                                        <h4>CF:</h4>
                                     </div>`;
             pie.appendChild(fichaListas);
 
@@ -1073,51 +1205,61 @@ function calculo() {
                                         <h3>${arrayListas[0].nombre}</h3>
                                         <h4>Votos: ${arrayListas[0].votos}</h4>
                                         <h4>Porcentaje: ${arrayListas[0].porcentaje}</h4>
+                                        <h4>CD: ${arrayListas[0].CD}</h4>
                                     </div>
                                     <div class='divLista2' id='divLista2'>
                                         <h3>${arrayListas[1].nombre}</h3>
                                         <h4>Votos: ${arrayListas[1].votos}</h4>
                                         <h4>Porcentaje: ${arrayListas[1].porcentaje}</h4>
+                                        <h4>CD: ${arrayListas[1].CD}</h4>
                                     </div>
                                     <div class='divLista3' id='divLista3'>
                                         <h3>${arrayListas[2].nombre}</h3>
                                         <h4>Votos: ${arrayListas[2].votos}</h4>
                                         <h4>Porcentaje: ${arrayListas[2].porcentaje}</h4>
+                                        <h4>CD: ${arrayListas[2].CD}</h4>
                                     </div>
                                     <div class='divLista4' id='divLista4'>
                                         <h3>${arrayListas[3].nombre}</h3>
                                         <h4>Votos: ${arrayListas[3].votos}</h4>
                                         <h4>Porcentaje: ${arrayListas[3].porcentaje}</h4>
+                                        <h4>CD: ${arrayListas[3].CD}</h4>
                                     </div>
                                     <div class='divLista5' id='divLista5'>
                                         <h3>${arrayListas[4].nombre}</h3>
                                         <h4>Votos: ${arrayListas[4].votos}</h4>
                                         <h4>Porcentaje: ${arrayListas[4].porcentaje}</h4>
+                                        <h4>CD: ${arrayListas[4].CD}</h4>
                                     </div>
                                     <div class='divLista6' id='divLista6'>
                                         <h3>${arrayListas[5].nombre}</h3>
                                         <h4>Votos: ${arrayListas[5].votos}</h4>
                                         <h4>Porcentaje:${arrayListas[5].porcentaje}</h4>
+                                        <h4>CD: ${arrayListas[5].CD}</h4>
                                     </div>
                                     <div class='divLista7' id='divLista7'>
                                         <h3>${arrayListas[6].nombre}</h3>
                                         <h4>Votos: ${arrayListas[6].votos}</h4>
                                         <h4>Porcentaje: ${arrayListas[6].porcentaje}</h4>
+                                        <h4>CD: ${arrayListas[6].CD}</h4>
                                     </div>
                                     <div class='divLista8' id='divLista8'>
                                         <h3>${arrayListas[7].nombre}</h3>
                                         <h4>Votos: ${arrayListas[7].votos}</h4>
                                         <h4>Porcentaje: ${arrayListas[7].porcentaje}</h4>
+                                        <h4>CD: ${arrayListas[7].CD}</h4>
                                     </div>
                                     <div class='divLista9' id='divLista9'>
                                         <h3>${arrayListas[8].nombre}</h3>
                                         <h4>Votos: ${arrayListas[8].votos}</h4>
                                         <h4>Porcentaje: ${arrayListas[8].porcentaje}</h4>
+                                        <h4>CD: ${arrayListas[8].CD}</h4>
                                     </div>
                                     <div class='divLista10' id='divLista10'>
                                         <h3>${arrayListas[9].nombre}</h3>
                                         <h4>Votos: ${arrayListas[9].votos}</h4>
                                         <h4>Porcentaje: ${arrayListas[9].porcentaje}</h4>
+                                        <h4>CD: ${arrayListas[9].CD}</h4>
                                     </div>`;
             pie.appendChild(fichaListas);
 
