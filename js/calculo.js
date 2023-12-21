@@ -358,7 +358,7 @@ function calculo() {
     let miembrosMayoriaAR = 0;
     let miembrosMayoriaCD = 0;
 
-    if (porcentajeMayoria < 50) {
+    if (porcentajeMayoria > 50) {
         miembrosMayoriaAR = 60;
         miembrosMayoriaCD = 15;
     } else {
