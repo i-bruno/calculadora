@@ -82,8 +82,6 @@ div {
   justify-content: space-around;
   align-content: center;
   flex-wrap: wrap;
-  /* margin: 5px 5px 5px 5px;
-  padding: 5px 5px 5px 5px; */
 }
 
 h1 {
@@ -212,7 +210,7 @@ h1 {
 
 /* GRID ASAMBLEA */
 .container {
-  display: grid;
+
   grid-template-columns: 2fr 1fr;
   grid-template-rows: 1fr;
   grid-auto-columns: 1fr;
@@ -1340,4 +1338,8 @@ h1 {
 
 .divLista7{
   color: white;
+}
+
+.displayNone{
+  display:none;
 }

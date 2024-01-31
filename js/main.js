@@ -20,7 +20,7 @@ divSeccionPrincipal.className = "container";
 
 ///Sección principal
 const infoPrincipal = document.getElementById("seccionPrincipal");
-infoPrincipal.className = "gridListas";
+infoPrincipal.className = "displayNone";
 
 ///Información secundaria sobre el estatuto
 const infoSecundaria = document.getElementById("menuLateral");
@@ -31,7 +31,7 @@ const posSeccion = document.getElementById("posSeccion");
 posSeccion.className = "classPosSeccion";
 
 //Pie de página con los resultados
-const pie = document.getElementById("piePagina"); 
+const pie = document.getElementById("piePagina");
 pie.className = "classPie";
 
 //Último pie de página copyright
@@ -83,22 +83,22 @@ const elementoListaOrdenada4 = document.createElement("li");
 listaOrdenada.appendChild(elementoListaOrdenada4);
 
 const linkElementoUno = document.createElement("a");
-linkElementoUno.innerText="Inicio";
+linkElementoUno.innerText = "Inicio";
 elementoListaOrdenada1.appendChild(linkElementoUno);
 linkElementoUno.setAttribute('href', '#');
 
 const linkElementoDos = document.createElement("a");
-linkElementoDos.innerText="Quienes somos";
+linkElementoDos.innerText = "Quienes somos";
 elementoListaOrdenada2.appendChild(linkElementoDos);
 linkElementoDos.setAttribute('href', '#');
 
 const linkElementoTres = document.createElement("a");
-linkElementoTres.innerText="Otros proyectos";
+linkElementoTres.innerText = "Otros proyectos";
 elementoListaOrdenada3.appendChild(linkElementoTres);
 linkElementoTres.setAttribute('href', '#');
 
 const linkElementoCuatro = document.createElement("a");
-linkElementoCuatro.innerText="Contacto";
+linkElementoCuatro.innerText = "Contacto";
 elementoListaOrdenada4.appendChild(linkElementoCuatro);
 linkElementoCuatro.setAttribute('href', '#');
 
@@ -110,7 +110,7 @@ navegacion.appendChild(btnColor);
 
 //Tercer Nodo: ¿Cuántas agrupaciones son?
 const etiquetaPreSeccion = document.createElement("label");
-etiquetaPreSeccion.innerText="¿Cuántas listas o agrupaciones participan de la elección?";
+etiquetaPreSeccion.innerText = "¿Cuántas listas o agrupaciones participan de la elección?";
 preSeccion.appendChild(etiquetaPreSeccion);
 
 ///Input para que el usuario ingrese la cantidad de listas
@@ -136,7 +136,7 @@ btnReset.id = "btnReset";
 btnReset.setAttribute('type', 'submit');
 btnReset.className = "boton";
 btnReset.innerText = "Resetear";
-btnReset.addEventListener('click', _ => {location.reload();});
+btnReset.addEventListener('click', _ => { location.reload(); });
 contenedor.appendChild(btnReset);
 
 //Quinto Nodo: Post sección principal
@@ -145,8 +145,8 @@ etiqVotosBlancos.innerText = "Votos blancos"
 posSeccion.appendChild(etiqVotosBlancos);
 
 let votosBlancos = document.createElement("input");
-votosBlancos.setAttribute ('type', 'number');
-votosBlancos.setAttribute ('value', 0);
+votosBlancos.setAttribute('type', 'number');
+votosBlancos.setAttribute('value', 0);
 votosBlancos.id = "votosBlancos";
 posSeccion.appendChild(votosBlancos);
 
@@ -155,8 +155,8 @@ etiqVotosNulos.innerText = "Votos nulos"
 posSeccion.appendChild(etiqVotosNulos);
 
 const votosNulos = document.createElement("input");
-votosNulos.setAttribute ('type', 'number');
-votosNulos.setAttribute ('value', 0);
+votosNulos.setAttribute('type', 'number');
+votosNulos.setAttribute('value', 0);
 posSeccion.appendChild(votosNulos);
 
 const etiqVotosImpugnados = document.createElement("label");
@@ -164,8 +164,8 @@ etiqVotosImpugnados.innerText = "Votos impugnados";
 posSeccion.appendChild(etiqVotosImpugnados);
 
 const votosImpugnados = document.createElement("input");
-votosImpugnados.setAttribute ('type', 'number');
-votosImpugnados.setAttribute ('value', 0);
+votosImpugnados.setAttribute('type', 'number');
+votosImpugnados.setAttribute('value', 0);
 posSeccion.appendChild(votosImpugnados);
 
 const boton = document.createElement("button");
@@ -256,7 +256,7 @@ derechos.innerText = "©Biblioteca Popular Sanlorencista Leónidas Barletta - To
 footer.appendChild(derechos);
 
 class Agrupaciones {
-    constructor (nombre, candidato, votos, porcentaje, color, AR, CD, CF){
+    constructor(nombre, candidato, votos, porcentaje, color, AR, CD, CF) {
         this.nombre = nombre;
         this.candidato = candidato;
         this.votos = votos;
@@ -268,15 +268,15 @@ class Agrupaciones {
     }
 }
 
-const lista1 = new Agrupaciones ("sin definir", "sin definir", 0, 0, "green", 0, 0, 0);
-const lista2 = new Agrupaciones ("sin definir", "sin definir", 0, 0, "orange", 0, 0, 0);
-const lista3 = new Agrupaciones ("sin definir", "sin definir", 0, 0, "deeppink", 0, 0, 0);
-const lista4 = new Agrupaciones ("sin definir", "sin definir", 0, 0, "blue", 0, 0, 0);
-const lista5 = new Agrupaciones ("sin definir", "sin definir", 0, 0, "red", 0, 0, 0);
-const lista6 = new Agrupaciones ("sin definir", "sin definir", 0, 0, "grey", 0, 0, 0);
-const lista7 = new Agrupaciones ("sin definir", "sin definir", 0, 0, "black", 0, 0, 0);
-const lista8 = new Agrupaciones ("sin definir", "sin definir", 0, 0, "purple", 0, 0, 0);
-const lista9 = new Agrupaciones ("sin definir", "sin definir", 0, 0, "cadetblue", 0, 0, 0);
-const lista10 = new Agrupaciones ("sin definir", "sin definir", 0, 0, "darkgoldenrod", 0, 0, 0);
+const lista1 = new Agrupaciones("sin definir", "sin definir", 0, 0, "green", 0, 0, 0);
+const lista2 = new Agrupaciones("sin definir", "sin definir", 0, 0, "orange", 0, 0, 0);
+const lista3 = new Agrupaciones("sin definir", "sin definir", 0, 0, "deeppink", 0, 0, 0);
+const lista4 = new Agrupaciones("sin definir", "sin definir", 0, 0, "blue", 0, 0, 0);
+const lista5 = new Agrupaciones("sin definir", "sin definir", 0, 0, "red", 0, 0, 0);
+const lista6 = new Agrupaciones("sin definir", "sin definir", 0, 0, "grey", 0, 0, 0);
+const lista7 = new Agrupaciones("sin definir", "sin definir", 0, 0, "black", 0, 0, 0);
+const lista8 = new Agrupaciones("sin definir", "sin definir", 0, 0, "purple", 0, 0, 0);
+const lista9 = new Agrupaciones("sin definir", "sin definir", 0, 0, "cadetblue", 0, 0, 0);
+const lista10 = new Agrupaciones("sin definir", "sin definir", 0, 0, "darkgoldenrod", 0, 0, 0);
 
 arrayListas = [lista1, lista2, lista3, lista4, lista5, lista6, lista7, lista8, lista9, lista10];

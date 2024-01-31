@@ -58,6 +58,25 @@ function funListas() {
     let segundoInputJ
     let tercerInputJ
 
+    let section = document.getElementById('seccionPrincipal');
+    if (section.classList.contains('displayNone')){
+        section.classList.remove('displayNone');
+        section.classList.add('gridListas');
+    } else {
+        section.classList.remove('gridListas');
+        section.classList.add('displayNone');
+    }
+
+    let contenedorGrid = document.querySelectorAll('.container');
+    contenedorGrid.forEach(function(elemento){
+        if (elemento.style.display === '' || elemento.style.display === 'grid'){
+            elemento.style.display = 'grid';
+        } else {
+            elemento.style.display = 'none';
+        }
+    })
+
+
     //El switch arma la cantidad de inputs que se necesitan para que el usuario pueda ingresar los datos necesarios, según la cantidad de listas que se presentan a elecciones.
 
     switch (parseInt(cantidadListas)) {
@@ -1266,15 +1285,15 @@ function funListas() {
             divListaJ.appendChild(tercerInputJ);
             break;
 
-            //Cuando se ingresa la opción de una decimo primer lista, el sistema avisa que no es posible.
-            case 11:
-                Swal.fire({
-                    title: 'Excede el límite',
-                    text: "La calculadora solo acepta por el momento diez listas",
-                    icon: 'warning',
-                    confirmButtonColor: '#bf1b27',
-                    confirmButtonText: 'Salir'
-                })
+        //Cuando se ingresa la opción de una decimo primer lista, el sistema avisa que no es posible.
+        case 11:
+            Swal.fire({
+                title: 'Excede el límite',
+                text: "La calculadora solo acepta por el momento diez listas",
+                icon: 'warning',
+                confirmButtonColor: '#bf1b27',
+                confirmButtonText: 'Salir'
+            })
             break;
     }
 };
