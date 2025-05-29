@@ -88,7 +88,7 @@ listaOrdenada.appendChild(elementoListaOrdenada5);
 const linkElementoUno = document.createElement("a");
 linkElementoUno.innerText = "Inicio";
 elementoListaOrdenada1.appendChild(linkElementoUno);
-linkElementoUno.setAttribute('href', '#');
+linkElementoUno.setAttribute('href', 'index.html');
 
 const linkElementoDos = document.createElement("a");
 linkElementoDos.innerText = "Quienes somos";
@@ -101,9 +101,9 @@ elementoListaOrdenada3.appendChild(linkElementoTres);
 linkElementoTres.setAttribute('href', '#');
 
 const linkElementoCuatro = document.createElement("a");
-linkElementoCuatro.innerText = "Contacto";
+linkElementoCuatro.innerText = "Calculadora";
 elementoListaOrdenada4.appendChild(linkElementoCuatro);
-linkElementoCuatro.setAttribute('href', '#');
+linkElementoCuatro.setAttribute('href', 'calculadora.html');
 
 const linkElementoCinco = document.createElement("a");
 linkElementoCinco.innerText = "Cargos";
