@@ -85,6 +85,9 @@ listaOrdenada.appendChild(elementoListaOrdenada4);
 const elementoListaOrdenada5 = document.createElement("li");
 listaOrdenada.appendChild(elementoListaOrdenada5);
 
+const elementoListaOrdenada6 = document.createElement("li");
+listaOrdenada.appendChild(elementoListaOrdenada6);
+
 const linkElementoUno = document.createElement("a");
 linkElementoUno.innerText = "Inicio";
 elementoListaOrdenada1.appendChild(linkElementoUno);
@@ -101,14 +104,19 @@ elementoListaOrdenada3.appendChild(linkElementoTres);
 linkElementoTres.setAttribute('href', '#');
 
 const linkElementoCuatro = document.createElement("a");
-linkElementoCuatro.innerText = "Contacto";
+linkElementoCuatro.innerText = "Calculadora";
 elementoListaOrdenada4.appendChild(linkElementoCuatro);
-linkElementoCuatro.setAttribute('href', '#');
+linkElementoCuatro.setAttribute('href', 'calculadora.html');
 
 const linkElementoCinco = document.createElement("a");
 linkElementoCinco.innerText = "Cargos";
 elementoListaOrdenada5.appendChild(linkElementoCinco);
 linkElementoCinco.setAttribute('href', 'cargos.html');
+
+const linkElementoSeis = document.createElement("a");
+linkElementoSeis.innerText = "Contacto";
+elementoListaOrdenada6.appendChild(linkElementoSeis);
+linkElementoSeis.setAttribute('href', '#');
 
 const btnColor = document.createElement("button");
 btnColor.id = "btnColor";
