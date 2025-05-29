@@ -41,7 +41,7 @@ footer.className = "classFooter";
 //Primer Nodo: Título
 const titulo = document.createElement("h1");
 const subtitulo = document.createElement("h3");
-titulo.innerText = "Sistema de Ingreso de Cargos";
+titulo.innerText = "Bienvenidxs al Sistema de Información Política del Club Atlético San Lorenzo de Almagro";
 titulo.id = "tituloPrincipal";
 subtitulo.innerText = "Versión Beta";
 subtitulo.id = "subTitulo";
