@@ -88,7 +88,7 @@ listaOrdenada.appendChild(elementoListaOrdenada5);
 const linkElementoUno = document.createElement("a");
 linkElementoUno.innerText = "Inicio";
 elementoListaOrdenada1.appendChild(linkElementoUno);
-linkElementoUno.setAttribute('href', '#');
+linkElementoUno.setAttribute('href', 'index.html');
 
 const linkElementoDos = document.createElement("a");
 linkElementoDos.innerText = "Quienes somos";
