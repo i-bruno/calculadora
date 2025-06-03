@@ -1,6 +1,6 @@
 const body = document.body;
 body.id = "cuerpo";
-body.innerHTML = '<header id="encabezado"><nav id="navBar"></nav></header> <section id="preSeccion"></section> <div id="divSeccionPrincipal"><section id="seccionPrincipal"></section><aside id="menuLateral"></aside></div> <section id="posSeccion"></section>  <section id="piePagina"></section> <footer id=footer></footer>';
+body.innerHTML = '<header id="encabezado"><nav id="navBar"></nav></header> <div id="divSeccionPrincipal"><section id="seccionPrincipal"></section><aside id="menuLateral"></aside></div> <section id="posSeccion"></section>  <section id="piePagina"></section> <footer id=footer></footer>';
 
 //Encabezado
 const encabezado = document.getElementById("encabezado");
@@ -167,6 +167,9 @@ boton2.setAttribute('href', 'cargos.html');
 boton3.setAttribute('href', 'http://repositorio.archivocasla.com.ar/');
 boton4.setAttribute('href', 'http://indice.archivocasla.com.ar/vocab/index.php');
 
+boton3.setAttribute('target', '_blank');
+boton4.setAttribute('target', '_blank');
+
 botonera.appendChild(boton1);
 botonera.appendChild(boton2);
 botonera.appendChild(boton3);
@@ -174,35 +177,35 @@ botonera.appendChild(boton4);
 
 
 //Tercer Nodo: ¿Cuántas agrupaciones son?
-const etiquetaPreSeccion = document.createElement("label");
-etiquetaPreSeccion.innerText = "¿Cuántas listas o agrupaciones participan de la elección?";
-preSeccion.appendChild(etiquetaPreSeccion);
+// const etiquetaPreSeccion = document.createElement("label");
+// etiquetaPreSeccion.innerText = "¿Cuántas listas o agrupaciones participan de la elección?";
+// preSeccion.appendChild(etiquetaPreSeccion);
 
-///Input para que el usuario ingrese la cantidad de listas
-const inputPreSeccion = document.createElement("input");
-inputPreSeccion.id = "numListas";
-inputPreSeccion.setAttribute('type', 'number');
-preSeccion.appendChild(inputPreSeccion);
+// ///Input para que el usuario ingrese la cantidad de listas
+// const inputPreSeccion = document.createElement("input");
+// inputPreSeccion.id = "numListas";
+// inputPreSeccion.setAttribute('type', 'number');
+// preSeccion.appendChild(inputPreSeccion);
 
-///Botón para que el usuario envíe la información.
-const contenedor = document.createElement("div");
-preSeccion.appendChild(contenedor);
+// ///Botón para que el usuario envíe la información.
+// const contenedor = document.createElement("div");
+// preSeccion.appendChild(contenedor);
 
-const btn = document.createElement("button");
-btn.id = "btn";
-btn.setAttribute('type', 'submit');
-btn.className = "boton";
-btn.innerText = "Enviar";
-btn.addEventListener("click", funListas);
-contenedor.appendChild(btn);
+// const btn = document.createElement("button");
+// btn.id = "btn";
+// btn.setAttribute('type', 'submit');
+// btn.className = "boton";
+// btn.innerText = "Enviar";
+// btn.addEventListener("click", funListas);
+// contenedor.appendChild(btn);
 
-const btnReset = document.createElement("button");
-btnReset.id = "btnReset";
-btnReset.setAttribute('type', 'submit');
-btnReset.className = "boton";
-btnReset.innerText = "Resetear";
-btnReset.addEventListener('click', _ => { location.reload(); });
-contenedor.appendChild(btnReset);
+// const btnReset = document.createElement("button");
+// btnReset.id = "btnReset";
+// btnReset.setAttribute('type', 'submit');
+// btnReset.className = "boton";
+// btnReset.innerText = "Resetear";
+// btnReset.addEventListener('click', _ => { location.reload(); });
+// contenedor.appendChild(btnReset);
 
 //Quinto Nodo: Post sección principal
 const etiqVotosBlancos = document.createElement("label");
