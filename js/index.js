@@ -10,10 +10,6 @@ encabezado.className = "classEncabezado";
 const navegacion = document.getElementById("navBar");
 navegacion.className = "classNavegacion";
 
-//Pre sección principal
-const preSeccion = document.getElementById("preSeccion");
-preSeccion.className = "classPreSeccion";
-
 //Contenedor de sección principal y info secundaria
 const divSeccionPrincipal = document.getElementById("divSeccionPrincipal");
 divSeccionPrincipal.className = "container";
