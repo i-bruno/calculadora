@@ -147,6 +147,11 @@ const boton2 = document.createElement("a");
 const boton3 = document.createElement("a");
 const boton4 = document.createElement("a");
 
+boton1.className = "boton";
+boton2.className = "boton";
+boton3.className = "boton";
+boton4.className = "boton";
+
 boton1.innerText = "Calculadora";
 boton2.innerText = "Cargos";
 boton3.innerText = "Repositorio";
