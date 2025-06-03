@@ -20,7 +20,7 @@ divSeccionPrincipal.className = "container";
 
 ///Sección principal
 const infoPrincipal = document.getElementById("seccionPrincipal");
-infoPrincipal.className = "displayNone";
+infoPrincipal.className = "seccionPrincipal";
 
 ///Información secundaria sobre el estatuto
 const infoSecundaria = document.getElementById("menuLateral");
