@@ -11,8 +11,8 @@ const navegacion = document.getElementById("navBar");
 navegacion.className = "classNavegacion";
 
 //Pre sección principal
-const preSeccion = document.getElementById("preSeccion");
-preSeccion.className = "classPreSeccion";
+// const preSeccion = document.getElementById("preSeccion");
+// preSeccion.className = "classPreSeccion";
 
 //Contenedor de sección principal y info secundaria
 const divSeccionPrincipal = document.getElementById("divSeccionPrincipal");
@@ -23,16 +23,16 @@ const infoPrincipal = document.getElementById("seccionPrincipal");
 infoPrincipal.className = "displayNone";
 
 ///Información secundaria sobre el estatuto
-const infoSecundaria = document.getElementById("menuLateral");
-infoSecundaria.className = "gridEstatuto";
+// const infoSecundaria = document.getElementById("menuLateral");
+// infoSecundaria.className = "gridEstatuto";
 
 //Pos sección principal
-const posSeccion = document.getElementById("posSeccion");
-posSeccion.className = "classPosSeccion";
+// const posSeccion = document.getElementById("posSeccion");
+// posSeccion.className = "classPosSeccion";
 
 //Pie de página con los resultados
-const pie = document.getElementById("piePagina");
-pie.className = "classPie";
+// const pie = document.getElementById("piePagina");
+// pie.className = "classPie";
 
 //Último pie de página copyright
 const footer = document.getElementById("footer");
