@@ -121,10 +121,15 @@ btnColor.innerText = "Rojo";
 btnColor.className = "boton";
 navegacion.appendChild(btnColor);
 
-//Tercer Nodo: ¿Cuántas agrupaciones son?
-const etiquetaPreSeccion = document.createElement("label");
-etiquetaPreSeccion.innerText = "¿Cuántas listas o agrupaciones participan de la elección?";
-preSeccion.appendChild(etiquetaPreSeccion);
+//Tercer Nodo: Menu principal
+const tituloMenu = document.createElement("h1");
+const subtituloMenu = document.createElement("h3");
+tituloMenu.innerText = "Menú de navegación";
+subtituloMenu.innerText = "Elija un sistema";
+tituloMenu.id = "tituloMenu";
+subtituloMenu.id = "subtituloMenu";
+infoPrincipal.appendChild(tituloMenu);
+infoPrincipal.appendChild(subtituloMenu);
 
 ///Input para que el usuario ingrese la cantidad de listas
 // const inputPreSeccion = document.createElement("input");
@@ -258,9 +263,6 @@ preSeccion.appendChild(etiquetaPreSeccion);
 // const parrafoArt106 = document.createElement("p");
 // parrafoArt106.innerText = "Los cargos de la Comisión Fiscalizadora se adjudicarán dividiendo el total de los votos emitidos por siete. El número de votos obtenidos por cada lista se dividirá luego por este cociente y el nuevo que resulte dará el número que corresponda a cada una, adjudicándose a los mayores residuos los que falten. la Junta Electoral procederá de inmediato a proclamar electos y hasta completar el número asignado, a los candidatos que ocupan los puestos en cada lista. Acto continuo, extenderá sus nombramientos y los convocará para que celebren sesión constitutiva dentro de los plazos establecidos. Los restantes integrantes de las listas quedarán como miembros reemplazantes de los electos por cada una, para el caso de vacancia.";
 // infoSecundaria.appendChild(parrafoArt106);
-
-
-
 
 //Octavo Nodo: footercopyright
 
