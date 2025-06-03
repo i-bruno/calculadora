@@ -1,131 +1,5165 @@
 {
     "comisionDirectiva": [
         {
-            "presidente": "",
-            "vicepresidente_primero": "",
-            "vicepresidente_segundo": "",
-            "secretario_general":"",
-            "prosecretario":"",
-            "secretario_actas":"",
-            "tesorero":"",
-            "protesorero":"",
-            "intendente":"",
-            "subintendente":"",
-            "vocal1":"",
-            "vocal2":"",
-            "vocal3":"",
-            "vocal4":"",
-            "vocal5":"",
-            "vocal6":"",
-            "vocal7":"",
-            "vocal8":"",
-            "vocal9":"",
-            "vocal10":""
+            "presidente": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "vicepresidente_primero": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "vicepresidente_segundo": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "secretario_general": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "prosecretario": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "secretario_actas": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "tesorero": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "protesorero": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "intendente": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "subintendente": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "vocal1": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "vocal2": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "vocal3": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "vocal4": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "vocal5": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "vocal6": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "vocal7": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "vocal8": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "vocal9": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "vocal10": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ]
         }
     ],
     "comisionFiscalizadora": [
         {
-            "fiscalizador1":"",
-            "fiscalizador2":"",
-            "fiscalizador3":"",
-            "fiscalizador4":"",
-            "fiscalizador5":"",
-            "fiscalizador6":"",
-            "fiscalizador7":""
+            "fiscalizador1": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "cargo": ""
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "fiscalizador2": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "cargo": ""
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "fiscalizador3": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "cargo": ""
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "fiscalizador4": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "cargo": ""
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "fiscalizador5": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "cargo": ""
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "fiscalizador6": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "cargo": ""
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "fiscalizador7": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "cargo": ""
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ]
         }
     ],
-    "asamblea":[
+    "asamblea": [
         {
-            "asambleista1":"",
-            "asambleista2":"",
-            "asambleista3":"",
-            "asambleista4":"",
-            "asambleista5":"",
-            "asambleista6":"",
-            "asambleista7":"",
-            "asambleista8":"",
-            "asambleista9":"",
-            "asambleista10":"",
-            "asambleista11":"",
-            "asambleista12":"",
-            "asambleista13":"",
-            "asambleista14":"",
-            "asambleista15":"",
-            "asambleista16":"",
-            "asambleista17":"",
-            "asambleista18":"",
-            "asambleista19":"",
-            "asambleista20":"",
-            "asambleista21":"",
-            "asambleista22":"",
-            "asambleista23":"",
-            "asambleista24":"",
-            "asambleista25":"",
-            "asambleista26":"",
-            "asambleista27":"",
-            "asambleista28":"",
-            "asambleista29":"",
-            "asambleista30":"",
-            "asambleista31":"",
-            "asambleista32":"",
-            "asambleista33":"",
-            "asambleista34":"",
-            "asambleista35":"",
-            "asambleista36":"",
-            "asambleista37":"",
-            "asambleista38":"",
-            "asambleista39":"",
-            "asambleista40":"",
-            "asambleista41":"",
-            "asambleista42":"",
-            "asambleista43":"",
-            "asambleista44":"",
-            "asambleista45":"",
-            "asambleista46":"",
-            "asambleista47":"",
-            "asambleista48":"",
-            "asambleista49":"",
-            "asambleista50":"",
-            "asambleista51":"",
-            "asambleista52":"",
-            "asambleista53":"",
-            "asambleista54":"",
-            "asambleista55":"",
-            "asambleista56":"",
-            "asambleista57":"",
-            "asambleista58":"",
-            "asambleista59":"",
-            "asambleista60":"",
-            "asambleista61":"",
-            "asambleista62":"",
-            "asambleista63":"",
-            "asambleista64":"",
-            "asambleista65":"",
-            "asambleista66":"",
-            "asambleista67":"",
-            "asambleista68":"",
-            "asambleista69":"",
-            "asambleista70":"",
-            "asambleista71":"",
-            "asambleista72":"",
-            "asambleista73":"",
-            "asambleista74":"",
-            "asambleista75":"",
-            "asambleista76":"",
-            "asambleista77":"",
-            "asambleista78":"",
-            "asambleista79":"",
-            "asambleista80":"",
-            "asambleista81":"",
-            "asambleista82":"",
-            "asambleista83":"",
-            "asambleista84":"",
-            "asambleista85":"",
-            "asambleista86":"",
-            "asambleista87":"",
-            "asambleista88":"",
-            "asambleista89":"",
-            "asambleista90":""
+            "asambleista1": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista2": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista3": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista4": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista5": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista6": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista7": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista8": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista9": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista10": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista11": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista12": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista13": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista14": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista15": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista16": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista17": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista18": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista19": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista20": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista21": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista22": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista23": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista24": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista25": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista26": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista27": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista28": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista29": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista30": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista31": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista32": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista33": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista34": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista35": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista36": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista37": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista38": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista39": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista40": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista41": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista42": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista43": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista44": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista45": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista46": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista47": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista48": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista49": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista50": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista51": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista52": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista53": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista54": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista55": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista56": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista57": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista58": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista59": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista60": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista61": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista62": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista63": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista64": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista65": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista66": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista67": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista68": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista69": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista70": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista71": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista72": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista73": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista74": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista75": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista76": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista77": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista78": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista79": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista80": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista81": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista82": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista83": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista84": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista85": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista86": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista87": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista88": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista89": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ],
+            "asambleista90": [
+                {
+                    "nombre y apellido": ""
+                },
+                {
+                    "comision": [
+                        {
+                            "nombre": ""
+                        },
+                        {
+                            "cargo": ""
+                        },
+                        {
+                            "alta": "",
+                            "comentarios": ""
+                        },
+                        {
+                            "baja": "",
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "situación": [
+                        {
+                            "activa": "True"
+                        },
+                        {
+                            "pasiva": "False"
+                        },
+                        {
+                            "comentarios": ""
+                        }
+                    ]
+                },
+                {
+                    "agrupacion": "",
+                    "comentarios": ""
+                },
+                {
+                    "alta": "",
+                    "comentarios": ""
+                },
+                {
+                    "baja": "",
+                    "comentarios": ""
+                }
+            ]
         }
     ]
-}
+}    
