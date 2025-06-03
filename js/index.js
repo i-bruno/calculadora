@@ -20,7 +20,7 @@ divSeccionPrincipal.className = "container";
 
 ///Sección principal
 const infoPrincipal = document.getElementById("seccionPrincipal");
-infoPrincipal.className = "displayNone";
+infoPrincipal.className = "seccionPrincipal";
 
 ///Información secundaria sobre el estatuto
 // const infoSecundaria = document.getElementById("menuLateral");
@@ -96,19 +96,24 @@ elementoListaOrdenada2.appendChild(linkElementoDos);
 linkElementoDos.setAttribute('href', '#');
 
 const linkElementoTres = document.createElement("a");
-linkElementoTres.innerText = "Otros proyectos";
+linkElementoTres.innerText = "Calculadora";
 elementoListaOrdenada3.appendChild(linkElementoTres);
-linkElementoTres.setAttribute('href', '#');
+linkElementoTres.setAttribute('href', 'calculadora.html');
 
 const linkElementoCuatro = document.createElement("a");
-linkElementoCuatro.innerText = "Calculadora";
+linkElementoCuatro.innerText = "Cargos";
 elementoListaOrdenada4.appendChild(linkElementoCuatro);
-linkElementoCuatro.setAttribute('href', 'calculadora.html');
+linkElementoCuatro.setAttribute('href', 'cargos.html');
 
 const linkElementoCinco = document.createElement("a");
-linkElementoCinco.innerText = "Cargos";
+linkElementoCinco.innerText = "Otros proyectos";
 elementoListaOrdenada5.appendChild(linkElementoCinco);
-linkElementoCinco.setAttribute('href', 'cargos.html');
+linkElementoCinco.setAttribute('href', '#');
+
+const linkElementoSeis = document.createElement("a");
+linkElementoSeis.innerText = "Contacto";
+elementoListaOrdenada6.appendChild(linkElementoSeis);
+linkElementoSeis.setAttribute('href', '#');
 
 const btnColor = document.createElement("button");
 btnColor.id = "btnColor";
