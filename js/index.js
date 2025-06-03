@@ -142,10 +142,10 @@ botonera.className = "botoneraMenu"
 seccionPrincipal.appendChild(botonera);
 
 //Botones
-const boton1 = document.createElement("button");
-const boton2 = document.createElement("button");
-const boton3 = document.createElement("button");
-const boton4 = document.createElement("button");
+const boton1 = document.createElement("a");
+const boton2 = document.createElement("a");
+const boton3 = document.createElement("a");
+const boton4 = document.createElement("a");
 
 boton1.innerText = "Calculadora";
 boton2.innerText = "Cargos";
