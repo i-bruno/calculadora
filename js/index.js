@@ -147,6 +147,11 @@ const boton2 = document.createElement("a");
 const boton3 = document.createElement("a");
 const boton4 = document.createElement("a");
 
+boton1.id = "boton1Menu";
+boton2.id = "boton2Menu";
+boton3.id = "boton3Menu";
+boton4.id = "boton4Menu";
+
 boton1.className = "boton";
 boton2.className = "boton";
 boton3.className = "boton";
