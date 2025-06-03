@@ -115,7 +115,7 @@ elementoListaOrdenada6.appendChild(linkElementoSeis);
 linkElementoSeis.setAttribute('href', '#');
 
 const btnColor = document.createElement("button");
-btnColor.id = "btnColor";
+btnColor.id = "btnColorIndex";
 btnColor.innerText = "Rojo";
 btnColor.className = "boton";
 navegacion.appendChild(btnColor);
