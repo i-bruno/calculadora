@@ -118,7 +118,7 @@ navegacion.appendChild(btnColor);
 
 //Tercer Nodo: ¿Cuántas agrupaciones son?
 const etiquetaPreSeccion = document.createElement("label");
-etiquetaPreSeccion.innerText = "¿Cuántas listas o agrupaciones participan de la elección?";
+etiquetaPreSeccion.innerText = "Tipo de incidencia";
 preSeccion.appendChild(etiquetaPreSeccion);
 
 ///Input para que el usuario ingrese la cantidad de listas
