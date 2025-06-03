@@ -1,6 +1,6 @@
 const body = document.body;
 body.id = "cuerpo";
-body.innerHTML = '<header id="encabezado"><nav id="navBar"></nav></header> <div id="divSeccionPrincipal"><section id="seccionPrincipal"></section><footer id=footer></footer>';
+body.innerHTML = '<header id="encabezado"><nav id="navBar"></nav></header> <div id="divSeccionPrincipal"><section id="seccionPrincipal"></section></div><footer id=footer></footer>';
 
 //Encabezado
 const encabezado = document.getElementById("encabezado");
