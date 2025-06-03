@@ -85,6 +85,9 @@ listaOrdenada.appendChild(elementoListaOrdenada4);
 const elementoListaOrdenada5 = document.createElement("li");
 listaOrdenada.appendChild(elementoListaOrdenada5);
 
+const elementoListaOrdenada6 = document.createElement("li");
+listaOrdenada.appendChild(elementoListaOrdenada6);
+
 const linkElementoUno = document.createElement("a");
 linkElementoUno.innerText = "Inicio";
 elementoListaOrdenada1.appendChild(linkElementoUno);
@@ -109,6 +112,11 @@ const linkElementoCinco = document.createElement("a");
 linkElementoCinco.innerText = "Cargos";
 elementoListaOrdenada5.appendChild(linkElementoCinco);
 linkElementoCinco.setAttribute('href', 'cargos.html');
+
+const linkElementoSeis = document.createElement("a");
+linkElementoSeis.innerText = "Contacto";
+elementoListaOrdenada6.appendChild(linkElementoSeis);
+linkElementoSeis.setAttribute('href', '#');
 
 const btnColor = document.createElement("button");
 btnColor.id = "btnColor";
