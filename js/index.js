@@ -16,7 +16,7 @@ navegacion.className = "classNavegacion";
 
 //Contenedor de sección principal y info secundaria
 const divSeccionPrincipal = document.getElementById("divSeccionPrincipal");
-divSeccionPrincipal.className = "container";
+divSeccionPrincipal.className = "container d-flex flex-column";
 
 ///Sección principal
 const infoPrincipal = document.getElementById("seccionPrincipal");
