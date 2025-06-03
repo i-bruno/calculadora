@@ -5,10 +5,10 @@ const btnConsulta = document.getElementById("btnConsulta");
 const spanA = document.getElementById("span1");
 const spanB = document.getElementById("span2");
 const spanC = document.getElementById("span3");
-const boton1 = document.getElementById("boton1Menu");
-const boton2 = document.getElementById("boton2Menu");
-const boton3 = document.getElementById("boton3Menu");
-const boton4 = document.getElementById("boton4Menu");
+const botonMenu1 = document.getElementById("boton1Menu");
+const botonMenu2 = document.getElementById("boton2Menu");
+const botonMenu3 = document.getElementById("boton3Menu");
+const botonMenu4 = document.getElementById("boton4Menu");
 
     btnFondo.addEventListener("click", ()=>{
         document.body.classList.toggle("red");
@@ -22,10 +22,10 @@ const boton4 = document.getElementById("boton4Menu");
             spanA.style.backgroundColor = "#263d54";
             spanB.style.backgroundColor = "#263d54";
             spanC.style.backgroundColor = "#263d54";
-            boton1.style.backgroundColor = "#263d54";
-            boton2.style.backgroundColor = "#263d54";
-            boton3.style.backgroundColor = "#263d54";
-            boton4.style.backgroundColor = "#263d54";
+            botonMenu1.style.backgroundColor = "#263d54";
+            botonMenu2.style.backgroundColor = "#263d54";
+            botonMenu3.style.backgroundColor = "#263d54";
+            botonMenu4.style.backgroundColor = "#263d54";
         } else {
             localStorage.setItem("modo", "blue");
             btnFondo.innerText = "Rojo";
@@ -36,10 +36,10 @@ const boton4 = document.getElementById("boton4Menu");
             spanA.style.backgroundColor = "#bf1b27";
             spanB.style.backgroundColor = "#bf1b27";
             spanC.style.backgroundColor = "#bf1b27";
-            boton1.style.backgroundColor = "#bf1b27";
-            boton2.style.backgroundColor = "#bf1b27";
-            boton3.style.backgroundColor = "#bf1b27";
-            boton4.style.backgroundColor = "#bf1b27";
+            botonMenu1.style.backgroundColor = "#bf1b27";
+            botonMenu2.style.backgroundColor = "#bf1b27";
+            botonMenu3.style.backgroundColor = "#bf1b27";
+            botonMenu4.style.backgroundColor = "#bf1b27";
         }
     });
 
