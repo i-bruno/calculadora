@@ -159,6 +159,12 @@ h1 {
   align-items: center;
 }
 
+.seccionPrincipal {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
 .aside {
   margin: 5px 5px 5px 5px;
   padding: 5px 5px 5px 5px;
@@ -1336,10 +1342,10 @@ h1 {
   }
 }
 
-.divLista7{
+.divLista7 {
   color: white;
 }
 
-.displayNone{
-  display:none;
+.displayNone {
+  display: none;
 }

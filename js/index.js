@@ -124,6 +124,45 @@ btnColor.innerText = "Rojo";
 btnColor.className = "boton";
 navegacion.appendChild(btnColor);
 
+//Tercer Nodo: Menu de sistema
+const tituloMenu = document.createElement("h1");
+const subtituloMenu = document.createElement("h3");
+
+tituloMenu.innerText = "Menú de sistemas";
+subtituloMenu.innerText ="Seleccione un sistema con el cual desee trabajar";
+tituloMenu.id = "tituloMenu"
+subtituloMenu.id = "subtituloMenu"
+
+seccionPrincipal.appendChild(tituloMenu);
+seccionPrincipal.appendChild(subtituloMenu);
+
+//Botonera menú principal
+const botonera = document.createElement("div");
+botonera.className = "botoneraMenu"
+seccionPrincipal.appendChild(botonera);
+
+//Botones
+const boton1 = document.createElement("button");
+const boton2 = document.createElement("button");
+const boton3 = document.createElement("button");
+const boton4 = document.createElement("button");
+
+boton1.innerText = "Calculadora";
+boton2.innerText = "Cargos";
+boton3.innerText = "Repositorio";
+boton4.innerText = "Indice";
+
+boton1.setAttribute('href', 'calculadora.html');
+boton2.setAttribute('href', 'cargos.html');
+boton3.setAttribute('href', 'http://repositorio.archivocasla.com.ar/');
+boton4.setAttribute('href', 'http://indice.archivocasla.com.ar/vocab/index.php');
+
+botonera.appendChild(boton1);
+botonera.appendChild(boton2);
+botonera.appendChild(boton3);
+botonera.appendChild(boton4);
+
+
 //Tercer Nodo: ¿Cuántas agrupaciones son?
 const etiquetaPreSeccion = document.createElement("label");
 etiquetaPreSeccion.innerText = "¿Cuántas listas o agrupaciones participan de la elección?";
