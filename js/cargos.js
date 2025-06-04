@@ -12,7 +12,7 @@ navegacion.className = "classNavegacion";
 
 //Div formulario alta
 const sectionForm = document.getElementById("sectionForm");
-divForm.className = "sectionForm";
+sectionForm.className = "sectionForm";
 
 //Último pie de página copyright
 const footer = document.getElementById("footer");
