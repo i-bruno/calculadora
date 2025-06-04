@@ -14,10 +14,6 @@ navegacion.className = "classNavegacion";
 const divForm = document.getElementById("divForm");
 divForm.className = "divForm";
 
-///Sección principal
-const infoPrincipal = document.getElementById("seccionPrincipal");
-infoPrincipal.className = "displayNone";
-
 //Último pie de página copyright
 const footer = document.getElementById("footer");
 footer.className = "classFooter";
