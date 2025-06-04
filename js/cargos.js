@@ -1,6 +1,6 @@
 const body = document.body;
 body.id = "cuerpo";
-body.innerHTML = '<header id="encabezado"><nav id="navBar"></nav></header> <section id="divForm"></section> <footer id=footer></footer>';
+body.innerHTML = '<header id="encabezado"><nav id="navBar"></nav></header> <section id="sectionForm"></section> <footer id=footer></footer>';
 
 //Encabezado
 const encabezado = document.getElementById("encabezado");
@@ -11,8 +11,8 @@ const navegacion = document.getElementById("navBar");
 navegacion.className = "classNavegacion";
 
 //Div formulario alta
-const divForm = document.getElementById("divForm");
-divForm.className = "divForm";
+const sectionForm = document.getElementById("sectionForm");
+divForm.className = "sectionForm";
 
 //Último pie de página copyright
 const footer = document.getElementById("footer");
@@ -105,14 +105,17 @@ btnColor.className = "boton";
 navegacion.appendChild(btnColor);
 
 //Tercer Nodo: Formulario de alta
-const etiquetaIncidencia = document.createElement("label");
-etiquetaIncidencia.innerText = "Tipo de incidencia";
-divForm.appendChild(etiquetaIncidencia);
+const formABM = document.createElement("form");
+sectionForm.appendChild(formABM);
 
 ///Input para que el usuario ingrese la cantidad de listas
+const etiquetaIncidencia = document.createElement("label");
+etiquetaIncidencia.innerText = "Tipo de incidencia";
+formABM.appendChild(etiquetaIncidencia);
+
 const selectIncidencia = document.createElement("select");
 selectIncidencia.id = "selectIncidencia";
-divForm.appendChild(selectIncidencia);
+formABM.appendChild(selectIncidencia);
 
 const opcionIncidencia1 = document.createElement("option");
 opcionIncidencia1.innerText = "Alta";
@@ -126,7 +129,7 @@ selectIncidencia.appendChild(opcionIncidencia3);
 
 ///Botón para que el usuario envíe la información.
 const contenedor = document.createElement("div");
-divForm.appendChild(contenedor);
+sectionForm.appendChild(contenedor);
 
 const btn = document.createElement("button");
 btn.id = "btn";
@@ -134,7 +137,7 @@ btn.setAttribute('type', 'submit');
 btn.className = "boton";
 btn.innerText = "Enviar";
 btn.addEventListener("click", funListas);
-contenedor.appendChild(btn);
+formABM.appendChild(btn);
 
 const btnReset = document.createElement("button");
 btnReset.id = "btnReset";
@@ -142,7 +145,7 @@ btnReset.setAttribute('type', 'submit');
 btnReset.className = "boton";
 btnReset.innerText = "Resetear";
 btnReset.addEventListener('click', _ => { location.reload(); });
-contenedor.appendChild(btnReset);
+formABM.appendChild(btnReset);
 
 
 
