@@ -131,19 +131,19 @@ formABM.appendChild(selectIncidencia);
 const etiquetaOrgano = document.createElement("label");
 etiquetaOrgano.innerText = "Órgano de gobierno";
 formABM.appendChild(etiquetaOrgano);
-// const selectOrgano = document.createElement("select");
-// selectIncidencia.id = "selectOrgano";
-// const opcionOrgano1 = document.createElement("option");
-// opcionIncidencia1.innerText = "Comisión Directiva";
-// const opcionOrgano2 = document.createElement("option");
-// opcionIncidencia2.innerText = "Comisión Fiscalizadora";
-// const opcionOrgano3 = document.createElement("option");
-// opcionOrgano3.innerText = "Asamblea de Representantes";
-// selectOrgano.appendChild(opcionOrgano1);
-// selectOrgano.appendChild(opcionOrgano2);
-// selectOrgano.appendChild(opcionOrgano3);
+const selectOrgano = document.createElement("select");
+selectIncidencia.id = "selectOrgano";
+const opcionOrgano1 = document.createElement("option");
+opcionIncidencia1.innerText = "Comisión Directiva";
+const opcionOrgano2 = document.createElement("option");
+opcionIncidencia2.innerText = "Comisión Fiscalizadora";
+const opcionOrgano3 = document.createElement("option");
+opcionOrgano3.innerText = "Asamblea de Representantes";
+selectOrgano.appendChild(opcionOrgano1);
+selectOrgano.appendChild(opcionOrgano2);
+selectOrgano.appendChild(opcionOrgano3);
 
-// formABM.appendChild(selectOrgano);
+formABM.appendChild(selectOrgano);
 
 ///Botón para que el usuario envíe la información.
 const contenedor = document.createElement("div");
