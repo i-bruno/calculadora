@@ -128,9 +128,9 @@ selectIncidencia.appendChild(opcionIncidencia3);
 formABM.appendChild(selectIncidencia);
 
 //Seleccionar órgano de gobierno
-// const etiquetaOrgano = document.createElement("label");
-// etiquetaOrgano.innerText = "Órgano de gobierno";
-// formABM.appendChild(etiquetaOrgano);
+const etiquetaOrgano = document.createElement("label");
+etiquetaOrgano.innerText = "Órgano de gobierno";
+formABM.appendChild(etiquetaOrgano);
 // const selectOrgano = document.createElement("select");
 // selectIncidencia.id = "selectOrgano";
 // const opcionOrgano1 = document.createElement("option");
