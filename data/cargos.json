@@ -1,7 +1,13 @@
 {
     "comisionDirectiva": [
         {
+            "eleccion":""
+        },
+        {
             "presidente": [
+                {
+                    "id":""
+                },
                 {
                     "nombre y apellido": ""
                 },
@@ -33,6 +39,9 @@
             ],
             "vicepresidente_primero": [
                 {
+                    "id":""
+                },
+                {
                     "nombre y apellido": ""
                 },
                 {
@@ -62,6 +71,9 @@
                 }
             ],
             "vicepresidente_segundo": [
+                {
+                    "id":""
+                },
                 {
                     "nombre y apellido": ""
                 },
@@ -93,6 +105,9 @@
             ],
             "secretario_general": [
                 {
+                    "id":""
+                },
+                {
                     "nombre y apellido": ""
                 },
                 {
@@ -122,6 +137,9 @@
                 }
             ],
             "prosecretario": [
+                {
+                    "id":""
+                },
                 {
                     "nombre y apellido": ""
                 },
@@ -153,6 +171,9 @@
             ],
             "secretario_actas": [
                 {
+                    "id":""
+                },
+                {
                     "nombre y apellido": ""
                 },
                 {
@@ -182,6 +203,9 @@
                 }
             ],
             "tesorero": [
+                {
+                    "id":""
+                },
                 {
                     "nombre y apellido": ""
                 },
@@ -213,6 +237,9 @@
             ],
             "protesorero": [
                 {
+                    "id":""
+                },
+                {
                     "nombre y apellido": ""
                 },
                 {
@@ -242,6 +269,9 @@
                 }
             ],
             "intendente": [
+                {
+                    "id":""
+                },
                 {
                     "nombre y apellido": ""
                 },
@@ -273,6 +303,9 @@
             ],
             "subintendente": [
                 {
+                    "id":""
+                },
+                {
                     "nombre y apellido": ""
                 },
                 {
@@ -302,6 +335,9 @@
                 }
             ],
             "vocal1": [
+                {
+                    "id":""
+                },
                 {
                     "nombre y apellido": ""
                 },
@@ -333,6 +369,9 @@
             ],
             "vocal2": [
                 {
+                    "id":""
+                },
+                {
                     "nombre y apellido": ""
                 },
                 {
@@ -362,6 +401,9 @@
                 }
             ],
             "vocal3": [
+                {
+                    "id":""
+                },
                 {
                     "nombre y apellido": ""
                 },
@@ -393,6 +435,9 @@
             ],
             "vocal4": [
                 {
+                    "id":""
+                },
+                {
                     "nombre y apellido": ""
                 },
                 {
@@ -422,6 +467,9 @@
                 }
             ],
             "vocal5": [
+                {
+                    "id":""
+                },
                 {
                     "nombre y apellido": ""
                 },
@@ -453,6 +501,9 @@
             ],
             "vocal6": [
                 {
+                    "id":""
+                },
+                {
                     "nombre y apellido": ""
                 },
                 {
@@ -482,6 +533,9 @@
                 }
             ],
             "vocal7": [
+                {
+                    "id":""
+                },
                 {
                     "nombre y apellido": ""
                 },
@@ -513,6 +567,9 @@
             ],
             "vocal8": [
                 {
+                    "id":""
+                },
+                {
                     "nombre y apellido": ""
                 },
                 {
@@ -543,6 +600,9 @@
             ],
             "vocal9": [
                 {
+                    "id":""
+                },
+                {
                     "nombre y apellido": ""
                 },
                 {
@@ -572,6 +632,9 @@
                 }
             ],
             "vocal10": [
+                {
+                    "id":""
+                },
                 {
                     "nombre y apellido": ""
                 },
@@ -605,7 +668,13 @@
     ],
     "comisionFiscalizadora": [
         {
+            "eleccion":""
+        },
+        {
             "fiscalizador1": [
+                {
+                    "id":""
+                },
                 {
                     "nombre y apellido": ""
                 },
@@ -640,6 +709,9 @@
             ],
             "fiscalizador2": [
                 {
+                    "id":""
+                },
+                {
                     "nombre y apellido": ""
                 },
                 {
@@ -672,6 +744,9 @@
                 }
             ],
             "fiscalizador3": [
+                {
+                    "id":""
+                },
                 {
                     "nombre y apellido": ""
                 },
@@ -706,6 +781,9 @@
             ],
             "fiscalizador4": [
                 {
+                    "id":""
+                },
+                {
                     "nombre y apellido": ""
                 },
                 {
@@ -738,6 +816,9 @@
                 }
             ],
             "fiscalizador5": [
+                {
+                    "id":""
+                },
                 {
                     "nombre y apellido": ""
                 },
@@ -772,6 +853,9 @@
             ],
             "fiscalizador6": [
                 {
+                    "id":""
+                },
+                {
                     "nombre y apellido": ""
                 },
                 {
@@ -804,6 +888,9 @@
                 }
             ],
             "fiscalizador7": [
+                {
+                    "id":""
+                },
                 {
                     "nombre y apellido": ""
                 },
@@ -840,7 +927,13 @@
     ],
     "asamblea": [
         {
+            "eleccion":""
+        },
+        {
             "asambleista1": [
+                {
+                    "id":""
+                },
                 {
                     "nombre y apellido": ""
                 },
@@ -890,6 +983,9 @@
             ],
             "asambleista2": [
                 {
+                    "id":""
+                },
+                {
                     "nombre y apellido": ""
                 },
                 {
@@ -937,6 +1033,9 @@
                 }
             ],
             "asambleista3": [
+                {
+                    "id":""
+                },
                 {
                     "nombre y apellido": ""
                 },
@@ -986,6 +1085,9 @@
             ],
             "asambleista4": [
                 {
+                    "id":""
+                },
+                {
                     "nombre y apellido": ""
                 },
                 {
@@ -1033,6 +1135,9 @@
                 }
             ],
             "asambleista5": [
+                {
+                    "id":""
+                },
                 {
                     "nombre y apellido": ""
                 },
@@ -1082,6 +1187,9 @@
             ],
             "asambleista6": [
                 {
+                    "id":""
+                },
+                {
                     "nombre y apellido": ""
                 },
                 {
@@ -1129,6 +1237,9 @@
                 }
             ],
             "asambleista7": [
+                {
+                    "id":""
+                },
                 {
                     "nombre y apellido": ""
                 },
@@ -1178,6 +1289,9 @@
             ],
             "asambleista8": [
                 {
+                    "id":""
+                },
+                {
                     "nombre y apellido": ""
                 },
                 {
@@ -1225,6 +1339,9 @@
                 }
             ],
             "asambleista9": [
+                {
+                    "id":""
+                },
                 {
                     "nombre y apellido": ""
                 },
@@ -1274,6 +1391,9 @@
             ],
             "asambleista10": [
                 {
+                    "id":""
+                },
+                {
                     "nombre y apellido": ""
                 },
                 {
@@ -1321,6 +1441,9 @@
                 }
             ],
             "asambleista11": [
+                {
+                    "id":""
+                },
                 {
                     "nombre y apellido": ""
                 },
@@ -1370,6 +1493,9 @@
             ],
             "asambleista12": [
                 {
+                    "id":""
+                },
+                {
                     "nombre y apellido": ""
                 },
                 {
@@ -1417,6 +1543,9 @@
                 }
             ],
             "asambleista13": [
+                {
+                    "id":""
+                },
                 {
                     "nombre y apellido": ""
                 },
@@ -1466,6 +1595,9 @@
             ],
             "asambleista14": [
                 {
+                    "id":""
+                },
+                {
                     "nombre y apellido": ""
                 },
                 {
@@ -1513,6 +1645,9 @@
                 }
             ],
             "asambleista15": [
+                {
+                    "id":""
+                },
                 {
                     "nombre y apellido": ""
                 },
@@ -1562,6 +1697,9 @@
             ],
             "asambleista16": [
                 {
+                    "id":""
+                },
+                {
                     "nombre y apellido": ""
                 },
                 {
@@ -1609,6 +1747,9 @@
                 }
             ],
             "asambleista17": [
+                {
+                    "id":""
+                },
                 {
                     "nombre y apellido": ""
                 },
@@ -1658,6 +1799,9 @@
             ],
             "asambleista18": [
                 {
+                    "id":""
+                },
+                {
                     "nombre y apellido": ""
                 },
                 {
@@ -1705,6 +1849,9 @@
                 }
             ],
             "asambleista19": [
+                {
+                    "id":""
+                },
                 {
                     "nombre y apellido": ""
                 },
@@ -1754,6 +1901,9 @@
             ],
             "asambleista20": [
                 {
+                    "id":""
+                },
+                {
                     "nombre y apellido": ""
                 },
                 {
@@ -1801,6 +1951,9 @@
                 }
             ],
             "asambleista21": [
+                {
+                    "id":""
+                },
                 {
                     "nombre y apellido": ""
                 },
@@ -1850,6 +2003,9 @@
             ],
             "asambleista22": [
                 {
+                    "id":""
+                },
+                {
                     "nombre y apellido": ""
                 },
                 {
@@ -1897,6 +2053,9 @@
                 }
             ],
             "asambleista23": [
+                {
+                    "id":""
+                },
                 {
                     "nombre y apellido": ""
                 },
@@ -1946,6 +2105,9 @@
             ],
             "asambleista24": [
                 {
+                    "id":""
+                },
+                {
                     "nombre y apellido": ""
                 },
                 {
@@ -1993,6 +2155,9 @@
                 }
             ],
             "asambleista25": [
+                {
+                    "id":""
+                },
                 {
                     "nombre y apellido": ""
                 },
@@ -2042,6 +2207,9 @@
             ],
             "asambleista26": [
                 {
+                    "id":""
+                },
+                {
                     "nombre y apellido": ""
                 },
                 {
@@ -2089,6 +2257,9 @@
                 }
             ],
             "asambleista27": [
+                {
+                    "id":""
+                },
                 {
                     "nombre y apellido": ""
                 },
@@ -2138,6 +2309,9 @@
             ],
             "asambleista28": [
                 {
+                    "id":""
+                },
+                {
                     "nombre y apellido": ""
                 },
                 {
@@ -2185,6 +2359,9 @@
                 }
             ],
             "asambleista29": [
+                {
+                    "id":""
+                },
                 {
                     "nombre y apellido": ""
                 },
@@ -2234,6 +2411,9 @@
             ],
             "asambleista30": [
                 {
+                    "id":""
+                },
+                {
                     "nombre y apellido": ""
                 },
                 {
@@ -2281,6 +2461,9 @@
                 }
             ],
             "asambleista31": [
+                {
+                    "id":""
+                },
                 {
                     "nombre y apellido": ""
                 },
@@ -2330,6 +2513,9 @@
             ],
             "asambleista32": [
                 {
+                    "id":""
+                },
+                {
                     "nombre y apellido": ""
                 },
                 {
@@ -2377,6 +2563,9 @@
                 }
             ],
             "asambleista33": [
+                {
+                    "id":""
+                },
                 {
                     "nombre y apellido": ""
                 },
@@ -2426,6 +2615,9 @@
             ],
             "asambleista34": [
                 {
+                    "id":""
+                },
+                {
                     "nombre y apellido": ""
                 },
                 {
@@ -2473,6 +2665,9 @@
                 }
             ],
             "asambleista35": [
+                {
+                    "id":""
+                },
                 {
                     "nombre y apellido": ""
                 },
@@ -2522,6 +2717,9 @@
             ],
             "asambleista36": [
                 {
+                    "id":""
+                },
+                {
                     "nombre y apellido": ""
                 },
                 {
@@ -2569,6 +2767,9 @@
                 }
             ],
             "asambleista37": [
+                {
+                    "id":""
+                },
                 {
                     "nombre y apellido": ""
                 },
@@ -2618,6 +2819,9 @@
             ],
             "asambleista38": [
                 {
+                    "id":""
+                },
+                {
                     "nombre y apellido": ""
                 },
                 {
@@ -2665,6 +2869,9 @@
                 }
             ],
             "asambleista39": [
+                {
+                    "id":""
+                },
                 {
                     "nombre y apellido": ""
                 },
@@ -2714,6 +2921,9 @@
             ],
             "asambleista40": [
                 {
+                    "id":""
+                },
+                {
                     "nombre y apellido": ""
                 },
                 {
@@ -2761,6 +2971,9 @@
                 }
             ],
             "asambleista41": [
+                {
+                    "id":""
+                },
                 {
                     "nombre y apellido": ""
                 },
@@ -2810,6 +3023,9 @@
             ],
             "asambleista42": [
                 {
+                    "id":""
+                },
+                {
                     "nombre y apellido": ""
                 },
                 {
@@ -2857,6 +3073,9 @@
                 }
             ],
             "asambleista43": [
+                {
+                    "id":""
+                },
                 {
                     "nombre y apellido": ""
                 },
@@ -2906,6 +3125,9 @@
             ],
             "asambleista44": [
                 {
+                    "id":""
+                },
+                {
                     "nombre y apellido": ""
                 },
                 {
@@ -2953,6 +3175,9 @@
                 }
             ],
             "asambleista45": [
+                {
+                    "id":""
+                },
                 {
                     "nombre y apellido": ""
                 },
@@ -3002,6 +3227,9 @@
             ],
             "asambleista46": [
                 {
+                    "id":""
+                },
+                {
                     "nombre y apellido": ""
                 },
                 {
@@ -3049,6 +3277,9 @@
                 }
             ],
             "asambleista47": [
+                {
+                    "id":""
+                },
                 {
                     "nombre y apellido": ""
                 },
@@ -3098,6 +3329,9 @@
             ],
             "asambleista48": [
                 {
+                    "id":""
+                },
+                {
                     "nombre y apellido": ""
                 },
                 {
@@ -3145,6 +3379,9 @@
                 }
             ],
             "asambleista49": [
+                {
+                    "id":""
+                },
                 {
                     "nombre y apellido": ""
                 },
@@ -3194,6 +3431,9 @@
             ],
             "asambleista50": [
                 {
+                    "id":""
+                },
+                {
                     "nombre y apellido": ""
                 },
                 {
@@ -3241,6 +3481,9 @@
                 }
             ],
             "asambleista51": [
+                {
+                    "id":""
+                },
                 {
                     "nombre y apellido": ""
                 },
@@ -3290,6 +3533,9 @@
             ],
             "asambleista52": [
                 {
+                    "id":""
+                },
+                {
                     "nombre y apellido": ""
                 },
                 {
@@ -3337,6 +3583,9 @@
                 }
             ],
             "asambleista53": [
+                {
+                    "id":""
+                },
                 {
                     "nombre y apellido": ""
                 },
@@ -3386,6 +3635,9 @@
             ],
             "asambleista54": [
                 {
+                    "id":""
+                },
+                {
                     "nombre y apellido": ""
                 },
                 {
@@ -3433,6 +3685,9 @@
                 }
             ],
             "asambleista55": [
+                {
+                    "id":""
+                },
                 {
                     "nombre y apellido": ""
                 },
@@ -3482,6 +3737,9 @@
             ],
             "asambleista56": [
                 {
+                    "id":""
+                },
+                {
                     "nombre y apellido": ""
                 },
                 {
@@ -3529,6 +3787,9 @@
                 }
             ],
             "asambleista57": [
+                {
+                    "id":""
+                },
                 {
                     "nombre y apellido": ""
                 },
@@ -3578,6 +3839,9 @@
             ],
             "asambleista58": [
                 {
+                    "id":""
+                },
+                {
                     "nombre y apellido": ""
                 },
                 {
@@ -3625,6 +3889,9 @@
                 }
             ],
             "asambleista59": [
+                {
+                    "id":""
+                },
                 {
                     "nombre y apellido": ""
                 },
@@ -3674,6 +3941,9 @@
             ],
             "asambleista60": [
                 {
+                    "id":""
+                },
+                {
                     "nombre y apellido": ""
                 },
                 {
@@ -3721,6 +3991,9 @@
                 }
             ],
             "asambleista61": [
+                {
+                    "id":""
+                },
                 {
                     "nombre y apellido": ""
                 },
@@ -3770,6 +4043,9 @@
             ],
             "asambleista62": [
                 {
+                    "id":""
+                },
+                {
                     "nombre y apellido": ""
                 },
                 {
@@ -3817,6 +4093,9 @@
                 }
             ],
             "asambleista63": [
+                {
+                    "id":""
+                },
                 {
                     "nombre y apellido": ""
                 },
@@ -3866,6 +4145,9 @@
             ],
             "asambleista64": [
                 {
+                    "id":""
+                },
+                {
                     "nombre y apellido": ""
                 },
                 {
@@ -3913,6 +4195,9 @@
                 }
             ],
             "asambleista65": [
+                {
+                    "id":""
+                },
                 {
                     "nombre y apellido": ""
                 },
@@ -3962,6 +4247,9 @@
             ],
             "asambleista66": [
                 {
+                    "id":""
+                },
+                {
                     "nombre y apellido": ""
                 },
                 {
@@ -4009,6 +4297,9 @@
                 }
             ],
             "asambleista67": [
+                {
+                    "id":""
+                },
                 {
                     "nombre y apellido": ""
                 },
@@ -4058,6 +4349,9 @@
             ],
             "asambleista68": [
                 {
+                    "id":""
+                },
+                {
                     "nombre y apellido": ""
                 },
                 {
@@ -4105,6 +4399,9 @@
                 }
             ],
             "asambleista69": [
+                {
+                    "id":""
+                },
                 {
                     "nombre y apellido": ""
                 },
@@ -4154,6 +4451,9 @@
             ],
             "asambleista70": [
                 {
+                    "id":""
+                },
+                {
                     "nombre y apellido": ""
                 },
                 {
@@ -4201,6 +4501,9 @@
                 }
             ],
             "asambleista71": [
+                {
+                    "id":""
+                },
                 {
                     "nombre y apellido": ""
                 },
@@ -4250,6 +4553,9 @@
             ],
             "asambleista72": [
                 {
+                    "id":""
+                },
+                {
                     "nombre y apellido": ""
                 },
                 {
@@ -4297,6 +4603,9 @@
                 }
             ],
             "asambleista73": [
+                {
+                    "id":""
+                },
                 {
                     "nombre y apellido": ""
                 },
@@ -4346,6 +4655,9 @@
             ],
             "asambleista74": [
                 {
+                    "id":""
+                },
+                {
                     "nombre y apellido": ""
                 },
                 {
@@ -4393,6 +4705,9 @@
                 }
             ],
             "asambleista75": [
+                {
+                    "id":""
+                },
                 {
                     "nombre y apellido": ""
                 },
@@ -4442,6 +4757,9 @@
             ],
             "asambleista76": [
                 {
+                    "id":""
+                },
+                {
                     "nombre y apellido": ""
                 },
                 {
@@ -4489,6 +4807,9 @@
                 }
             ],
             "asambleista77": [
+                {
+                    "id":""
+                },
                 {
                     "nombre y apellido": ""
                 },
@@ -4538,6 +4859,9 @@
             ],
             "asambleista78": [
                 {
+                    "id":""
+                },
+                {
                     "nombre y apellido": ""
                 },
                 {
@@ -4585,6 +4909,9 @@
                 }
             ],
             "asambleista79": [
+                {
+                    "id":""
+                },
                 {
                     "nombre y apellido": ""
                 },
@@ -4634,6 +4961,9 @@
             ],
             "asambleista80": [
                 {
+                    "id":""
+                },
+                {
                     "nombre y apellido": ""
                 },
                 {
@@ -4681,6 +5011,9 @@
                 }
             ],
             "asambleista81": [
+                {
+                    "id":""
+                },
                 {
                     "nombre y apellido": ""
                 },
@@ -4730,6 +5063,9 @@
             ],
             "asambleista82": [
                 {
+                    "id":""
+                },
+                {
                     "nombre y apellido": ""
                 },
                 {
@@ -4777,6 +5113,9 @@
                 }
             ],
             "asambleista83": [
+                {
+                    "id":""
+                },
                 {
                     "nombre y apellido": ""
                 },
@@ -4826,6 +5165,9 @@
             ],
             "asambleista84": [
                 {
+                    "id":""
+                },
+                {
                     "nombre y apellido": ""
                 },
                 {
@@ -4873,6 +5215,9 @@
                 }
             ],
             "asambleista85": [
+                {
+                    "id":""
+                },
                 {
                     "nombre y apellido": ""
                 },
@@ -4922,6 +5267,9 @@
             ],
             "asambleista86": [
                 {
+                    "id":""
+                },
+                {
                     "nombre y apellido": ""
                 },
                 {
@@ -4969,6 +5317,9 @@
                 }
             ],
             "asambleista87": [
+                {
+                    "id":""
+                },
                 {
                     "nombre y apellido": ""
                 },
@@ -5018,6 +5369,9 @@
             ],
             "asambleista88": [
                 {
+                    "id":""
+                },
+                {
                     "nombre y apellido": ""
                 },
                 {
@@ -5066,6 +5420,9 @@
             ],
             "asambleista89": [
                 {
+                    "id":""
+                },
+                {
                     "nombre y apellido": ""
                 },
                 {
@@ -5113,6 +5470,9 @@
                 }
             ],
             "asambleista90": [
+                {
+                    "id":""
+                },
                 {
                     "nombre y apellido": ""
                 },

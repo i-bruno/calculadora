@@ -155,6 +155,105 @@ formABM.appendChild(selectOrgano);
 const contenedor = document.createElement("div");
 sectionForm.appendChild(contenedor);
 
+//Divisor
+const divisor = document.createElement("hr");
+sectionForm.appendChild(divisor);
+
+//Formulario carga Comisión Directiva
+
+//Cargo
+///Etiqueta
+const etiquetaCargoCD = document.createElement("label");
+etiquetaCargoCD.innerText = "Cargo de Comisión Directiva";
+formABM.appendChild(etiquetaCargoCD);
+///Select
+const selectCargoCD = document.createElement("select");
+selectCargoCD.id = "selectCargoCD";
+///Opciones
+const opcionCargoCD0 = document.createElement("option");
+opcionCargoCD0.innerText = "";
+const opcionCargoCD1 = document.createElement("option");
+opcionCargoCD1.innerText = "Presidente";
+const opcionCargoCD2 = document.createElement("option");
+opcionCargoCD2.innerText = "Vicepresidente Primero";
+const opcionCargoCD3 = document.createElement("option");
+opcionCargoCD3.innerText = "Vicepresidente Segundo";
+const opcionCargoCD4 = document.createElement("option");
+opcionCargoCD4.innerText = "Secretario General";
+const opcionCargoCD5 = document.createElement("option");
+opcionCargoCD5.innerText = "Prosecretario";
+const opcionCargoCD6 = document.createElement("option");
+opcionCargoCD6.innerText = "Secretario de actas";
+const opcionCargoCD7 = document.createElement("option");
+opcionCargoCD7.innerText = "Tesorero";
+const opcionCargoCD8 = document.createElement("option");
+opcionCargoCD8.innerText = "Protesorero";
+const opcionCargoCD9 = document.createElement("option");
+opcionCargoCD9.innerText = "Intendente";
+const opcionCargoCD10 = document.createElement("option");
+opcionCargoCD10.innerText = "Subintendente";
+const opcionCargoCD11 = document.createElement("option");
+opcionCargoCD11.innerText = "Vocal 1";
+const opcionCargoCD12 = document.createElement("option");
+opcionCargoCD12.innerText = "Vocal 2";
+const opcionCargoCD13 = document.createElement("option");
+opcionCargoCD13.innerText = "Vocal 3";
+const opcionCargoCD14 = document.createElement("option");
+opcionCargoCD14.innerText = "Vocal 4";
+const opcionCargoCD15 = document.createElement("option");
+opcionCargoCD15.innerText = "Vocal 5";
+const opcionCargoCD16 = document.createElement("option");
+opcionCargoCD16.innerText = "Vocal 6";
+const opcionCargoCD17 = document.createElement("option");
+opcionCargoCD17.innerText = "Vocal 7";
+const opcionCargoCD18 = document.createElement("option");
+opcionCargoCD18.innerText = "Vocal 8";
+const opcionCargoCD19 = document.createElement("option");
+opcionCargoCD19.innerText = "Vocal 9";
+const opcionCargoCD20 = document.createElement("option");
+opcionCargoCD20.innerText = "Vocal 10";
+selectCargoCD.appendChild(opcionCargoCD0);
+selectCargoCD.appendChild(opcionCargoCD1);
+selectCargoCD.appendChild(opcionCargoCD2);
+selectCargoCD.appendChild(opcionCargoCD3);
+selectCargoCD.appendChild(opcionCargoCD4);
+selectCargoCD.appendChild(opcionCargoCD5);
+selectCargoCD.appendChild(opcionCargoCD6);
+selectCargoCD.appendChild(opcionCargoCD7);
+selectCargoCD.appendChild(opcionCargoCD8);
+selectCargoCD.appendChild(opcionCargoCD9);
+selectCargoCD.appendChild(opcionCargoCD10);
+selectCargoCD.appendChild(opcionCargoCD11);
+selectCargoCD.appendChild(opcionCargoCD12);
+selectCargoCD.appendChild(opcionCargoCD13);
+selectCargoCD.appendChild(opcionCargoCD14);
+selectCargoCD.appendChild(opcionCargoCD15);
+selectCargoCD.appendChild(opcionCargoCD16);
+selectCargoCD.appendChild(opcionCargoCD17);
+selectCargoCD.appendChild(opcionCargoCD18);
+selectCargoCD.appendChild(opcionCargoCD19);
+selectCargoCD.appendChild(opcionCargoCD20);
+//Nombre y apellido
+const etiquetaNombreCD = document.createElement("label");
+etiquetaNombreCD.innerText = "Nombre (Completo)";
+formABM.appendChild(etiquetaNombreCD);
+
+const inputNombreCD = document.createElement("input");
+inputNombreCD.setAttribute('type', 'text');
+formABM.appendChild(inputNombreCD);
+
+const etiquetaApellidoCD = document.createElement("label");
+etiquetaApellidoCD.innerText = "Apellido (Completo)";
+formABM.appendChild(etiquetaApellidoCD);
+
+const inputApellidoCD = document.createElement("input");
+inputNApellidoD.setAttribute('type', 'text');
+formABM.appendChild(inputApellidoCD);
+//Situación
+//Agrupación
+//Alta/baja
+
+//Cambio de color de la web
 const btn = document.createElement("button");
 btn.id = "btn";
 btn.setAttribute('type', 'submit');
@@ -170,11 +269,6 @@ btnReset.className = "boton";
 btnReset.innerText = "Resetear";
 btnReset.addEventListener('click', _ => { location.reload(); });
 formABM.appendChild(btnReset);
-
-
-
-
-
 
 //Octavo Nodo: footercopyright
 
