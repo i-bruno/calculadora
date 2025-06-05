@@ -109,36 +109,42 @@ const formABM = document.createElement("form");
 formABM.className = "formABM";
 sectionForm.appendChild(formABM);
 
-///Input tipo de incidencia
+///Selector de tipo de incidencia
 const etiquetaIncidencia = document.createElement("label");
 etiquetaIncidencia.innerText = "Tipo de incidencia";
 formABM.appendChild(etiquetaIncidencia);
 const selectIncidencia = document.createElement("select");
 selectIncidencia.id = "selectIncidencia";
+const opcionIncidencia0 = document.createElement("option");
+opcionIncidencia0.innerText = "";
 const opcionIncidencia1 = document.createElement("option");
 opcionIncidencia1.innerText = "Alta";
 const opcionIncidencia2 = document.createElement("option");
 opcionIncidencia2.innerText = "Baja";
 const opcionIncidencia3 = document.createElement("option");
 opcionIncidencia3.innerText = "Licencia";
+selectIncidencia.appendChild(opcionIncidencia0);
 selectIncidencia.appendChild(opcionIncidencia1);
 selectIncidencia.appendChild(opcionIncidencia2);
 selectIncidencia.appendChild(opcionIncidencia3);
 
 formABM.appendChild(selectIncidencia);
 
-//Seleccionar órgano de gobierno
+//Selector de órgano de gobierno
 const etiquetaOrgano = document.createElement("label");
 etiquetaOrgano.innerText = "Órgano de gobierno";
 formABM.appendChild(etiquetaOrgano);
 const selectOrgano = document.createElement("select");
 selectOrgano.id = "selectOrgano";
+const opcionOrgano0 = document.createElement("option");
+opcionOrgano0.innerText = "";
 const opcionOrgano1 = document.createElement("option");
 opcionOrgano1.innerText = "Comisión Directiva";
 const opcionOrgano2 = document.createElement("option");
 opcionOrgano2.innerText = "Comisión Fiscalizadora";
 const opcionOrgano3 = document.createElement("option");
 opcionOrgano3.innerText = "Asamblea de Representantes";
+selectOrgano.appendChild(opcionOrgano0);
 selectOrgano.appendChild(opcionOrgano1);
 selectOrgano.appendChild(opcionOrgano2);
 selectOrgano.appendChild(opcionOrgano3);
