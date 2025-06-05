@@ -269,7 +269,7 @@ const etiquetaActivoCD = document.createElement("label");
 etiquetaActivoCD.innerText = "Activo";
 const radioPasivoCD = document.createElement("input");
 radioPasivoCD.setAttribute('type', 'radio');
-radioActivoCD.setAttribute('name', 'situacion');
+radioPasivoCD.setAttribute('name', 'situacion');
 const etiquetaPasivoCD = document.createElement("label");
 etiquetaPasivoCD.innerText = "Pasivo";
 
