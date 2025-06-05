@@ -257,7 +257,7 @@ formABM.appendChild(inputApellidoCD);
 const fieldSetSitCD = document.createElement("fieldset");
 formABM.appendChild(fieldSetSitCD);
 
-const leyendaFiel = document.createElement("legend");
+const leyendaField = document.createElement("legend");
 leyendaField.innerText = "Situación de revista";
 fieldSetSitCD.appendChild(leyendaField);
 
