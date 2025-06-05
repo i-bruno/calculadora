@@ -247,7 +247,7 @@ etiquetaApellidoCD.innerText = "Apellido (Completo)";
 formABM.appendChild(etiquetaApellidoCD);
 
 const inputApellidoCD = document.createElement("input");
-inputNApellidoD.setAttribute('type', 'text');
+inputApellidoCD.setAttribute('type', 'text');
 formABM.appendChild(inputApellidoCD);
 //Situación
 //Agrupación
