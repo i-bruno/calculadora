@@ -299,37 +299,37 @@ inputAgrupacionCD.setAttribute('type', 'text');
 formABM.appendChild(inputAgrupacionCD);
 //Alta/baja
 
-const etiquetaFechaAltaCD = document.createElement("label");
-etiquetaFechaAltaCD.innerText = "Fecha de alta en el cargo";
-formABM.appendChild(etiquetaFechaAltaCD);
+// const etiquetaFechaAltaCD = document.createElement("label");
+// etiquetaFechaAltaCD.innerText = "Fecha de alta en el cargo";
+// formABM.appendChild(etiquetaFechaAltaCD);
 
-const inputFechaAltaCD = document.createElement("input");
-inputFechaAltaCD.setAttribute('type', 'date');
-formABM.appendChild(inputFechaAltaCD);
+// const inputFechaAltaCD = document.createElement("input");
+// inputFechaAltaCD.setAttribute('type', 'date');
+// formABM.appendChild(inputFechaAltaCD);
 
-const etiquetaComentarioAltaCD = document.createElement("label");
-etiquetaComentarioAltaCD.innerText = "Comentarios";
-formABM.appendChild(etiquetaComentarioAltaCD);
+// const etiquetaComentarioAltaCD = document.createElement("label");
+// etiquetaComentarioAltaCD.innerText = "Comentarios";
+// formABM.appendChild(etiquetaComentarioAltaCD);
 
-const inputComentarioAltaCD = document.createElement("input");
-inputComentarioAltaCD.setAttribute('type', 'text');
-formABM.appendChild(inputComentarioAltaCD);
+// const inputComentarioAltaCD = document.createElement("input");
+// inputComentarioAltaCD.setAttribute('type', 'text');
+// formABM.appendChild(inputComentarioAltaCD);
 
-const etiquetaFechaBajaCD = document.createElement("label");
-etiquetaFechaBajaCD.innerText = "Fecha de baja en el cargo";
-formABM.appendChild(etiquetaFechaBajaCD);
+// const etiquetaFechaBajaCD = document.createElement("label");
+// etiquetaFechaBajaCD.innerText = "Fecha de baja en el cargo";
+// formABM.appendChild(etiquetaFechaBajaCD);
 
-const inputFechaBajaCD = document.createElement("input");
-inputFechaBajaCD.setAttribute('type', 'date');
-formABM.appendChild(inputFechaBajaCD);
+// const inputFechaBajaCD = document.createElement("input");
+// inputFechaBajaCD.setAttribute('type', 'date');
+// formABM.appendChild(inputFechaBajaCD);
 
-const etiquetaComentarioBajaCD = document.createElement("label");
-etiquetaComentarioBajaCD.innerText = "Comentarios";
-formABM.appendChild(etiquetaComentarioBajaCD);
+// const etiquetaComentarioBajaCD = document.createElement("label");
+// etiquetaComentarioBajaCD.innerText = "Comentarios";
+// formABM.appendChild(etiquetaComentarioBajaCD);
 
-const inputComentarioBajaCD = document.createElement("input");
-inputComentarioBajaCD.setAttribute('type', 'text');
-formABM.appendChild(inputComentarioBajaCD);
+// const inputComentarioBajaCD = document.createElement("input");
+// inputComentarioBajaCD.setAttribute('type', 'text');
+// formABM.appendChild(inputComentarioBajaCD);
 
 //Cambio de color de la web
 const btn = document.createElement("button");
