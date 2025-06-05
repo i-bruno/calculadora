@@ -262,11 +262,11 @@ leyendaField.innerText = "Situación de revista";
 fieldSetSitCD.appendChild(leyendaField);
 
 const radioActivoCD = document.createElement("input");
-radioActivoCD.setAttribute = ('type', 'radio');
+radioActivoCD.setAttribute = ('type', 'number');
 const etiquetaActivoCD = document.createElement("label");
 etiquetaActivoCD.innerText = "Activo";
 const radioPasivoCD = document.createElement("input");
-radioPasivoCD.setAttribute = ('type', 'radio');
+radioPasivoCD.setAttribute = ('type', 'number');
 const etiquetaPasivoCD = document.createElement("label");
 etiquetaPasivoCD.innerText = "Pasivo";
 
