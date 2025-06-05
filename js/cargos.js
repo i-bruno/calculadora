@@ -261,6 +261,9 @@ const leyendaField = document.createElement("legend");
 leyendaField.innerText = "Situación de revista";
 fieldSetSitCD.appendChild(leyendaField);
 
+const divField = document.createElement("div");
+fieldSetSitCD.appendChild(divField);
+
 
 const radioActivoCD = document.createElement("input");
 radioActivoCD.setAttribute('type', 'radio');
@@ -273,10 +276,10 @@ radioPasivoCD.setAttribute('name', 'situacion');
 const etiquetaPasivoCD = document.createElement("label");
 etiquetaPasivoCD.innerText = "Pasivo";
 
-fieldSetSitCD.appendChild(radioActivoCD);
-fieldSetSitCD.appendChild(etiquetaActivoCD);
-fieldSetSitCD.appendChild(radioPasivoCD);
-fieldSetSitCD.appendChild(etiquetaPasivoCD);
+divField.appendChild(radioActivoCD);
+divField.appendChild(etiquetaActivoCD);
+divField.appendChild(radioPasivoCD);
+divField.appendChild(etiquetaPasivoCD);
 
 const etiquetaComentariosSit = document.createElement("label");
 etiquetaComentariosSit.innerText = "Comentarios"
