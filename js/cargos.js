@@ -278,7 +278,14 @@ fieldSetSitCD.appendChild(etiquetaActivoCD);
 fieldSetSitCD.appendChild(radioPasivoCD);
 fieldSetSitCD.appendChild(etiquetaPasivoCD);
 
-//<input type="radio" id="huey" name="drone" value="huey" checked />
+const etiquetaComentariosSit = document.createElement("label");
+etiquetaComentariosSit.innerText = "Comentarios"
+const comentariosSit = document.createElement("input");
+comentariosSit.setAttribute('type', 'text');
+
+fieldSetSitCD.appendChild(etiquetaComentariosSit);
+fieldSetSitCD.appendChild(comentariosSit);
+
 //Agrupación
 //Alta/baja
 
