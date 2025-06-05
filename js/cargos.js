@@ -21,7 +21,7 @@ footer.className = "classFooter";
 //Primer Nodo: Título
 const titulo = document.createElement("h1");
 const subtitulo = document.createElement("h3");
-titulo.innerText = "Sistema de Ingreso de Cargos";
+titulo.innerText = "Sistema de Alta, Baja y Modificación de Cargos";
 titulo.id = "tituloPrincipal";
 subtitulo.innerText = "Versión Beta";
 subtitulo.id = "subTitulo";
