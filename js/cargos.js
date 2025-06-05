@@ -134,6 +134,7 @@ formABM.appendChild(selectIncidencia);
 const etiquetaOrgano = document.createElement("label");
 etiquetaOrgano.innerText = "Órgano de gobierno";
 formABM.appendChild(etiquetaOrgano);
+
 const selectOrgano = document.createElement("select");
 selectOrgano.id = "selectOrgano";
 const opcionOrgano0 = document.createElement("option");
@@ -233,6 +234,9 @@ selectCargoCD.appendChild(opcionCargoCD17);
 selectCargoCD.appendChild(opcionCargoCD18);
 selectCargoCD.appendChild(opcionCargoCD19);
 selectCargoCD.appendChild(opcionCargoCD20);
+
+formABM.appendChild(selectCargoCD);
+
 //Nombre y apellido
 const etiquetaNombreCD = document.createElement("label");
 etiquetaNombreCD.innerText = "Nombre (Completo)";
