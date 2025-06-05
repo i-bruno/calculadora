@@ -330,7 +330,7 @@ formABM.appendChild(etiquetaComentarioBajaCD);
 const inputComentarioBajaCD = document.createElement("input");
 inputComentarioBajaCD.setAttribute('type', 'text');
 formABM.appendChild(inputComentarioBajaCD);
-
+//
 //Cambio de color de la web
 const btn = document.createElement("button");
 btn.id = "btn";
