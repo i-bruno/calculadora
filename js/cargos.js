@@ -157,7 +157,7 @@ sectionForm.appendChild(contenedor);
 
 //Divisor
 const divisor = document.createElement("hr");
-sectionForm.appendChild(divisor);
+formABM.appendChild(divisor);
 
 //Formulario carga Comisión Directiva
 
