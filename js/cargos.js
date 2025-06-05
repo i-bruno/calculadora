@@ -254,6 +254,28 @@ const inputApellidoCD = document.createElement("input");
 inputApellidoCD.setAttribute('type', 'text');
 formABM.appendChild(inputApellidoCD);
 //Situación
+const fieldSetSitCD = document.createElement("fieldset");
+formABM.appendChild(fieldSetSitCD);
+
+const leyendaFiel = document.createElement("legend");
+leyendaField.innerText = "Situación de revista";
+fieldSetSitCD.appendChild(leyendaField);
+
+const radioActivoCD = document.createElement("input");
+radioActivoCD.setAttribute = ('type', 'radio');
+const etiquetaActivoCD = document.createElement("label");
+etiquetaActivoCD.innerText = "Activo";
+const radioPasivoCD = document.createElement("input");
+radioPasivoCD.setAttribute = ('type', 'radio');
+const etiquetaPasivoCD = document.createElement("label");
+etiquetaPasivoCD.innerText = "Pasivo";
+
+fieldSetSitCD.appendChild(radioActivoCD);
+fieldSetSitCD.appendChild(etiquetaActivoCD);
+fieldSetSitCD.appendChild(radioPasivoCD);
+fieldSetSitCD.appendChild(etiquetaPasivoCD);
+
+//<input type="radio" id="huey" name="drone" value="huey" checked />
 //Agrupación
 //Alta/baja
 
