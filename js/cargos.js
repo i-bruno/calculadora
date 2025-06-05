@@ -261,17 +261,15 @@ const leyendaField = document.createElement("legend");
 leyendaField.innerText = "Situación de revista";
 fieldSetSitCD.appendChild(leyendaField);
 
-const input = document.createElement("input");
-const input2 = document.createElement("input");
 
 const radioActivoCD = document.createElement("input");
-radioActivoCD.setAttribute = ('type', 'radio');
-radioActivoCD.setAttribute = ('name', 'situacion');
+radioActivoCD.setAttribute('type', 'radio');
+radioActivoCD.setAttribute('name', 'situacion');
 const etiquetaActivoCD = document.createElement("label");
 etiquetaActivoCD.innerText = "Activo";
 const radioPasivoCD = document.createElement("input");
-radioPasivoCD.setAttribute = ('type', 'radio');
-radioActivoCD.setAttribute = ('name', 'situacion');
+radioPasivoCD.setAttribute('type', 'radio');
+radioActivoCD.setAttribute('name', 'situacion');
 const etiquetaPasivoCD = document.createElement("label");
 etiquetaPasivoCD.innerText = "Pasivo";
 
@@ -279,9 +277,6 @@ fieldSetSitCD.appendChild(radioActivoCD);
 fieldSetSitCD.appendChild(etiquetaActivoCD);
 fieldSetSitCD.appendChild(radioPasivoCD);
 fieldSetSitCD.appendChild(etiquetaPasivoCD);
-
-input.replaceWith(radioActivoCD);
-input2.replaceWith(radioPasivoCD);
 
 //<input type="radio" id="huey" name="drone" value="huey" checked />
 //Agrupación
