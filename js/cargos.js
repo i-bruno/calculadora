@@ -110,9 +110,15 @@ formABM.className = "formABM";
 sectionForm.appendChild(formABM);
 
 ///Selector de tipo de incidencia
-const etiquetaIncidencia = document.createElement("label");
-etiquetaIncidencia.innerText = "Tipo de incidencia";
-formABM.appendChild(etiquetaIncidencia);
+const fieldSetIncidencia = document.createElement("fieldset");
+const leyendaIncidencia = document.createElement("legend");
+leyendaIncidencia.innerText = "Tipo de incidencia";
+formABM.appendChild(fieldSetIncidencia);
+fieldSetIncidencia.appendChild(leyendaIncidencia);
+
+// const etiquetaIncidencia = document.createElement("label");
+// etiquetaIncidencia.innerText = "Tipo de incidencia";
+// formABM.appendChild(etiquetaIncidencia);
 const selectIncidencia = document.createElement("select");
 selectIncidencia.id = "selectIncidencia";
 const opcionIncidencia0 = document.createElement("option");
@@ -128,7 +134,7 @@ selectIncidencia.appendChild(opcionIncidencia1);
 selectIncidencia.appendChild(opcionIncidencia2);
 selectIncidencia.appendChild(opcionIncidencia3);
 
-formABM.appendChild(selectIncidencia);
+fieldSetIncidencia.appendChild(selectIncidencia);
 
 //Selector de órgano de gobierno
 const etiquetaOrgano = document.createElement("label");
